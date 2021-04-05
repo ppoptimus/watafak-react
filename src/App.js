@@ -15,14 +15,10 @@ function App() {
                 WATAFAK88 คาสิโน สล็อตออนไลน์ เกมส์ยิงปลา
               </div>
               <div className="col-lg-auto text-center d-md-block d-sm-block">
-                <a-nav
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                >
+                <a-nav href="#" target="_blank" rel="noopener noreferrer nofollow">
                   <strong>LINE</strong>
-                </a-nav>{" "}
-                | ให้บริการตลอด 24 ชั่วโมง
+                </a-nav>
+                {" "}| ให้บริการตลอด 24 ชั่วโมง
               </div>
             </div>
           </div>
