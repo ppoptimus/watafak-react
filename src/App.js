@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./main";
 import Promotion from "./promotion";
+import Article from "./article";
 
 function App() {
   return (
@@ -65,7 +66,7 @@ function App() {
                     </button>
                   </div>
                   <div className="modal-body text-center">
-                    <a role="button" href="#" className="btn-modal">
+                    <a role="button" href="/" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-home"
@@ -86,7 +87,7 @@ function App() {
                       />
                       <p className="p-modal">เล่นเกมส์</p>
                     </a>
-                    <a role="button" href="#" className="btn-modal">
+                    <a role="button" href="/article" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-book"
@@ -143,7 +144,7 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-bg2" href="#">
+                  <a className="btn btn-bg2" href="/article">
                     <p className="font-navmobile">บทความ</p>
                   </a>
                 </li>
@@ -162,10 +163,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/promotion" component={Promotion} />
+          <Route exact path="/article" component={Article} />
         </Switch>
       </div>
 
-      <div>
         <footer
           id="footerdesktop"
           className="dk-footer d-none d-sm-none d-md-none d-lg-block mt-2"
@@ -387,7 +388,7 @@ function App() {
             </ul>
           </div>
         </div>
-      </div>
+
     </BrowserRouter>
   );
 }
