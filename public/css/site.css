@@ -1300,7 +1300,7 @@ hb {
     align-items: center;
     /* margin-bottom: 4px;
     margin-top: 5px; */
-    height: 60px;
+    /* height: 60px; */
     overflow: hidden;
 }
 
@@ -1337,7 +1337,15 @@ header .header-top {
     margin-right: 0px !important;
 }
 
-.w-40{
-    width: 50px;
-    height: auto;
+.middle{
+    max-width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.bg-art{
+    background-color: #150cea !important;
 }

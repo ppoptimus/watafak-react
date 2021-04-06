@@ -1,5 +1,6 @@
 //import logo from "./logo.svg";
-import "./App.css";
+//import "./App.css";
+//import './site.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./main";
 import Promotion from "./promotion";
@@ -130,13 +131,10 @@ function App() {
                     <p className="font-navmobile">เล่นเกมส์</p>
                   </a>
                 </li>
-                <li className="nav-item nav-logo ml-3 mr-3">
-                  <a-nav
-                    className="nav-link d-none d-sm-none d-md-block d-lg-block"
-                    href="#"
-                  >
+                <li className="nav-item nav-logo m-4">
+                  <a className="nav-link d-none d-sm-none d-md-block d-lg-block" href="#">
                     <img src="img/menu/logo-nav.png" alt="WATAFAK" />
-                  </a-nav>
+                  </a>
                 </li>
                 <li className="nav-item">
                   <a className="btn btn-bg1" href="#">
@@ -159,6 +157,15 @@ function App() {
         </nav>
       </header>
 
+      <div id="announcement" className="container mt-4">
+        <h6>
+            <marquee className="marquee1">
+                <i className="fa fa-trophy"></i> สมัครใหม่...รับโบนัสสูงสุด 300 บาท ติดต่อ Admin
+                ได้ตลอด 24 ชั่วโมงที่เมนูติดต่อเรา
+            </marquee>
+        </h6>
+      </div>
+      
       <div>
         <Switch>
           <Route exact path="/" component={Main} />
@@ -169,7 +176,7 @@ function App() {
 
         <footer
           id="footerdesktop"
-          className="dk-footer d-none d-sm-none d-md-none d-lg-block mt-2"
+          className="dk-footer d-none d-sm-none d-md-none d-lg-block mt-5"
         >
           <div className="container">
             <div className="row">

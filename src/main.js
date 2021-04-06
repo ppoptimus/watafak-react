@@ -73,7 +73,7 @@ function main() {
           </div>
           <div className="jackpot-card">
             <div className="upper-part">
-              <div className="row col-12 pr-0">
+              <div className="row col-12 pr-0 middle">
                 <div className="col-5 text-center">
                   <p className="mb-0">096280XXXX</p>
                   <p className="mb-0 text-point">2021-4-1 22:35</p>
@@ -91,8 +91,8 @@ function main() {
                 </div>
                 <div className="col-3">
                   <img
-                    src="img/game/archer.png"
-                    className="img-fluid float-right w-40"
+                    src="img/game/game1.png"
+                    className="img-fluid float-right"
                     alt="watafak game test"
                   />
                 </div>
@@ -101,7 +101,7 @@ function main() {
           </div>
           <div className="jackpot-card">
             <div className="upper-part">
-              <div className="row col-12 pr-0">
+              <div className="row col-12 pr-0 middle">
                 <div className="col-5 text-center">
                   <p className="mb-0">096280XXXX</p>
                   <p className="mb-0 text-point">2021-4-1 22:35</p>
@@ -119,8 +119,8 @@ function main() {
                 </div>
                 <div className="col-3">
                   <img
-                    src="img/game/archer.png"
-                    className="figure-img float-right w-40"
+                    src="img/game/game1.png"
+                    className="img-fluid float-right"
                     alt="watafak game test"
                   />
                 </div>
@@ -129,7 +129,7 @@ function main() {
           </div>
           <div className="jackpot-card">
             <div className="upper-part">
-              <div className="row col-12 pr-0">
+              <div className="row col-12 pr-0 middle">
                 <div className="col-5 text-center">
                   <p className="mb-0">096280XXXX</p>
                   <p id="datetime1" className="mb-0 text-point">
@@ -149,8 +149,8 @@ function main() {
                 </div>
                 <div className="col-3">
                   <img
-                    src="img/game/archer.png"
-                    className="figure-img float-right w-40"
+                    src="img/game/game1.png"
+                    className="img-fluid float-right"
                     alt="watafak game test"
                   />
                 </div>
@@ -159,7 +159,7 @@ function main() {
           </div>
           <div className="jackpot-card">
             <div className="upper-part">
-              <div className="row col-12 pr-0">
+              <div className="row col-12 pr-0 middle">
                 <div className="col-5 text-center">
                   <p className="mb-0">096280XXXX</p>
                   <p className="mb-0 text-point">2021-4-1 22:35</p>
@@ -177,8 +177,8 @@ function main() {
                 </div>
                 <div className="col-3">
                   <img
-                    src="img/game/archer.png"
-                    className="figure-img float-right w-40"
+                    src="img/game/game1.png"
+                    className="img-fluid float-right"
                     alt="watafak game test"
                   />
                 </div>
@@ -187,7 +187,7 @@ function main() {
           </div>
           <div className="jackpot-card">
             <div className="upper-part">
-              <div className="row col-12 pr-0">
+              <div className="row col-12 pr-0 middle">
                 <div className="col-5 text-center">
                   <p className="mb-0">096280XXXX</p>
                   <p className="mb-0 text-point">2021-4-1 22:35</p>
@@ -205,8 +205,8 @@ function main() {
                 </div>
                 <div className="col-3">
                   <img
-                    src="img/game/archer.png"
-                    className="figure-img float-right w-40"
+                    src="img/game/game1.png"
+                    className="img-fluid float-right"
                     alt="watafak game test"
                   />
                 </div>
