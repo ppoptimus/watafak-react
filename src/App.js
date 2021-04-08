@@ -3,6 +3,7 @@ import { Link, Route, Switch } from "react-router-dom";
 import Main from "./main";
 import Promotion from "./promotion";
 import Article from "./article";
+import Download from "./download";
 
 
 function App() {
@@ -125,7 +126,7 @@ function App() {
                     </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="#" className="btn btn-bg1">
+                  <Link to="/download" className="btn btn-bg1">
                     <p className="font-navmobile">ดาวน์โหลด</p>
                   </Link>
                   
@@ -177,7 +178,8 @@ function App() {
         <Switch>
           <Route exact path="/"><Main/></Route>
           <Route exact path="/promotion"><Promotion/></Route>
-          <Route exact path="/article"><Article/></Route>
+        <Route exact path="/article"><Article /></Route>
+        <Route exact path="/download"><Download /></Route>
         </Switch>
 
         <footer

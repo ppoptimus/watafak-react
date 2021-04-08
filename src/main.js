@@ -72,7 +72,7 @@ function main() {
             <h3 className="text-white">ขอแสดงความยินดีกับลูกค้า Watafak88</h3>
           </div>
           <div className="jackpot-card">
-            <div className="upper-part">
+            
               <div className="row col-12 pr-0 middle">
                 <div className="col-5 text-center">
                   <p className="mb-0">096280XXXX</p>
@@ -97,7 +97,7 @@ function main() {
                   />
                 </div>
               </div>
-            </div>
+            
           </div>
           <div className="jackpot-card">
             <div className="upper-part">

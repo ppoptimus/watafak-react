@@ -1292,17 +1292,18 @@ hb {
     max-width: 100%;
     padding: 10px 5px;
     margin-top: 1rem;
-}
-
-.upper-part {
     position: relative;
     display: block;
     align-items: center;
-    /* margin-bottom: 4px;
-    margin-top: 5px; */
-    /* height: 60px; */
     overflow: hidden;
 }
+
+/* .upper-part {
+    position: relative;
+    display: block;
+    align-items: center;
+    overflow: hidden;
+} */
 
 .text-point {
     display: flex;
