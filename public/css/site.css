@@ -1247,7 +1247,7 @@ hb {
 /*font , fa, navmobile*/
 .fa-navmobile {
     font-size: x-large !important;
-    color: darkmagenta;
+    color: rgb(255, 255, 255);
 }
 
 .font-navmobile {
@@ -1347,5 +1347,5 @@ header .header-top {
 }
 
 .bg-art{
-    background-color: #150cea !important;
+    background-color: #181d31 !important;
 }

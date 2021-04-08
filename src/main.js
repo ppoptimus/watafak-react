@@ -253,7 +253,7 @@ function main() {
                   <a-nav href="#">
                     <img
                       className="img-box1"
-                      src="img/gametest/OngBak.webp"
+                      src="img/gametest/OngBak.png"
                       onMouseOver={show1}
                       onClick={show1}
                       alt="WATAFAK888"
@@ -264,7 +264,7 @@ function main() {
                   <a-nav href="#">
                     <img
                       className="img-box1"
-                      src="img/gametest/2.webp"
+                      src="img/gametest/2.png"
                       onMouseOver={show2}
                       onClick={show2}
                       alt="WATAFAK888"
@@ -275,7 +275,7 @@ function main() {
                   <a-nav href="#">
                     <img
                       className="img-box1"
-                      src="img/gametest/3.webp"
+                      src="img/gametest/3.png"
                       onMouseOver={show3}
                       onClick={show3}
                       alt="WATAFAK888"
@@ -286,7 +286,7 @@ function main() {
                   <a-nav href="#">
                     <img
                       className="img-box1"
-                      src="img/gametest/4.webp"
+                      src="img/gametest/4.png"
                       onMouseOver={show4}
                       onClick={show4}
                       alt="WATAFAK888"
@@ -297,7 +297,7 @@ function main() {
                   <a-nav href="#">
                     <img
                       className="img-box1"
-                      src="img/gametest/5.webp"
+                      src="img/gametest/5.png"
                       onMouseOver={show5}
                       onClick={show5}
                       alt="WATAFAK888"
@@ -311,7 +311,7 @@ function main() {
                     <div id="game1">
                       <div className="container">
                         <img
-                          src="img/gametest/OngBak.webp"
+                          src="img/gametest/OngBak.png"
                           className="rounded-lg blockgame"
                           alt="watafak game test"
                         />
@@ -328,7 +328,7 @@ function main() {
                     <div id="game2" className="hide">
                       <div className="container">
                         <img
-                          src="img/gametest/2.webp"
+                          src="img/gametest/2.png"
                           className="rounded-bottom blockgame"
                           alt="watafak game test"
                         />
@@ -345,7 +345,7 @@ function main() {
                     <div id="game3" className="hide">
                       <div className="container">
                         <img
-                          src="img/gametest/3.webp"
+                          src="img/gametest/3.png"
                           className="rounded-circle blockgame"
                           alt="watafak game test"
                         />
@@ -362,7 +362,7 @@ function main() {
                     <div id="game4" className="hide">
                       <div className="container">
                         <img
-                          src="img/gametest/4.webp"
+                          src="img/gametest/4.png"
                           className="rounded-circle blockgame"
                           alt="watafak game test"
                         />
@@ -379,7 +379,7 @@ function main() {
                     <div id="game5" className="hide">
                       <div className="container">
                         <img
-                          src="img/gametest/5.webp"
+                          src="img/gametest/5.png"
                           className="rounded-circle blockgame"
                           alt="watafak game test"
                         />
@@ -551,7 +551,7 @@ function main() {
                   </a>
                 </p>
                 <p className="row float-right"></p>
-                <div className="sign">
+                <div className="sign text-center">
                   <h4>
                     <a href="#" target="_blank">
                       <img src="img/lineicon_s.png" />
@@ -562,7 +562,7 @@ function main() {
                 </div>
                 <p />
                 <p className="row float-right"></p>
-                <ul className="list-inline bg-primary2">
+                <ul className="list-inline bg-primary2 text-center">
                   <li className="list-inline-item">
                     <img
                       src="https://superslot1234.com/asset/web/img/TrueMoney.png"

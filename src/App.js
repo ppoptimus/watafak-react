@@ -1,14 +1,13 @@
-//import logo from "./logo.svg";
-//import "./App.css";
-//import './site.css';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import { Link, Route, Switch } from "react-router-dom";
 import Main from "./main";
 import Promotion from "./promotion";
 import Article from "./article";
 
+
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <header>
         <div className="header-top">
           <div className="container">
@@ -67,48 +66,52 @@ function App() {
                     </button>
                   </div>
                   <div className="modal-body text-center">
-                    <a role="button" href="/" className="btn-modal">
+                    <Link to="/" role="button" className="btn-modal">
+                      <i style={{ fontSize: "x-large" }} className="fa fa-home"/>
+                      <p className="p-modal">หน้าหลัก</p>
+                    </Link>
+                    {/* <a role="button" href="/" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-home"
                       />
                       <p className="p-modal">หน้าหลัก</p>
-                    </a>
-                    <a role="button" href="#" className="btn-modal">
+                    </a> */}
+                    <Link role="button" to="#" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-cloud-download"
                       />
                       <p className="p-modal">ฝาก-ถอน</p>
-                    </a>
-                    <a role="button" href="#" className="btn-modal">
+                    </Link>
+                    <Link role="button" to="#" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-gamepad"
                       />
                       <p className="p-modal">เล่นเกมส์</p>
-                    </a>
-                    <a role="button" href="/article" className="btn-modal">
+                    </Link>
+                    <Link role="button" to="article" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-book"
                       />
                       <p className="p-modal">บทความ</p>
-                    </a>
-                    <a role="button" href="/promotion" className="btn-modal">
+                    </Link>
+                    <Link role="button" to="/promotion" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-gift"
                       />
                       <p className="p-modal">โปรโมชั่น</p>
-                    </a>
-                    <a role="button" href="#" className="btn-modal">
+                    </Link>
+                    <Link role="button" to="#" className="btn-modal">
                       <i
                         style={{ fontSize: "x-large" }}
                         className="fa fa-comments"
                       />
                       <p className="p-modal">ติดต่อเรา</p>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -117,39 +120,45 @@ function App() {
             <div className="collapse navbar-collapse text-center">
               <ul className="navbar-nav font-weight-bolder text-center mx-auto">
                 <li className="nav-item">
-                  <a className="btn btn-bg2" href="#">
+                    <Link to="#" className="btn btn-bg2">
                     <p className="font-navmobile">สมัครสมาชิก</p>
-                  </a>
+                    </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-bg1" href="#">
+                  <Link to="#" className="btn btn-bg1">
                     <p className="font-navmobile">ดาวน์โหลด</p>
-                  </a>
+                  </Link>
+                  
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-bg2" href="#">
-                    <p className="font-navmobile">เล่นเกมส์</p>
-                  </a>
+                <Link to="#" className="btn btn-bg2">
+                  <p className="font-navmobile">เล่นเกมส์</p>
+                </Link>
+                  
                 </li>
                 <li className="nav-item nav-logo m-4">
-                  <a className="nav-link d-none d-sm-none d-md-block d-lg-block" href="#">
+                  <Link to="/" className="nav-link d-none d-sm-none d-md-block d-lg-block">
                     <img src="img/menu/logo-nav.png" alt="WATAFAK" />
-                  </a>
+                  </Link>
+                  
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-bg1" href="#">
+                  <Link to="/promotion" className="btn btn-bg1">
                     <p className="font-navmobile">โปรโมชั่น</p>
-                  </a>
+                  </Link>
+                  
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-bg2" href="/article">
-                    <p className="font-navmobile">บทความ</p>
-                  </a>
+                <Link to="/article" className="btn btn-bg2">
+                  <p className="font-navmobile">บทความ</p>
+                </Link>
+                 
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-bg1" href="#">
-                    <p className="font-navmobile">ฝาก-ถอน</p>
-                  </a>
+                <Link to="#" className="btn btn-bg1">
+                  <p className="font-navmobile">ฝาก-ถอน</p>
+                </Link>
+                  
                 </li>
               </ul>
             </div>
@@ -165,14 +174,11 @@ function App() {
             </marquee>
         </h6>
       </div>
-      
-      <div>
         <Switch>
-          <Route exact path="/" component={Main} />
-          <Route exact path="/promotion" component={Promotion} />
-          <Route exact path="/article" component={Article} />
+          <Route exact path="/"><Main/></Route>
+          <Route exact path="/promotion"><Promotion/></Route>
+          <Route exact path="/article"><Article/></Route>
         </Switch>
-      </div>
 
         <footer
           id="footerdesktop"
@@ -365,38 +371,38 @@ function App() {
           </div>
         </div>
         <br />
-        <div className="container">
+        <div className="container mt-5">
           <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom">
             <ul className="bg-navmobile2 row">
               <li>
-                <a href="#">
+                <Link to="#">
                   <i className="fa fa-user-plus fa-navmobile" />
                   <p className="font-navmobile">สมัครเลย</p>
-                </a>
+                </Link>
+                
               </li>
               <li>
-                <a href="#">
-                  <i className="fa fa-sign-in fa-navmobile" />
-                  <p className="font-navmobile">สมัครเลย</p>
-                </a>
+                <Link to="#">
+                  <i className="fa fa-gamepad fa-navmobile" />
+                  <p className="font-navmobile">เล่นเกมส์</p>
+                </Link>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa fa-download fa-navmobile" />
-                  <p className="font-navmobile">สมัครเลย</p>
-                </a>
+                <Link to="#">
+                  <i className="fa fa-money fa-navmobile" />
+                  <p className="font-navmobile">เครดิตฟรี</p>
+                </Link>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa fa-trophy fa-navmobile" />
-                  <p className="font-navmobile">สมัครเลย</p>
-                </a>
+                <Link to="#">
+                  <i className="fa fa-comments fa-navmobile" />
+                  <p className="font-navmobile">ติดต่อเรา</p>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
-
-    </BrowserRouter>
+        </div>
   );
 }
 
