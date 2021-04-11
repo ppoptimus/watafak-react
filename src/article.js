@@ -1,4 +1,3 @@
-import Iframe from "./iframe";
 import React, { Component } from "react";
 
 class article extends Component {
@@ -47,14 +46,9 @@ class article extends Component {
               เท่าของยอดเบทเรียกได้ว่าถ้าได้ฟันดาบคู่สักทีคงคุ้มไม่น้อย
               และนี่คือเกม Roma จากค่าย slotxo ที่อยากจะแนะนำให้เพื่อนๆ
               ได้เล่นรับรองใครเบทหนักคุ้มแน่นอน
-              <div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      "<iframe src='https://www.youtube.com/embed/fEZF8twgdqQ' />",
-                  }}
-                />
-              </div>
+               
+                <div dangerouslySetInnerHTML={{ __html: "<iframe class='w-100' src='https://www.youtube.com/embed/fEZF8twgdqQ' />", }}/>
+              
             </div>
           </div>
         </div>
@@ -124,7 +118,7 @@ class article extends Component {
                 <div
                   dangerouslySetInnerHTML={{
                     __html:
-                      "<iframe src='https://www.youtube.com/embed/RlGsvE97-Fc?start=180' />",
+                      "<iframe class='w-100' src='https://www.youtube.com/embed/RlGsvE97-Fc?start=180' />",
                   }}
                 />
               </div>
@@ -178,7 +172,7 @@ class article extends Component {
                 <div
                   dangerouslySetInnerHTML={{
                     __html:
-                      "<iframe src='https://www.youtube.com/embed/mXrgmHgeUv0?start=40' />",
+                      "<iframe class='w-100' src='https://www.youtube.com/embed/mXrgmHgeUv0?start=40' />",
                   }}
                 />
               </div>

@@ -5,8 +5,18 @@ export default class download extends Component {
     render() {
         return (
             <div>
-                <h1>ดาวน์โหลด Slotxo</h1>
+                <table id="jackpotList">
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
             </div>
         )
     }
 }
+

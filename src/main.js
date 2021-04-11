@@ -1,224 +1,24 @@
 import React from "react";
-import {BrowserRouter, Route, Link, Switch} from 'react-router-dom'
+import Carrousel_amin from "./carousel";
+import Jackpot from './jackpot-top5';
 
 function main() {
   return (
     <div>
       <div className="container">
         <div className="row justify-content-center">
-          <div
-            id="carouselExampleIndicators"
-            className="carousel slide"
-            data-ride="carousel"
-          >
-            <ol className="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to={0}
-                className="active"
-              />
-              <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-              <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-            </ol>
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  src="img/promotion/01.png"
-                  className="img-fluid"
-                  alt="..."
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="img/promotion/02.png"
-                  className="img-fluid"
-                  alt="..."
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="img/promotion/03.png"
-                  className="img-fluid"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <a
-              className="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
-            >
-              <span className="carousel-control-prev-icon" aria-hidden="true" />
-              <span className="sr-only">Previous</span>
-            </a>
-            <a
-              className="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
-            >
-              <span className="carousel-control-next-icon" aria-hidden="true" />
-              <span className="sr-only">Next</span>
-            </a>
-          </div>
+          
+        {/*Carousel*/}
+         <Carrousel_amin/>
         </div>
+
       </div>
 
       <div>
+        <br/>
         {/*Jackpot*/}
-        <div className="container">
-          <div>
-            <h3 className="text-white">ขอแสดงความยินดีกับลูกค้า Watafak88</h3>
-          </div>
-          <div className="jackpot-card">
-            
-              <div className="row col-12 pr-0 middle">
-                <div className="col-5 text-center">
-                  <p className="mb-0">096280XXXX</p>
-                  <p className="mb-0 text-point">2021-4-1 22:35</p>
-                </div>
-                <div className="col-4">
-                  <p className="mb-0">แจ้งถอน</p>
-                  <p className="mb-0 text-point">
-                    5,000{" "}
-                    <img
-                      src="img/coin.png"
-                      className="img-fluid"
-                      alt="watafak coin"
-                    />
-                  </p>
-                </div>
-                <div className="col-3">
-                  <img
-                    src="img/game/game1.png"
-                    className="img-fluid float-right"
-                    alt="watafak game test"
-                  />
-                </div>
-              </div>
-            
-          </div>
-          <div className="jackpot-card">
-            <div className="upper-part">
-              <div className="row col-12 pr-0 middle">
-                <div className="col-5 text-center">
-                  <p className="mb-0">096280XXXX</p>
-                  <p className="mb-0 text-point">2021-4-1 22:35</p>
-                </div>
-                <div className="col-4">
-                  <p className="mb-0">แจ้งถอน</p>
-                  <p className="mb-0 text-point">
-                    5,000{" "}
-                    <img
-                      src="img/coin.png"
-                      className="img-fluid"
-                      alt="watafak coin"
-                    />
-                  </p>
-                </div>
-                <div className="col-3">
-                  <img
-                    src="img/game/game1.png"
-                    className="img-fluid float-right"
-                    alt="watafak game test"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="jackpot-card">
-            <div className="upper-part">
-              <div className="row col-12 pr-0 middle">
-                <div className="col-5 text-center">
-                  <p className="mb-0">096280XXXX</p>
-                  <p id="datetime1" className="mb-0 text-point">
-                    2021-4-1 22:35
-                  </p>
-                </div>
-                <div className="col-4">
-                  <p className="mb-0">แจ้งถอน</p>
-                  <p className="mb-0 text-point">
-                    5,000{" "}
-                    <img
-                      src="img/coin.png"
-                      className="img-fluid"
-                      alt="watafak coin"
-                    />
-                  </p>
-                </div>
-                <div className="col-3">
-                  <img
-                    src="img/game/game1.png"
-                    className="img-fluid float-right"
-                    alt="watafak game test"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="jackpot-card">
-            <div className="upper-part">
-              <div className="row col-12 pr-0 middle">
-                <div className="col-5 text-center">
-                  <p className="mb-0">096280XXXX</p>
-                  <p className="mb-0 text-point">2021-4-1 22:35</p>
-                </div>
-                <div className="col-4">
-                  <p className="mb-0">แจ้งถอน</p>
-                  <p className="mb-0 text-point">
-                    5,000{" "}
-                    <img
-                      src="img/coin.png"
-                      className="img-fluid"
-                      alt="watafak coin"
-                    />
-                  </p>
-                </div>
-                <div className="col-3">
-                  <img
-                    src="img/game/game1.png"
-                    className="img-fluid float-right"
-                    alt="watafak game test"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="jackpot-card">
-            <div className="upper-part">
-              <div className="row col-12 pr-0 middle">
-                <div className="col-5 text-center">
-                  <p className="mb-0">096280XXXX</p>
-                  <p className="mb-0 text-point">2021-4-1 22:35</p>
-                </div>
-                <div className="col-4">
-                  <p className="mb-0">แจ้งถอน</p>
-                  <p className="mb-0 text-point">
-                    5,000{" "}
-                    <img
-                      src="img/coin.png"
-                      className="img-fluid"
-                      alt="watafak coin"
-                    />
-                  </p>
-                </div>
-                <div className="col-3">
-                  <img
-                    src="img/game/game1.png"
-                    className="img-fluid float-right"
-                    alt="watafak game test"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="container m-2 text-center">
-            <button className="btn btn-bg1">
-              ดูทั้งหมด &gt;&gt;
-            </button>
-          </div>
-        </div>
+        <Jackpot/>
+
         <div className="view_port">
           <div className="cylon_eye" />
         </div>
@@ -606,6 +406,7 @@ function main() {
           </div>
         </footer>
       </div>
+    
     </div>
   );
 }
