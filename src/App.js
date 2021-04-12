@@ -1,25 +1,22 @@
-
 import { Link, Route, Switch } from "react-router-dom";
 import Main from "./main";
 import Promotion from "./promotion";
 import Article from "./article";
 import Download from "./download";
 
-
 function App() {
   return (
     <div>
       <header>
-        <div className="header-top row medium">
+        <div className="header-top row medium bg-top">
           <div className="col-lg d-none d-lg-block ml-4">
-            WATAFAK88 คาสิโน สล็อตออนไลน์ เกมส์ยิงปลา
-              </div>
+            <strong>WATAFAK88 คาสิโน สล็อตออนไลน์ เกมส์ยิงปลา</strong>
+          </div>
           <div className="col-lg-auto text-center d-md-block d-sm-block mr-4">
             <a-nav href="#" target="_blank" rel="noopener noreferrer nofollow">
-              <strong>LINE</strong>
+              <strong>@LINE | ให้บริการตลอด 24 ชั่วโมง</strong>
             </a-nav>
-            {" "}| ให้บริการตลอด 24 ชั่วโมง
-              </div>
+          </div>
         </div>
 
         <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-3 bg-header border-primary1 justify-content-center">
@@ -65,7 +62,10 @@ function App() {
                   </div>
                   <div className="modal-body text-center">
                     <Link to="/" role="button" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-home" />
+                      <i
+                        style={{ fontSize: "x-large" }}
+                        className="fa fa-home"
+                      />
                       <p className="p-modal">หน้าหลัก</p>
                     </Link>
                     <Link role="button" to="#" className="btn-modal">
@@ -120,37 +120,34 @@ function App() {
                   <Link to="/download" className="btn btn-bg1">
                     <p className="font-navmobile">ดาวน์โหลด</p>
                   </Link>
-
                 </li>
                 <li className="nav-item">
                   <Link to="#" className="btn btn-bg2">
                     <p className="font-navmobile">เล่นเกมส์</p>
                   </Link>
-
                 </li>
                 <li className="nav-item nav-logo m-4">
-                  <Link to="/" className="nav-link d-none d-sm-none d-md-block d-lg-block">
+                  <Link
+                    to="/"
+                    className="nav-link d-none d-sm-none d-md-block d-lg-block"
+                  >
                     <img src="img/menu/logo-nav.png" alt="WATAFAK" />
                   </Link>
-
                 </li>
                 <li className="nav-item">
                   <Link to="/promotion" className="btn btn-bg1">
                     <p className="font-navmobile">โปรโมชั่น</p>
                   </Link>
-
                 </li>
                 <li className="nav-item">
                   <Link to="/article" className="btn btn-bg2">
                     <p className="font-navmobile">บทความ</p>
                   </Link>
-
                 </li>
                 <li className="nav-item">
                   <Link to="#" className="btn btn-bg1">
                     <p className="font-navmobile">ฝาก-ถอน</p>
                   </Link>
-
                 </li>
               </ul>
             </div>
@@ -161,21 +158,33 @@ function App() {
       <div id="announcement" className="container mt-4">
         <h6>
           <marquee className="marquee1">
-            <i className="fa fa-trophy"></i> สมัครใหม่...WATAFAK88 รับโบนัสสูงสุด 300 บาท ติดต่อ Admin
-                ได้ตลอด 24 ชั่วโมงที่เมนูติดต่อเรา
-            </marquee>
+            <i className="fa fa-trophy"></i> สมัครใหม่...WATAFAK88
+            รับโบนัสสูงสุด 300 บาท ติดต่อ Admin ได้ตลอด 24
+            ชั่วโมงที่เมนูติดต่อเรา
+          </marquee>
         </h6>
       </div>
-      
+
       <Switch>
-        <Route exact path="/"><Main /></Route>
-        <Route exact path="/promotion"><Promotion /></Route>
-        <Route exact path="/article"><Article /></Route>
-        <Route exact path="/download"><Download /></Route>
+        <Route exact path="/">
+          <Main />
+        </Route>
+        <Route exact path="/promotion">
+          <Promotion />
+        </Route>
+        <Route exact path="/article">
+          <Article />
+        </Route>
+        <Route exact path="/download">
+          <Download />
+        </Route>
       </Switch>
 
       {/* Footer all page desktop */}
-      <footer id="footerdesktop" className="dk-footer d-none d-sm-none d-md-none d-lg-block mt-5">
+      <footer
+        id="footerdesktop"
+        className="dk-footer d-none d-sm-none d-md-none d-lg-block mt-5"
+      >
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-lg-4">
@@ -190,12 +199,11 @@ function App() {
                 <p className="footer-info-text">
                   เว็บสล็อตออนไลน์ (Slot online) คาสิโนออนไลน์ (casino online)
                   เกมส์ยิงปลา ที่ดีที่สุด ฟรีเครดิต เครดิตฟรี
-                  มีเกมส์ให้เลือกเล่นมากมายหลายเกมส์
-                  มีพนักงานคอยดูแลลูกค้าตลอด 24 ชั่วโมง
-                  มีระบบฝาก-ถอนออโต้ที่ดีที่สุดในประเทศไทย สะดวก รวดเร็ว
-                  สมัครเล่นได้แล้ววันนี้ที่เว็บ WATAFAK888 บริการดี
+                  มีเกมส์ให้เลือกเล่นมากมายหลายเกมส์ มีพนักงานคอยดูแลลูกค้าตลอด
+                  24 ชั่วโมง มีระบบฝาก-ถอนออโต้ที่ดีที่สุดในประเทศไทย สะดวก
+                  รวดเร็ว สมัครเล่นได้แล้ววันนี้ที่เว็บ WATAFAK888 บริการดี
                   โปรโมชั่นจัดเต็ม ต้องมาที่ WATAFAK888
-                  </p>
+                </p>
                 <div className="footer-social-link">
                   <h3>Follow us</h3>
                   <ul>
@@ -289,9 +297,9 @@ function App() {
                       <span className="animate-border border-black" />
                     </div>
                     <p>
-                      Don’t miss to subscribe to our new feeds, kindly fill
-                      the form below
-                      </p>
+                      Don’t miss to subscribe to our new feeds, kindly fill the
+                      form below
+                    </p>
                   </div>
                   {/* End footer widget */}
                 </div>
@@ -312,8 +320,8 @@ function App() {
                 <h6>
                   <marquee>
                     <i className="fa fa-trophy" /> สมัครใหม่...รับโบนัสสูงสุด
-                      300 บาท ติดต่อ Admin ได้ตลอด 24 ชั่วโมงที่เมนูติดต่อเรา
-                    </marquee>
+                    300 บาท ติดต่อ Admin ได้ตลอด 24 ชั่วโมงที่เมนูติดต่อเรา
+                  </marquee>
                 </h6>
               </div>
             </div>
@@ -322,19 +330,8 @@ function App() {
           {/* End Copyright Container */}
         </div>
         {/* End Copyright */}
-        {/* Back to top */}
-        <div id="back-to-top" className="back-to-top">
-          <button
-            className="btn btn-dark"
-            title="Back to Top"
-            style={{ display: "block" }}
-          >
-            <i className="fa fa-angle-up" />
-          </button>
-        </div>
-        {/* End Back to top */}
       </footer>
-      
+
       {/* Marquee-game */}
       <div className="container-marq">
         <div className="marquee-game">
@@ -373,7 +370,6 @@ function App() {
               <i className="fa fa-user-plus fa-navmobile" />
               <p className="font-navmobile">สมัครเลย</p>
             </Link>
-
           </li>
           <li>
             <Link to="#">
@@ -396,6 +392,35 @@ function App() {
         </ul>
       </div>
 
+      {/* Snow Flakes */}
+      <div className="snowflakes" aria-hidden="true">
+        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">❄</div>
+      </div>
+
+      {/* Back to top */}
+      {/* <div id="back-to-top" className="back-to-top">
+        <button
+          className="btn btn-warning"
+          title="Back to Top"
+          style={{ display: "block" }}
+        >
+          <i className="fa fa-angle-up" />
+        </button>
+      </div> */}
+      {/* End Back to top */}
+
+      <div className="line-button"><a href="https://lin.ee/6S5mujG"><img src="img/lineicon_s.png" alt="ติดต่อเรา superslot" /></a></div>
+
+      {/* close div */}
     </div>
   );
 }

@@ -21,21 +21,28 @@ export default class carrousel_amin extends Component{
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="img/promotion/01.png"
+                  rel="preload" 
+                  as="image"
+                  src="img/promotion/pro3.jpg"
+                  className="img-fluid"
+                  alt="..."
+                  imagesizes="50vw"
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  rel="preload" 
+                  as="image"
+                  src="img/promotion/pro2.jpg"
                   className="img-fluid"
                   alt="..."
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="img/promotion/02.png"
-                  className="img-fluid"
-                  alt="..."
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="img/promotion/03.png"
+                  rel="preload" 
+                  as="image"
+                  src="img/promotion/pro1.jpg"
                   className="img-fluid"
                   alt="..."
                 />
