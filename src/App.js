@@ -389,7 +389,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/download">
               <i className="fa fa-download fa-navmobile" />
               <p className="font-navmobile">ดาวน์โหลด</p>
             </Link>

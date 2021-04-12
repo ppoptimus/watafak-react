@@ -592,8 +592,8 @@ li {
     font-weight: 400;
     padding: 4px 18px;
     margin: 0 5px;
-    color: #fff;
-    width: 50%;
+    color: #fff !important;
+    width: 80%;
     border: 1px solid #005704;
 }
 
