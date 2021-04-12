@@ -390,14 +390,14 @@ function App() {
           </li>
           <li>
             <Link to="#">
-              <i className="fa fa-money fa-navmobile" />
-              <p className="font-navmobile">เครดิตฟรี</p>
+              <i className="fa fa-download fa-navmobile" />
+              <p className="font-navmobile">ดาวน์โหลด</p>
             </Link>
           </li>
           <li>
             <Link to="#">
-              <i className="fa fa-comments fa-navmobile" />
-              <p className="font-navmobile">ติดต่อเรา</p>
+              <i className="fa fa-money fa-navmobile" />
+              <p className="font-navmobile">โปรโมชั่น</p>
             </Link>
           </li>
         </ul>

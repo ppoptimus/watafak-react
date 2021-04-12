@@ -704,6 +704,7 @@ body {
     padding: 3px;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 6rem;
 }
 
 .marquee-game {
