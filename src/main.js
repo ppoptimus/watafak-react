@@ -202,6 +202,7 @@ function main() {
             </div>
           </div>
         </section>
+
         {/* Articleslide */}
         <div className="container mt-3">
           <div className="row">
@@ -286,7 +287,7 @@ function main() {
                 role="button"
                 data-slide="prev"
               >
-                <span className="fa fa-angle-up" aria-hidden="true" />
+                <span className="carousel-control-prev-icon" aria-hidden="true" />
                 <span className="sr-only">Previous</span>
               </a>
               <a
@@ -295,22 +296,17 @@ function main() {
                 role="button"
                 data-slide="next"
               >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                />
+                <span className="carousel-control-next-icon" aria-hidden="true" />
                 <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
         </div>
-        {/* New Article*/}
-        <div className="container">
-          <div className="row"></div>
-        </div>
+        
         <div className="view_port">
           <div className="cylon_eye" />
         </div>
+        
         {/* Footer in main*/}
         <footer id="footmain">
           <div className="container">

@@ -362,6 +362,17 @@ function App() {
         </div>
       </div>
 
+      <div className="line-button">
+        <a href="#">
+          <img rel="preload" as="image" imagesizes="50vw" src="img/line_icon.svg" className="img-fluid"></img>
+        </a>
+      </div>
+      <div className="facebook-button">
+        <a href="#">
+          <img rel="preload" as="image" imagesizes="50vw" src="img/facebook_icon.svg" className="img-fluid"></img>
+        </a>
+      </div>
+
       {/* Footer mobile menu */}
       <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom">
         <ul className="bg-navmobile2 row">
@@ -418,7 +429,7 @@ function App() {
       </div> */}
       {/* End Back to top */}
 
-      <div className="line-button"><a href="https://lin.ee/6S5mujG"><img src="img/lineicon_s.png" alt="ติดต่อเรา superslot" /></a></div>
+      
 
       {/* close div */}
     </div>
