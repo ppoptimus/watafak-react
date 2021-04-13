@@ -1,42 +1,6 @@
 ﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
 
-// Write your JavaScript code.
-function show1() {
-    document.getElementById('game1').style.display = 'block';
-    document.getElementById('game2').style.display = 'none';
-    document.getElementById('game3').style.display = 'none';
-    document.getElementById('game4').style.display = 'none';
-    document.getElementById('game5').style.display = 'none';
-}
-function show2() {
-    document.getElementById('game1').style.display = 'none';
-    document.getElementById('game2').style.display = 'block';
-    document.getElementById('game3').style.display = 'none';
-    document.getElementById('game4').style.display = 'none';
-    document.getElementById('game5').style.display = 'none';
-}
-function show3() {
-    document.getElementById('game1').style.display = 'none';
-    document.getElementById('game2').style.display = 'none';
-    document.getElementById('game3').style.display = 'block';
-    document.getElementById('game4').style.display = 'none';
-    document.getElementById('game5').style.display = 'none';
-}
-function show4() {
-    document.getElementById('game1').style.display = 'none';
-    document.getElementById('game2').style.display = 'none';
-    document.getElementById('game3').style.display = 'none';
-    document.getElementById('game4').style.display = 'block';
-    document.getElementById('game5').style.display = 'none';
-}
-function show5() {
-    document.getElementById('game1').style.display = 'none';
-    document.getElementById('game2').style.display = 'none';
-    document.getElementById('game3').style.display = 'none';
-    document.getElementById('game4').style.display = 'none';
-    document.getElementById('game5').style.display = 'block';
-}
 
 function shf_hh() {
     var arr_hh = [];

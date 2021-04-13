@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
-class article extends Component {
-  render() {
+function article() {
     return (
-      <div>
+      <div className="mb-5">
         <div className="jumbotron p-4 m-4 bg-art">
           <h1 className="">ROMA</h1>
           <img
@@ -47,7 +46,7 @@ class article extends Component {
               และนี่คือเกม Roma จากค่าย slotxo ที่อยากจะแนะนำให้เพื่อนๆ
               ได้เล่นรับรองใครเบทหนักคุ้มแน่นอน
                
-                <div dangerouslySetInnerHTML={{ __html: "<iframe class='w-100' src='https://www.youtube.com/embed/fEZF8twgdqQ' />", }}/>
+                {/* <div dangerouslySetInnerHTML={{ __html: "<iframe class='w-100' src='https://www.youtube.com/embed/fEZF8twgdqQ' />", }}/> */}
               
             </div>
           </div>
@@ -114,14 +113,9 @@ class article extends Component {
               ห้องให้กับเพื่อนเข้ามาเล่นด้วยกันได้
               ผู้แข่งขันที่คุณต้องเอชนะก็จะมีแค่เพียงเพื่อนที่คุณเชิญเข้ามาเท่านั้น
 
-              <div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      "<iframe class='w-100' src='https://www.youtube.com/embed/RlGsvE97-Fc?start=180' />",
-                  }}
-                />
-              </div>
+              
+                {/* <div dangerouslySetInnerHTML={{ __html: "<iframe class='w-100' src='https://www.youtube.com/embed/RlGsvE97-Fc?start=180' />", }}/> */}
+              
 
             </div>
           </div>
@@ -168,14 +162,9 @@ class article extends Component {
             <br />สัญลักษณ์ J: 5x, 4x, 3x จะได้รับ 5, 10, 50 โบนัสเกม
             <br />สัญลักษณ์ 10: 5x, 4x, 3x จะได้รับ 5, 10, 50 โบนัสเกม
 
-            <div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      "<iframe class='w-100' src='https://www.youtube.com/embed/mXrgmHgeUv0?start=40' />",
-                  }}
-                />
-              </div>
+            
+                {/* <div dangerouslySetInnerHTML={{ __html: "<iframe class='w-100' src='https://www.youtube.com/embed/mXrgmHgeUv0?start=40' />", }} /> */}
+              
 
             </div>
           </div>
@@ -184,6 +173,6 @@ class article extends Component {
       </div>
     );
   }
-}
+
 
 export default article;

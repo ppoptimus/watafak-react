@@ -334,7 +334,7 @@ function App() {
       </footer>
 
       {/* Marquee-game */}
-      <div className="container-marq">
+      {/* <div className="container-marq">
         <div className="marquee-game">
           <div className="img-marq">
             <img src="img/game/game1.png" className="img-box1" />
@@ -361,13 +361,14 @@ function App() {
             <img src="img/game/game8.png" className="img-box1" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="line-button">
         <a href="#">
           <img rel="preload" as="image" imagesizes="50vw" src="img/line_icon.svg" className="img-fluid"></img>
         </a>
       </div>
+      
       <div className="facebook-button">
         <a href="#">
           <img rel="preload" as="image" imagesizes="50vw" src="img/facebook_icon.svg" className="img-fluid"></img>
@@ -375,7 +376,7 @@ function App() {
       </div>
 
       {/* Footer mobile menu */}
-      <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom">
+      <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom mt-5">
         <ul className="bg-navmobile2 row">
           <li>
             <Link to="#">
@@ -418,21 +419,6 @@ function App() {
         <div className="snowflake">❄</div>
       </div>
 
-      {/* Back to top */}
-      {/* <div id="back-to-top" className="back-to-top">
-        <button
-          className="btn btn-warning"
-          title="Back to Top"
-          style={{ display: "block" }}
-        >
-          <i className="fa fa-angle-up" />
-        </button>
-      </div> */}
-      {/* End Back to top */}
-
-      
-
-      {/* close div */}
     </div>
   );
 }

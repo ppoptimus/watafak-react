@@ -218,7 +218,7 @@ function main() {
                   <div className="row col-12">
                     <div className="col-6">
                       <img
-                        src="img/promotion/01.png"
+                        src="#"
                         className="d-block"
                         alt="..."
                         style={{ width: "100%" }}
@@ -240,7 +240,7 @@ function main() {
                   <div className="row col-12 pl-2 pr-2">
                     <div className="col-6">
                       <img
-                        src="img/promotion/02.png"
+                        src="#"
                         className="d-block"
                         alt="..."
                         style={{ width: "100%" }}
@@ -262,7 +262,7 @@ function main() {
                   <div className="row col-12 pl-2 pr-2">
                     <div className="col-6">
                       <img
-                        src="img/promotion/03.png"
+                        src="#"
                         className="d-block"
                         alt="..."
                         style={{ width: "100%" }}
