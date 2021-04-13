@@ -183,7 +183,8 @@ function App() {
       {/* Footer all page desktop */}
       <footer
         id="footerdesktop"
-        className="dk-footer d-none d-sm-none d-md-none d-lg-block mt-5"
+        className="dk-footer d-none d-sm-none d-md-none d-lg-block"
+        style={{ marginTop: "5rem" }}
       >
         <div className="container">
           <div className="row">
