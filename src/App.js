@@ -155,8 +155,6 @@ function App() {
         </nav>
       </header>
 
-      
-
       <Switch>
         <Route exact path="/">
           <Main />
