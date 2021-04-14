@@ -4,7 +4,7 @@ import React from 'react'
 function download() {
     return (
         <div className="container text-center">
-            <h1 style={{ color: "#ffcc00" }}>ดาวน์โหลด Slotxo</h1>
+            <h1>ดาวน์โหลด Slotxo</h1>
             <p>
                 ดาวน์โหลด Slotxo สามารถดาวน์โหลดและติดตั้งแอพพลิเคชั่นสำหรับเข้าเล่น Slotxo
                 ในมือถือได้ทั้งระบบแอนดรอยด์และระบบ iOS (iPhone) รองรับทุกระบบ

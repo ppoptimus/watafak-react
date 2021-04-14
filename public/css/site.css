@@ -148,8 +148,8 @@ p1 {
 .animate-border {
     position: relative;
     display: block;
-    width: 115px;
-    height: 3px;
+    /* width: 115px;
+    height: 3px; */
     background: #ff00f7;
 }
 
@@ -1385,4 +1385,13 @@ header .header-top {
     z-index: 99;
     right: 10px;
     width: 50px;
+}
+
+h1 {
+    color: #ffcc00;
+    font-weight: bolder;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
 }

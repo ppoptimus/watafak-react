@@ -19,7 +19,7 @@ function App() {
           </div>
         </div>
 
-        <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-3 bg-header border-primary1 justify-content-center">
+        <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-5 bg-header border-primary1 justify-content-center">
           <div className="container m-0">
             {/*nav mobile*/}
             <a className="navbar-brand" href="#">
@@ -155,15 +155,7 @@ function App() {
         </nav>
       </header>
 
-      <div id="announcement" className="container mt-4">
-        <h6>
-          <marquee className="marquee1">
-            <i className="fa fa-trophy"></i> สมัครใหม่...WATAFAK88
-            รับโบนัสสูงสุด 300 บาท ติดต่อ Admin ได้ตลอด 24
-            ชั่วโมงที่เมนูติดต่อเรา
-          </marquee>
-        </h6>
-      </div>
+      
 
       <Switch>
         <Route exact path="/">
@@ -183,7 +175,7 @@ function App() {
       {/* Footer all page desktop */}
       <footer
         id="footerdesktop"
-        className="dk-footer d-none d-sm-none d-md-none d-lg-block"
+        className="dk-footer d-none d-sm-none d-md-none d-lg-block mb-6"
         style={{ marginTop: "5rem" }}
       >
         <div className="container">
@@ -376,7 +368,7 @@ function App() {
       </div>
 
       {/* Footer mobile menu */}
-      <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom mt-5">
+      <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom">
         <ul className="bg-navmobile2 row">
           <li>
             <Link to="#">

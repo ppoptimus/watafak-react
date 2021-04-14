@@ -5,6 +5,16 @@ import Jackpot from './jackpot-top5';
 function main() {
   return (
     <div>
+      <div id="announcement" className="container mt-4">
+        <h6>
+          <marquee className="marquee1">
+            <i className="fa fa-trophy"></i> สมัครใหม่...WATAFAK88
+            รับโบนัสสูงสุด 300 บาท ติดต่อ Admin ได้ตลอด 24
+            ชั่วโมงที่เมนูติดต่อเรา
+          </marquee>
+        </h6>
+      </div>
+      
       <div className="container">
         <div className="row justify-content-center">
           
