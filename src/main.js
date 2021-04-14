@@ -405,6 +405,20 @@ function main() {
         </div>
       </footer>
 
+      {/* Snow Flakes */}
+      <div className="snowflakes" aria-hidden="true">
+        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">❄</div>
+      </div>
+
     </div>
   );
 }

@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const jackpot = () => {
   const data = require('./data/jackpot.json');
@@ -35,12 +36,16 @@ const jackpot = () => {
         </div>
       ))}
 
-      <div className="container m-2 text-center">
-        <button className="btn btn-bg1">
-          ดูทั้งหมด &gt;&gt;
+      <Link to="/alljackpot">
+        <div className="container m-2 text-center">
+          <button className="btn btn-bg1">
+            ดูทั้งหมด &gt;&gt;
             </button>
-      </div>
-    
+        </div>
+      </Link>
+
+      
+
     </div>
   )
 }

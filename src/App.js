@@ -3,6 +3,7 @@ import Main from "./main";
 import Promotion from "./promotion";
 import Article from "./article";
 import Download from "./download";
+import AllJackpot from './all-jackpot'
 
 function App() {
   return (
@@ -167,6 +168,9 @@ function App() {
         </Route>
         <Route exact path="/download">
           <Download />
+        </Route>
+        <Route exact path="/alljackpot">
+          <AllJackpot />
         </Route>
       </Switch>
 
@@ -393,20 +397,6 @@ function App() {
             </Link>
           </li>
         </ul>
-      </div>
-
-      {/* Snow Flakes */}
-      <div className="snowflakes" aria-hidden="true">
-        <div className="snowflake">WATAFAK88</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">WATAFAK88</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">WATAFAK88</div>
-        <div className="snowflake">❄</div>
       </div>
 
     </div>
