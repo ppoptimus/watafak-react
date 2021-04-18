@@ -353,7 +353,7 @@ function main() {
               <div className="sign text-center">
                 <h4>
                   <a href="#" target="_blank">
-                    <img src="img/lineicon_s.png" />
+                    <img src="img/lineicon_s.png" alt="line watafak"></img>
                   </a>
                     ให้บริการตลอด<span className="fast-flicker"> 24 </span>
                     ชั่วโมง

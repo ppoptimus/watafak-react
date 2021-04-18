@@ -37,6 +37,7 @@ function App() {
               className="navbar-toggler navbar-dark"
               data-toggle="modal"
               data-target="#exampleModal"
+              aria-label="menu collape"
             >
               <span className="navbar-toggler-icon" />
             </button>
