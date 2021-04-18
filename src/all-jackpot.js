@@ -1,7 +1,7 @@
 import React from 'react'
 
 function allJackpot() {
-    const data = require('./data/jackpot.json');
+    const data = require('./data/jackpot-top5.json');
     return (
         <div className="container">
             {data.map(i => (

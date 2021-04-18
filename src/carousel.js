@@ -27,6 +27,8 @@ export default class carrousel_amin extends Component {
                 className="img-fluid"
                 alt="..."
                 imagesizes="50vw"
+                width="500px"
+                height="500px"
               />
             </div>
             <div className="carousel-item">
@@ -36,6 +38,9 @@ export default class carrousel_amin extends Component {
                 src="img/promotion/pro2.jpg"
                 className="img-fluid"
                 alt="..."
+                imagesizes="50vw"
+                width="500px"
+                height="500px"
               />
             </div>
             <div className="carousel-item">
@@ -45,6 +50,9 @@ export default class carrousel_amin extends Component {
                 src="img/promotion/pro1.jpg"
                 className="img-fluid"
                 alt="..."
+                imagesizes="50vw"
+                width="500px"
+                height="500px"
               />
             </div>
           </div>

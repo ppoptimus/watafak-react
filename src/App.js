@@ -23,7 +23,7 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-5 bg-header border-primary1 justify-content-center">
           <div className="container m-0">
             {/*nav mobile*/}
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               <img
                 className="d-block d-sm-block d-md-block d-lg-none d-xl-none"
                 src="img/menu/logo-nav1.png"
@@ -31,7 +31,7 @@ function App() {
                 width={50}
                 height="auto;"
               />
-            </a>
+            </Link>
             <button
               type="button"
               className="navbar-toggler navbar-dark"
@@ -391,7 +391,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/promotion">
               <i className="fa fa-money fa-navmobile" />
               <p className="font-navmobile">โปรโมชั่น</p>
             </Link>

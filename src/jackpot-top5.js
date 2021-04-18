@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const jackpot = () => {
-  const data = require('./data/jackpot.json');
-  console.log(data);
+  const data = require('./data/jackpot-top5.json');
+
   return (
     <div className="container">
       <h3 className="text-white">ขอแสดงความยินดีกับลูกค้า Watafak88</h3>
