@@ -8,9 +8,8 @@ function main() {
       <div id="announcement" className="container mt-4">
         <h6>
           <marquee className="marquee1">
-            <i className="fa fa-trophy"></i> สมัครใหม่...WATAFAK88
-            รับโบนัสสูงสุด 300 บาท ติดต่อ Admin ได้ตลอด 24
-            ชั่วโมงที่เมนูติดต่อเรา
+            <i className="fa fa-trophy"></i> 
+            เปิดให้บริการเต็มรูปแบบเร็วๆ นี้
           </marquee>
         </h6>
       </div>
@@ -407,15 +406,15 @@ function main() {
 
       {/* Snow Flakes */}
       <div className="snowflakes" aria-hidden="true">
-        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">COMING SOON</div>
         <div className="snowflake">❅</div>
         <div className="snowflake">❆</div>
+        <div className="snowflake">COMING SOON</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">COMING SOON</div>
         <div className="snowflake">❄</div>
         <div className="snowflake">❅</div>
-        <div className="snowflake">WATAFAK88</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">WATAFAK88</div>
+        <div className="snowflake">COMING SOON</div>
         <div className="snowflake">❄</div>
       </div>
 
