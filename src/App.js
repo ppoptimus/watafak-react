@@ -3,7 +3,8 @@ import Main from "./main";
 import Promotion from "./promotion";
 import Article from "./article";
 import Download from "./download";
-import AllJackpot from './all-jackpot'
+import AllJackpot from './jackpot-all'
+import GenerateJackpot from "./jackpot-generate";
 
 function App() {
   return (
@@ -172,6 +173,9 @@ function App() {
         </Route>
         <Route exact path="/alljackpot">
           <AllJackpot />
+        </Route>
+        <Route exact path="/generate">
+          <GenerateJackpot/>
         </Route>
       </Switch>
 
