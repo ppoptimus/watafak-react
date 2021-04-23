@@ -1,6 +1,6 @@
 import React, { useState, lazy } from "react";
-import firebase from "./utils/firebase";
 import ShowJackpot from "./jackpot-all";
+import Firebase from "./utils/firebase";
 
 export default function GenerateJackpot() {
   var dataArray = [];
@@ -41,7 +41,7 @@ export default function GenerateJackpot() {
       //--game img
       let img = "img" + (Math.floor(Math.random() * 10) + 1);
 
-      const jackpotRef = firebase.database().ref("Jackpot");
+      const jackpotRef = Firebase.database().ref("Jackpot");
       const list = {
         i,
         user_id,
@@ -55,12 +55,12 @@ export default function GenerateJackpot() {
   };
 
   const deleteAll = () => {
-    const jackpotList = firebase.database().ref('Jackpot')
+    const jackpotList = Firebase.database().ref('Jackpot')
     jackpotList.remove()
   }
   //---------------------------//
   return (
-    <div className="container mb-5">
+    <div className="container mt-5 mb-6">
       
       <form className="form-inline">
         <div className="form-group mx-sm-3 mb-2">
@@ -70,8 +70,8 @@ export default function GenerateJackpot() {
             className="form-control w-50"
             onChange={handleOnChange} value={count}
           />
-        <button type="submit" className="btn btn-success mt-2" onClick={generate}>เพิ่ม</button>
-        <button type="delete" className="btn btn-danger ml-1 mt-2" onClick={deleteAll}>เคลียร์ทั้งหมด</button>
+        <button type="submit" className="btn btn-success" onClick={generate}>เพิ่ม</button>
+        <button type="delete" className="btn btn-danger ml-1" onClick={deleteAll}>เคลียร์ทั้งหมด</button>
         </div>
       </form>
 

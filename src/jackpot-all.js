@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import firebase from "./utils/firebase";
+import Firebase from "./utils/firebase";
 
 function AllJackpot() {
   const [jackpotList, setJackpotList] = useState();
 
   useEffect(() => {
-    const jackpotRef = firebase.database().ref("Jackpot");
+    const jackpotRef = Firebase.database().ref("Jackpot");
     jackpotRef.on("value", (snapshot) => {
       const data = snapshot.val();
       const jackpotList = [];
@@ -13,14 +13,11 @@ function AllJackpot() {
         jackpotList.push({ id, ...data[id] });
       }
       setJackpotList(jackpotList);
-
-      console.log(jackpotList);
     });
   }, []);
 
-  //-----html------//
   return (
-    <div className="container mb-5">
+    <div className="container mb-6">
       {jackpotList
         ? jackpotList.map((i) => (
             <div className="jackpot-card" key={i.id}>
