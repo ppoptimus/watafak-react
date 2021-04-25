@@ -40,12 +40,6 @@ function AllJackpot() {
                   </p>
                 </div>
                 <div className="col-3 pr-1 pl-0">
-                  {/* <img
-                    src={i.img}
-                    className="img-fluid float-right"
-                    alt="watafak88 game jackpot"
-
-                  ></img> */}
                   <div className="full-page-loader">
                     <img className="w-75" src={'img/jackpot/'+ i.img + '.png'} alt="watafak88 game jackpot" imagesizes="50vw"></img>
                   </div>

@@ -1420,3 +1420,7 @@ h1 {
     100% { transform: scale(1); }
   }
 
+.bg-login{
+    background-color: blueviolet;
+    border-radius: 10px;
+}

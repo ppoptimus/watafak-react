@@ -1,15 +1,15 @@
 import React, { useState, lazy } from "react";
-import ShowJackpot from "./jackpot-all";
+import ShowJackpotAll from "./jackpot-all";
 import Firebase from "./utils/firebase";
 
 export default function GenerateJackpot() {
-  var dataArray = [];
-
-  const [count, setCount] = useState("");
+ 
+  var [count, setCount] = useState("");
 
   const handleOnChange = (e) => {
     setCount(e.target.value);
   };
+  count = (count > 100) ? 100 : count;
 
   const generate = () => {
     for (let i = 0; i < count; i++) {
@@ -35,7 +35,7 @@ export default function GenerateJackpot() {
         currency: "THB",
       });
       let withdraw = formatter.format(
-        (Math.floor(Math.random() * 1000) + 1) * 10
+        (Math.floor(Math.random() * 2100) + 1) * 10
       );
 
       //--game img
@@ -74,9 +74,7 @@ export default function GenerateJackpot() {
           </div>
       </div>
       
-
-      <ShowJackpot />
-
+      <ShowJackpotAll />
     </div>
   );
 }
