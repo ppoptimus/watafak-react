@@ -148,8 +148,8 @@ p1 {
 .animate-border {
     position: relative;
     display: block;
-    /* width: 115px;
-    height: 3px; */
+    width: 115px;
+    height: 3px;
     background: #ff00f7;
 }
 
@@ -1419,3 +1419,4 @@ h1 {
     75% { transform: scale(1.05); }
     100% { transform: scale(1); }
   }
+

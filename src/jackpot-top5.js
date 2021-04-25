@@ -5,7 +5,7 @@ const jackpot = () => {
   const data = require('./data/jackpot-top5.json');
 
   return (
-    <div className="container">
+    <div className="container mt-5">
       <h3 className="text-white">ขอแสดงความยินดีกับลูกค้า Watafak88</h3>
 
       {data.map(i => (

@@ -1,6 +1,7 @@
 import React from "react";
 import Carrousel_main from "./carousel";
 import Jackpot from './jackpot-top5';
+import Login from "./login";
 
 function main() {
   return (
@@ -14,10 +15,8 @@ function main() {
         </h6>
       </div>
 
-      {/*Carousel*/}
       <Carrousel_main />
-      <br />
-      {/*Jackpot*/}
+      <Login/>
       <Jackpot />
 
       <div className="view_port">
