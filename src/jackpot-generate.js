@@ -60,20 +60,20 @@ export default function GenerateJackpot() {
   }
   //---------------------------//
   return (
-    <div className="container mt-5 mb-6">
+    <div className="container mt-5 mb-6 ">
+      <div className="row d-flex align-content-center">
+          <div className="m-3">
+            <div>ระบุจำนวนผู้ถอน</div>
+            <input
+              type="number"
+              className="form-control w-50 m-1"
+              onChange={handleOnChange} value={count}
+            />
+            <button type="submit" className="btn btn-success m-1" onClick={generate}>เพิ่ม</button>
+            <button type="delete" className="btn btn-danger m-1" onClick={deleteAll}>เคลียร์ทั้งหมด</button>
+          </div>
+      </div>
       
-      <form className="form-inline">
-        <div className="form-group mx-sm-3 mb-2">
-          <h4>ระบุจำนวนผู้ถอน</h4>
-          <input
-            type="number"
-            className="form-control w-50"
-            onChange={handleOnChange} value={count}
-          />
-        <button type="submit" className="btn btn-success" onClick={generate}>เพิ่ม</button>
-        <button type="delete" className="btn btn-danger ml-1" onClick={deleteAll}>เคลียร์ทั้งหมด</button>
-        </div>
-      </form>
 
       <ShowJackpot />
 

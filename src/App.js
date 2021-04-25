@@ -8,6 +8,7 @@ import GenerateJackpot from "./jackpot-generate";
 import Header from "./header";
 import Footer_desktop from "./footer-desktop";
 import Footer_Mobile from "./footer-mobile";
+import Login from "./login";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         </Route>
         <Route exact path="/generate">
           <GenerateJackpot/>
+        </Route>
+        <Route exact path="/login">
+          <Login/>
         </Route>
       </Switch>
 
