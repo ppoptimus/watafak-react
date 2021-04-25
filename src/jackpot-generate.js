@@ -39,7 +39,7 @@ export default function GenerateJackpot() {
       );
 
       //--game img
-      let img = "img" + (Math.floor(Math.random() * 10) + 1);
+      let img = "img" + (Math.floor(Math.random() * 8) + 1);
 
       const jackpotRef = Firebase.database().ref("Jackpot");
       const list = {
