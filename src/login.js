@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 export default function Login() {
-  const [username, setUsername] = useState("");
+  
   let history = useHistory();
 
   const onLogin = (e) => {

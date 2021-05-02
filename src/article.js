@@ -3,7 +3,8 @@ import React, { Component } from "react";
 function article() {
     return (
       <div className="mb-5">
-        <div className="jumbotron p-4 m-4 bg-art">
+        
+        <div id="roma" name="roma" className="jumbotron p-4 m-4 bg-art">
           <h1 className="">ROMA</h1>
           <img
             src="img/article/roma-article1.png"
@@ -53,7 +54,7 @@ function article() {
         </div>
         <br />
         {/* ------------------------------- */}
-        <div className="jumbotron p-4 m-4 bg-art">
+        <div id="fish" name="fish" className="jumbotron p-4 m-4 bg-art">
           <h1 className="">เกมยิงปลาน่าเล่นสุดๆ</h1>
           <img
             src="img/article/fish-article1.png"
@@ -122,7 +123,7 @@ function article() {
         </div>
         <br />
         {/* ------------------------------- */}
-        <div className="jumbotron p-4 m-4 bg-art">
+        <div id="ongbak" name="ongbak" className="jumbotron p-4 m-4 bg-art">
           <h1 className="">Ong Bak</h1>
           <img
             src="img/article/ongbak-article1.png"

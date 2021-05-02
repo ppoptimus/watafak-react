@@ -1,7 +1,6 @@
 import React from "react";
 import Carrousel_main from "./carousel";
 import Jackpot from './jackpot-top5';
-// import Login from "./login";
 import { useHistory } from "react-router-dom";
 
 function Main() {
@@ -11,8 +10,19 @@ function Main() {
     e.preventDefault();
     history.push("/login");
   }
+
+  const article = (e) => {
+    e.preventDefault();
+    let sec = e.target.getAttribute('name')
+    console.log(sec)
+    history.push('/article#' + sec);
+
+  }
+
   return (
     <div className="mb-5">
+
+      {/* Announcement*/}
       <div id="announcement" className="container mt-4">
         <h6>
           <marquee className="marquee1">
@@ -221,17 +231,17 @@ function Main() {
             style={{ width: "100%" }}
           >
             <h1 className="float-left">บทความ</h1>
-            <div className="carousel-inner">
+            <div className="carousel-inner d-block">
 
               <div className="carousel-item active">
                 <div className="row col-12">
                   <div className="col-6">
                     <img
-                      src="#"
-                      className="d-block"
+                      src="img/article/roma_art.jpg"
+                      className="img-fluid"
                       alt="..."
                       style={{ width: "100%" }}
-                    />
+                    ></img>
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">
@@ -239,17 +249,18 @@ function Main() {
                       เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ
                       WATAFAK888 ..
                       </p>
-                    <p className="text-white-50 text-right">
+                    <p onClick={article} id="roma" name="roma" className="text-white-50 text-right">
                       อ่านต่อ &gt;&gt;
                       </p>
                   </div>
                 </div>
               </div>
+
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
                     <img
-                      src="#"
+                      src="img/article/fish_art.jpg"
                       className="d-block"
                       alt="..."
                       style={{ width: "100%" }}
@@ -261,17 +272,18 @@ function Main() {
                       เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ
                       WATAFAK888 ..
                       </p>
-                    <p className="text-white-50 text-right">
+                    <p onClick={article} id="fish" name="fish" className="text-white-50 text-right">
                       อ่านต่อ &gt;&gt;
                       </p>
                   </div>
                 </div>
               </div>
+              
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
                     <img
-                      src="#"
+                      src="img/gametest/OngBak.png"
                       className="d-block"
                       alt="..."
                       style={{ width: "100%" }}
@@ -283,7 +295,7 @@ function Main() {
                       เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ
                       WATAFAK888 ..
                       </p>
-                    <p className="text-white-50 text-right">
+                    <p onClick={article} id="ongbak" name="ongbak" className="text-white-50 text-right">
                       อ่านต่อ &gt;&gt;
                       </p>
                   </div>
