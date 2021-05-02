@@ -1,9 +1,16 @@
 import React from "react";
 import Carrousel_main from "./carousel";
 import Jackpot from './jackpot-top5';
-import Login from "./login";
+// import Login from "./login";
+import { useHistory } from "react-router-dom";
 
-function main() {
+function Main() {
+  let history = useHistory();
+
+  const onLogin = (e) => {
+    e.preventDefault();
+    history.push("/login");
+  }
   return (
     <div className="mb-5">
       <div id="announcement" className="container mt-4">
@@ -16,7 +23,7 @@ function main() {
       </div>
 
       <Carrousel_main />
-      <Login/>
+      
       <Jackpot />
 
       <div className="view_port">
@@ -215,6 +222,7 @@ function main() {
           >
             <h1 className="float-left">บทความ</h1>
             <div className="carousel-inner">
+
               <div className="carousel-item active">
                 <div className="row col-12">
                   <div className="col-6">
@@ -281,6 +289,7 @@ function main() {
                   </div>
                 </div>
               </div>
+            
             </div>
             <a
               className="carousel-control-prev"
@@ -333,7 +342,8 @@ function main() {
               <p>
                 #WATAFAK888 | #slotxo | #pgslot | #amb | poker | #jili |
                 #superslot | #joker123 | #spadegaming | #AskMeBet | #pragmatic
-                | #play | #เกมยิงปลา #ambbo | #slot | #slotonline | #casino
+                | #play | #เกมยิงปลา #ambbo | #slot | #slotonline | #casino | 
+                <span onClick={onLogin}> #admin</span>
                 </p>
             </div>
             <div className="col-lg-6 text-lg-right">
@@ -456,4 +466,4 @@ function show5() {
   document.getElementById("game4").style.display = "none";
   document.getElementById("game5").style.display = "block";
 }
-export default main;
+export default Main;

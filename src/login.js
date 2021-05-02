@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Redirect, Link, useHistory } from "react-router-dom";
-import GenerateJackpot from "./jackpot-generate";
+import { useHistory } from "react-router-dom";
 
 export default function Login() {
   const [username, setUsername] = useState("");

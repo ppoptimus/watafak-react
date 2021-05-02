@@ -124,12 +124,12 @@ export default function Header() {
                                         <p className="font-navmobile">เล่นเกมส์</p>
                                     </Link>
                                 </li>
-                                <li className="nav-item nav-logo m-4">
+                                <li className="nav-item nav-logo m-3">
                                     <Link
                                         to="/"
                                         className="nav-link d-none d-sm-none d-md-block d-lg-block"
                                     >
-                                        <img src="img/menu/logo-nav.png" alt="WATAFAK" />
+                                        <img src="img/menu/logo-nav.png" alt="WATAFAK" width="150px" />
                                     </Link>
                                 </li>
                                 <li className="nav-item">
