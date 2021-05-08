@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer_desktop() {
   return (
@@ -6,7 +7,7 @@ export default function Footer_desktop() {
       <footer
         id="footerdesktop"
         className="dk-footer d-none d-sm-none d-md-none d-lg-block mb-6"
-        style={{ marginTop: "5rem" }}
+        style={{ marginTop: '5rem' }}
       >
         <div className="container">
           <div className="row">
@@ -60,7 +61,7 @@ export default function Footer_desktop() {
 
                     <div className="contact-info">
                       <h3>Bangkok Thailand</h3>
-                      <p>5353 Road Avenue</p>
+                      <p>________________</p>
                     </div>
                   </div>
                 </div>
@@ -75,8 +76,8 @@ export default function Footer_desktop() {
                     </div>
 
                     <div className="contact-info">
-                      <h3>++6 95 533 9999</h3>
-                      <p>Give us a call</p>
+                      <h3>Give us a call</h3>
+                      <p>________________</p>
                     </div>
                   </div>
                 </div>
@@ -91,16 +92,16 @@ export default function Footer_desktop() {
                     </div>
                     <ul>
                       <li>
-                        <a href="#">บทความ</a>
+                        <Link to="/article">บทความ</Link>
                       </li>
                       <li>
-                        <a href="#">บริการเกมส์</a>
+                        <Link to="/">บริการเกมส์</Link>
                       </li>
                       <li>
-                        <a href="#">โปรโมชั่น</a>
+                        <Link to="/promotion">โปรโมชั่น</Link>
                       </li>
                       <li>
-                        <a href="#">ติดต่อเรา</a>
+                        <a href="https://lin.ee/Cg7O5nx">ติดต่อเรา</a>
                       </li>
                     </ul>
                   </div>

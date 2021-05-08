@@ -13,7 +13,7 @@ import Login from "./login";
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
 
       {/* Router */}
       <Switch>
@@ -33,15 +33,15 @@ function App() {
           <AllJackpot />
         </Route>
         <Route exact path="/generate">
-          <GenerateJackpot/>
+          <GenerateJackpot />
         </Route>
         <Route exact path="/login">
-          <Login/>
+          <Login />
         </Route>
       </Switch>
 
       <Footer_desktop />
-      
+
       {/* Marquee-game */}
       {/* <div className="container-marq">
         <div className="marquee-game">
@@ -73,19 +73,30 @@ function App() {
       </div> */}
 
       <div className="line-button">
-        <a href="#">
-          <img rel="preload" as="image" imagesizes="50vw" src="img/line_icon.svg" className="img-fluid"></img>
-        </a>
-      </div>
-      
-      <div className="facebook-button">
-        <a href="#">
-          <img rel="preload" as="image" imagesizes="50vw" src="img/facebook_icon.svg" className="img-fluid"></img>
+        <a href="https://lin.ee/Cg7O5nx" target="blank">
+          <img
+            rel="preload"
+            as="image"
+            imagesizes="50vw"
+            src="img/line_icon.svg"
+            className="img-fluid"
+          ></img>
         </a>
       </div>
 
-      <Footer_Mobile/>
-      
+      <div className="facebook-button">
+        <a href="#">
+          <img
+            rel="preload"
+            as="image"
+            imagesizes="50vw"
+            src="img/facebook_icon.svg"
+            className="img-fluid"
+          ></img>
+        </a>
+      </div>
+
+      <Footer_Mobile />
     </div>
   );
 }

@@ -21,20 +21,19 @@ function Main() {
 
   return (
     <div className="mb-5">
-
       {/* Announcement*/}
       <div id="announcement" className="container mt-4">
         <h6>
           <marquee className="marquee1">
-            <i className="fa fa-trophy"></i> 
+            <i className="fa fa-trophy"></i>
             เปิดให้บริการเต็มรูปแบบเร็วๆ นี้
           </marquee>
         </h6>
       </div>
 
       <Carrousel_main />
-      
-      <Jackpot />
+
+      {/* <Jackpot /> */}
 
       <div className="view_port">
         <div className="cylon_eye" />
@@ -45,12 +44,10 @@ function Main() {
         <div className=" text-center  justify-content-center">
           <div className="container">
             <h3>
-              <strong style={{ color: "blueviolet" }}>สล็อตออนไลน์</strong>
+              <strong style={{ color: 'blueviolet' }}>สล็อตออนไลน์</strong>
             </h3>
             <h3>
-              <strong style={{ color: "blueviolet" }}>
-                ทดลองเล่นสล็อตฟรี
-                </strong>
+              <strong style={{ color: 'blueviolet' }}>ทดลองเล่นสล็อตฟรี</strong>
             </h3>
             <p>
               สล็อตออนไลน์ ทดลองเล่นสล็อตฟรี สล็อตออนไลน์ ทดลองเล่นสล็อตฟรี
@@ -62,7 +59,7 @@ function Main() {
               จึงทำให้เกมสล็อตได้รับความนิยมเป็นอย่างมาก โอกาสของคุณมาถึงแล้ว
               รีบคว้ามันเอาไว้ก่อนดีกว่าที่จะมานั่งเสียดายเอาทีหลัง
               ถ้าไม่มั่นใจสามารถเข้าไปทดลองเล่นฟรีก่อนได้เลย
-              </p>
+            </p>
           </div>
           {/*ค่ายเกม*/}
           <div className="row justify-content-center">
@@ -140,7 +137,7 @@ function Main() {
                         className="btn btn-bg1"
                       >
                         เข้าทดลองเล่นเลย
-                        </a>
+                      </a>
                     </div>
                   </div>
                   <div id="game2" className="hide">
@@ -157,7 +154,7 @@ function Main() {
                         className="btn btn-bg1"
                       >
                         เข้าทดลองเล่นเลย
-                        </a>
+                      </a>
                     </div>
                   </div>
                   <div id="game3" className="hide">
@@ -174,7 +171,7 @@ function Main() {
                         className="btn btn-bg1"
                       >
                         เข้าทดลองเล่นเลย
-                        </a>
+                      </a>
                     </div>
                   </div>
                   <div id="game4" className="hide">
@@ -191,7 +188,7 @@ function Main() {
                         className="btn btn-bg1"
                       >
                         เข้าทดลองเล่นเลย
-                        </a>
+                      </a>
                     </div>
                   </div>
                   <div id="game5" className="hide">
@@ -208,7 +205,7 @@ function Main() {
                         className="btn btn-bg1"
                       >
                         เข้าทดลองเล่นเลย
-                        </a>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -228,11 +225,10 @@ function Main() {
             id="articleslide"
             className="carousel slide"
             data-ride="carousel"
-            style={{ width: "100%" }}
+            style={{ width: '100%' }}
           >
             <h1 className="float-left">บทความ</h1>
             <div className="carousel-inner d-block">
-
               <div className="carousel-item active">
                 <div className="row col-12">
                   <div className="col-6">
@@ -240,7 +236,7 @@ function Main() {
                       src="img/article/roma_art.jpg"
                       className="img-fluid"
                       alt="..."
-                      style={{ width: "100%" }}
+                      style={{ width: '100%' }}
                     ></img>
                   </div>
                   <div className="col-6">
@@ -248,10 +244,15 @@ function Main() {
                       คาสิโนออนไลน์ (Casino online) สล็อต (Slot)
                       เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ
                       WATAFAK888 ..
-                      </p>
-                    <p onClick={article} id="roma" name="roma" className="text-white-50 text-right">
+                    </p>
+                    <p
+                      onClick={article}
+                      id="roma"
+                      name="roma"
+                      className="text-white-50 text-left"
+                    >
                       อ่านต่อ &gt;&gt;
-                      </p>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -263,7 +264,7 @@ function Main() {
                       src="img/article/fish_art.jpg"
                       className="d-block"
                       alt="..."
-                      style={{ width: "100%" }}
+                      style={{ width: '100%' }}
                     />
                   </div>
                   <div className="col-6">
@@ -271,22 +272,27 @@ function Main() {
                       คาสิโนออนไลน์ (Casino online) สล็อต (Slot)
                       เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ
                       WATAFAK888 ..
-                      </p>
-                    <p onClick={article} id="fish" name="fish" className="text-white-50 text-right">
+                    </p>
+                    <p
+                      onClick={article}
+                      id="fish"
+                      name="fish"
+                      className="text-white-50 text-left"
+                    >
                       อ่านต่อ &gt;&gt;
-                      </p>
+                    </p>
                   </div>
                 </div>
               </div>
-              
+
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
                     <img
-                      src="img/gametest/OngBak.png"
+                      src="img/article/ongbak-article1.png"
                       className="d-block"
                       alt="..."
-                      style={{ width: "100%" }}
+                      style={{ width: '100%' }}
                     />
                   </div>
                   <div className="col-6">
@@ -294,14 +300,18 @@ function Main() {
                       คาสิโนออนไลน์ (Casino online) สล็อต (Slot)
                       เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ
                       WATAFAK888 ..
-                      </p>
-                    <p onClick={article} id="ongbak" name="ongbak" className="text-white-50 text-right">
+                    </p>
+                    <p
+                      onClick={article}
+                      id="ongbak"
+                      name="ongbak"
+                      className="text-white-50 text-left"
+                    >
                       อ่านต่อ &gt;&gt;
-                      </p>
+                    </p>
                   </div>
                 </div>
               </div>
-            
             </div>
             <a
               className="carousel-control-prev"
@@ -336,48 +346,48 @@ function Main() {
             <div className="col-lg-6">
               <h4 className="text-white text-left">
                 คาสิโนออนไลน์ (Casino online) สล็อต (Slot) เกมส์ยิงปลา
-                  WATAFAK888 จากหลากหลายค่ายเกมส์ดัง <br />
+                WATAFAK888 จากหลากหลายค่ายเกมส์ดัง <br />
               </h4>
               <h5 className="text-white-50">
                 SlotXo / PG / Joker / Live22 / Epic Win
-                </h5>
+              </h5>
               <p
                 className="text-white-50 text-left"
-                style={{ fontSize: "large" }}
+                style={{ fontSize: 'large' }}
               >
                 คาสิโนออนไลน์ (Casino online) สล็อต (Slot)
                 เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ WATAFAK888
                 รวมเกมส์สล็อตเอาไว้ที่นี้ที่เดียว เกมส์สล็อต ยิงปลา
                 และอีกมากมายจากหลายค่ายเกมส์ดัง ยืนยันเบอร์โทร รับเครดิตฟรี
                 แจกฟรีเครดิต
-                </p>
+              </p>
               <p>
                 #WATAFAK888 | #slotxo | #pgslot | #amb | poker | #jili |
-                #superslot | #joker123 | #spadegaming | #AskMeBet | #pragmatic
-                | #play | #เกมยิงปลา #ambbo | #slot | #slotonline | #casino | 
+                #superslot | #joker123 | #spadegaming | #AskMeBet | #pragmatic |
+                #play | #เกมยิงปลา #ambbo | #slot | #slotonline | #casino |
                 <span onClick={onLogin}> #admin</span>
-                </p>
+              </p>
             </div>
             <div className="col-lg-6 text-lg-right">
               <p className=" text-center">
                 <a href="#" target="_blank">
                   <img
-                    src="img/qrline.png"
+                    src="https://qr-official.line.me/sid/M/486fpcll.png"
                     alt="line"
                     className="img-fluid"
-                    style={{ width: "50%" }}
+                    style={{ width: '50%' }}
                   />
                 </a>
               </p>
               <p className="row float-right"></p>
               <div className="sign text-center">
                 <h4>
-                  <a href="#" target="_blank">
+                  <a href="https://lin.ee/Cg7O5nx" target="_blank">
                     <img src="img/lineicon_s.png" alt="line watafak"></img>
                   </a>
-                    ให้บริการตลอด<span className="fast-flicker"> 24 </span>
-                    ชั่วโมง
-                  </h4>
+                  ให้บริการตลอด<span className="fast-flicker"> 24 </span>
+                  ชั่วโมง
+                </h4>
               </div>
               <p />
               <p className="row float-right"></p>
@@ -438,7 +448,6 @@ function Main() {
         <div className="snowflake">COMING SOON</div>
         <div className="snowflake">❄</div>
       </div>
-
     </div>
   );
 }

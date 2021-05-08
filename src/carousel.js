@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { useHistory } from "react-router-dom";
 
-export default class carrousel_amin extends Component {
-  render() {
+const Carrousel_main = () => {
+  let history = useHistory();
+
+  const allPromotion = () => {
+    history.push("/promotion");
+  }
     return (
       <div className="container justify-content-center">
         <div
@@ -10,9 +15,7 @@ export default class carrousel_amin extends Component {
           data-ride="carousel"
         >
           <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to={0}
+            <li data-target="#carouselExampleIndicators" data-slide-to={0}
               className="active"
             />
             <li data-target="#carouselExampleIndicators" data-slide-to={1} />
@@ -21,39 +24,42 @@ export default class carrousel_amin extends Component {
           <div className="carousel-inner text-center">
             <div className="carousel-item active">
               <img
+                onClick={allPromotion}
                 rel="preload"
                 as="image"
-                src="img/promotion/pro3.jpg"
+                src="img/promotion/1-500.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
                 imagesizes="50vw"
                 width="500px"
                 height="500px"
-              />
+              ></img>
             </div>
             <div className="carousel-item">
               <img
+                onClick={allPromotion}
                 rel="preload"
                 as="image"
-                src="img/promotion/pro2.jpg"
+                src="img/promotion/2-500.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
                 imagesizes="50vw"
                 width="500px"
                 height="500px"
-              />
+              ></img>
             </div>
             <div className="carousel-item">
               <img
+                onClick={allPromotion}
                 rel="preload"
                 as="image"
-                src="img/promotion/pro1.jpg"
+                src="img/promotion/3-500.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
                 imagesizes="50vw"
                 width="500px"
                 height="500px"
-              />
+              ></img>
             </div>
           </div>
           <a
@@ -76,6 +82,7 @@ export default class carrousel_amin extends Component {
           </a>
         </div>
       </div>
-    )
-  }
+    );
 }
+
+export default Carrousel_main
