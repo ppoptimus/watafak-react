@@ -98,13 +98,18 @@ export default function Header() {
                         />
                         <p className="p-modal">โปรโมชั่น</p>
                       </Link>
-                      <Link role="button" to="#" className="btn-modal">
+                      <a
+                        role="button"
+                        href="https://lin.ee/Cg7O5nx"
+                        target="_blank"
+                        className="btn-modal"
+                      >
                         <i
                           style={{ fontSize: 'x-large' }}
                           className="fa fa-comments"
                         />
                         <p className="p-modal">ติดต่อเรา</p>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -114,20 +119,30 @@ export default function Header() {
               <div className="collapse navbar-collapse text-center">
                 <ul className="navbar-nav font-weight-bolder text-center mx-auto">
                   <li className="nav-item">
-                    <Link to="#" className="btn btn-bg2">
+                    <Link to="#" className="btn btn-bg1">
                       <p className="font-navmobile">สมัครสมาชิก</p>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/download" className="btn btn-bg1">
+                    <Link to="/download" className="btn btn-bg2">
                       <p className="font-navmobile">ดาวน์โหลด</p>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="#" className="btn btn-bg2">
+                    <Link to="#" className="btn btn-bg1">
                       <p className="font-navmobile">เล่นเกมส์</p>
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://lin.ee/YHAOzAO"
+                      target="_blank"
+                      className="btn btn-bg2"
+                    >
+                      <p className="font-navmobile">เครดิตฟรี</p>
+                    </a>
+                  </li>
+
                   <li className="nav-item nav-logo m-3">
                     <Link
                       to="/"
@@ -140,6 +155,7 @@ export default function Header() {
                       />
                     </Link>
                   </li>
+
                   <li className="nav-item">
                     <Link to="/promotion" className="btn btn-bg1">
                       <p className="font-navmobile">โปรโมชั่น</p>
@@ -154,6 +170,15 @@ export default function Header() {
                     <Link to="#" className="btn btn-bg1">
                       <p className="font-navmobile">ฝาก-ถอน</p>
                     </Link>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://lin.ee/Cg7O5nx"
+                      target="_blank"
+                      className="btn btn-bg2"
+                    >
+                      <p className="font-navmobile">ติดต่อเรา</p>
+                    </a>
                   </li>
                 </ul>
               </div>

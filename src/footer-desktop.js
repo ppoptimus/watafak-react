@@ -130,8 +130,7 @@ export default function Footer_desktop() {
               <div className="container-fluid">
                 <h6>
                   <marquee>
-                    <i className="fa fa-trophy" /> สมัครใหม่...รับโบนัสสูงสุด
-                    300 บาท ติดต่อ Admin ได้ตลอด 24 ชั่วโมงที่เมนูติดต่อเรา
+                    <i className="fa fa-trophy" /> เปิดให้บริการเต็มรูปแบบเร็วๆ นี้
                   </marquee>
                 </h6>
               </div>
