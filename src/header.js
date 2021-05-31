@@ -129,7 +129,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="#" className="btn btn-bg1">
+                    <Link to="/playgame" className="btn btn-bg1">
                       <p className="font-navmobile">เล่นเกมส์</p>
                     </Link>
                   </li>
@@ -167,7 +167,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="#" className="btn btn-bg1">
+                    <Link to="/playgame" className="btn btn-bg1">
                       <p className="font-navmobile">ฝาก-ถอน</p>
                     </Link>
                   </li>
