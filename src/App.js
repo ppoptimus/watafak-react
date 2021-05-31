@@ -9,6 +9,8 @@ import Header from "./header";
 import Footer_desktop from "./footer-desktop";
 import Footer_Mobile from "./footer-mobile";
 import Login from "./login";
+import PlayGame from "./playGame";
+import Register from "./register";
 
 function App() {
   return (
@@ -37,6 +39,12 @@ function App() {
         </Route>
         <Route exact path="/login">
           <Login />
+        </Route>
+        <Route exact path="/playgame">
+          <PlayGame />
+        </Route>
+        <Route exact path="/register">
+          <Register />
         </Route>
       </Switch>
 

@@ -17,7 +17,7 @@ function promotion() {
           <div className="card-body">
             <h5 className="card-title">แจกเครดิตฟรี</h5>
             <p className="card-text"></p>
-            <a href="https://lin.ee/YHAOzAO" target="blank" className="btn btn-bg1">
+            <a href="https://lin.ee/I1ww4mL" target="blank" className="btn btn-bg1">
               คลิก
             </a>
           </div>

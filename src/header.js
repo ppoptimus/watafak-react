@@ -70,14 +70,14 @@ export default function Header() {
                         />
                         <p className="p-modal">หน้าหลัก</p>
                       </Link>
-                      <Link role="button" to="#" className="btn-modal">
+                      <Link role="button" to="/playgame" className="btn-modal">
                         <i
                           style={{ fontSize: 'x-large' }}
                           className="fa fa-cloud-download"
                         />
                         <p className="p-modal">ฝาก-ถอน</p>
                       </Link>
-                      <Link role="button" to="#" className="btn-modal">
+                      <Link role="button" to="/playgame" className="btn-modal">
                         <i
                           style={{ fontSize: 'x-large' }}
                           className="fa fa-gamepad"
@@ -119,7 +119,7 @@ export default function Header() {
               <div className="collapse navbar-collapse text-center">
                 <ul className="navbar-nav font-weight-bolder text-center mx-auto">
                   <li className="nav-item">
-                    <Link to="#" className="btn btn-bg1">
+                    <Link to="register" className="btn btn-bg1">
                       <p className="font-navmobile">สมัครสมาชิก</p>
                     </Link>
                   </li>
@@ -135,7 +135,7 @@ export default function Header() {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="https://lin.ee/YHAOzAO"
+                      href="https://lin.ee/I1ww4mL"
                       target="_blank"
                       className="btn btn-bg2"
                     >

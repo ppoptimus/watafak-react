@@ -6,13 +6,13 @@ export default function Footer_Mobile() {
       <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom">
         <ul className="bg-navmobile2 row">
           <li>
-            <Link to="#">
+            <Link to="/register">
               <i className="fa fa-user-plus fa-navmobile" />
               <p className="font-navmobile">สมัครเลย</p>
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/playgame">
               <i className="fa fa-gamepad fa-navmobile" />
               <p className="font-navmobile">เล่นเกมส์</p>
             </Link>
@@ -30,7 +30,7 @@ export default function Footer_Mobile() {
             </Link>
           </li>
           <li>
-            <a href="https://lin.ee/YHAOzAO" target="blank">
+            <a href="https://lin.ee/I1ww4mL" target="blank">
               <i className="fa fa-money fa-navmobile" />
               <p className="font-navmobile">เครดิตฟรี</p>
             </a>

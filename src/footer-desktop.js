@@ -95,13 +95,13 @@ export default function Footer_desktop() {
                         <Link to="/article">บทความ</Link>
                       </li>
                       <li>
-                        <Link to="/">บริการเกมส์</Link>
+                        <Link to="/playgame">บริการเกมส์</Link>
                       </li>
                       <li>
                         <Link to="/promotion">โปรโมชั่น</Link>
                       </li>
                       <li>
-                        <a href="https://lin.ee/Cg7O5nx">ติดต่อเรา</a>
+                        <a href="https://lin.ee/Cg7O5nx" target="blank">ติดต่อเรา</a>
                       </li>
                     </ul>
                   </div>
