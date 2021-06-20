@@ -391,7 +391,7 @@ function Main() {
               <p className="row float-right"></p>
               <div className="sign text-center">
                 <h4>
-                  <a href="https://lin.ee/bDb5ic7" target="_blank">
+                  <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener">
                     <img src="img/lineicon_s.png" alt="line watafak"></img>
                   </a>
                   ให้บริการตลอด<span className="fast-flicker"> 24 </span>

@@ -28,26 +28,7 @@ export default function Footer_desktop() {
                   รวดเร็ว สมัครเล่นได้แล้ววันนี้ที่เว็บ WATAFAK888 บริการดี
                   โปรโมชั่นจัดเต็ม ต้องมาที่ WATAFAK888
                 </p>
-                <div className="footer-social-link">
-                  <h3>Follow us</h3>
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-facebook" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-instagram" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                
               </div>
             </div>
 
@@ -67,19 +48,7 @@ export default function Footer_desktop() {
                 </div>
 
                 <div className="col-md-6">
-                  <div className="contact-us contact-us-last">
-                    <div className="contact-icon">
-                      <i
-                        className="fa fa-volume-control-phone"
-                        aria-hidden="true"
-                      />
-                    </div>
-
-                    <div className="contact-info">
-                      <h3>Give us a call</h3>
-                      <p>________________</p>
-                    </div>
-                  </div>
+                <img src="img/download/logo-pg-slot.png" className="img-fluid m-3 w-75"></img>
                 </div>
               </div>
 
@@ -114,8 +83,7 @@ export default function Footer_desktop() {
                       <span className="animate-border border-black" />
                     </div>
                     <p>
-                      Don’t miss to subscribe to our new feeds, kindly fill the
-                      form below
+                    ติดตามเรา Watafak88 ได้ที่ Line @watafak88 เพื่อรับสิทธิพิเศษและอัพเดตข่าวสารจากเรา
                     </p>
                   </div>
                 </div>
@@ -129,9 +97,22 @@ export default function Footer_desktop() {
             <div className="row">
               <div className="container-fluid">
                 <h6>
-                  <marquee>
-                    <i className="fa fa-trophy" /> เปิดให้บริการเต็มรูปแบบเร็วๆ นี้
-                  </marquee>
+                <marquee className="marquee1">
+            <i className="fa fa-trophy"></i>
+            เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            ระบบฝากถอน อัตโนมัติดีที่สุดในประเทศไทย&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
+          </marquee>
                 </h6>
               </div>
             </div>

@@ -15,6 +15,7 @@ export default function Header() {
                 style={{ color: '#fff' }}
                 href="https://lin.ee/bDb5ic7"
                 target="_blank"
+                rel="noopener"
               >
                 <strong>@LINE | ให้บริการตลอด 24 ชั่วโมง</strong>
               </a>
