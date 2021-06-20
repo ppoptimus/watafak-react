@@ -81,7 +81,7 @@ function App() {
       </div> */}
 
       <div className="line-button">
-        <a href="https://lin.ee/Cg7O5nx" target="blank">
+        <a href="https://lin.ee/bDb5ic7" target="blank">
           <img
             rel="preload"
             as="image"
@@ -93,7 +93,7 @@ function App() {
       </div>
 
       <div className="facebook-button">
-        <a href="#">
+        <a href="https://www.facebook.com/Watafak88/" target="blank">
           <img
             rel="preload"
             as="image"

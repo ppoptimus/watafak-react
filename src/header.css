@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Audiowide&family=Days+One&family=Fugaz+One&family=Poller+One&family=Rancho&family=Zen+Dots&display=swap'); 
+*/
+
+.navtext {
+    font-family: 'Sigmar One', cursive;
+    color: aliceblue;
+    font-size: large;
+}
+
+.flip {
+    animation-name: flip;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes flip {
+    0% {
+      color:  rgb(255, 255, 255);
+      text-shadow: 1px 1px #f70909;
+    }
+  
+    50% {
+        color:  rgb(255, 255, 255);
+        text-shadow: 1px 1px #f70909;
+    }
+
+    75% {
+        color:  rgb(255, 255, 255);
+        text-shadow: 1px 1px #f70909;
+    }
+    
+    100% {
+      color: rgb(209, 3, 3);
+      text-shadow: 1px 1px #ffffff;
+    }
+  }

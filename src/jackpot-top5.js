@@ -21,8 +21,8 @@ const Jackpot = () => {
   }, []);
 
   return (
-    <div className="container mt-5">
-      <h3 className="text-white">ขอแสดงความยินดีกับลูกค้า Watafak88</h3>
+    <div className="container mt-2 text-center">
+      <h5 className="text-white">ขอแสดงความยินดีกับลูกค้า Watafak88</h5>
 
       {jackpot5
         ? jackpot5.map((i) => (
@@ -47,7 +47,7 @@ const Jackpot = () => {
               </div>
               <div className="col-3 pr-1 pl-0">
                 <div className="full-page-loader">
-                  <img className="w-50 img-fluid" src={'img/jackpot/' + i.img + '.png'} alt="watafak88 game jackpot" imagesizes="50vw"></img>
+                  <img className="w-50 img-fluid" src={'img/download/' + i.img + '.png'} alt="watafak88 game jackpot" imagesizes="50vw"></img>
                 </div>
               </div>
             </div>

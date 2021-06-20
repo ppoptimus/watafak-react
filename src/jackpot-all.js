@@ -41,7 +41,7 @@ function AllJackpot() {
                 </div>
                 <div className="col-3 pr-1 pl-0">
                   <div className="full-page-loader">
-                  <img className="img-fluid w-50" src={'img/jackpot/'+ i.img + '.png'} alt="watafak88 game jackpot" imagesizes="50vw"></img>
+                  <img className="img-fluid w-50" src={'img/download/'+ i.img + '.png'} alt="watafak88 game jackpot" imagesizes="50vw"></img>
                   </div>
                 </div>
               </div>

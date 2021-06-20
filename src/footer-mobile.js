@@ -30,9 +30,9 @@ export default function Footer_Mobile() {
             </Link>
           </li>
           <li>
-            <a href="https://lin.ee/I1ww4mL" target="blank">
-              <i className="fa fa-money fa-navmobile" />
-              <p className="font-navmobile">เครดิตฟรี</p>
+            <a href="https://lin.ee/bDb5ic7" target="blank">
+              <i className="fa fa-address-card fa-navmobile" />
+              <p className="font-navmobile">ติดต่อเรา</p>
             </a>
           </li>
         </ul>

@@ -4,26 +4,25 @@ import React from 'react'
 function download() {
     return (
         <div className="container text-center mb-6">
-            <h1>ดาวน์โหลด Slotxo</h1>
+            <h1>ดาวน์โหลด PG SLOT GAME ONLINE</h1>
             <p>
-                ดาวน์โหลด Slotxo สามารถดาวน์โหลดและติดตั้งแอพพลิเคชั่นสำหรับเข้าเล่น Slotxo
-                ในมือถือได้ทั้งระบบแอนดรอยด์และระบบ iOS (iPhone) รองรับทุกระบบ
-                โดยท่านสามารถทำตามรายการดังต่อไปนี้จากเราได้เลยคะ
+            <b>PGSLOT เล่นได้ไม่ต้องโหลด</b> เราได้ออกแบบเว็บไซต์ที่มีความเป็นมาตรฐาน ปลอดภัยต่อการเข้าใช้งาน ใช้งานง่ายผ่านเว็บไซต์ด้วย App Google Chrome รองรับทั้งมือถือ Android Apple iPhone iPad หรือคอมพิวเตอร์ Windows Mac รูปแบบการเข้าใช้งานเหมือนกันทุกประการ
             </p>
 
-            <img src="img/download/slotxo.png" className="img-fluid mb-3"></img>
+            <row>
+
+            <img src="img/download/download-pgslot.png" className="img-fluid m-3 w-25"></img>
+            <img src="img/download/logo-pg-slot.png" className="img-fluid m-3 w-25"></img>
+            </row>
 
             <p>
-                สำหรับวิธีการดาวน์โหลดนั้น เราจะแยกออกเป็นสองรายการแอพพลิเคชั่นนะคะ นั่นคือ
-                ระบบแอนดรอยด์สำหรับท่านที่ใช้โทรศัพท์มือถือ เช่น ซัมซุง ออปโป้ เป็นต้นคะ
-                ส่วนอีกค่ายหนึ่งก็คือฝั่งของ แอปเปิ้ล หรือว่า iPhone โดยให้ยิง QR Code
-                ชุดด้านล่างนี้ด้วยโทรศัพท์มือถือของท่าน ได้เลยนะคะ
+            ดาวน์โหลด PG SLOT สามารถดาวน์โหลดและติดตั้งแอพพลิเคชั่นสำหรับเข้าเล่น PG SLOT ในมือถือ แอนดรอยด์(Android) ทุกรุ่นโดยท่านสามารถทำตามรายการดังต่อไปนี้จากเราได้เลยคะ
             </p>
 
             <div className="row col-12">
                 <div className="col-sm-auto col-lg-6 mt-4">
                     <div className="card bg-dark p-1 pt-3">
-                        <img src="img/download/qr_and.jpg" className="img-fluid align-self-center col-lg-6 col-md-5 col-sm-6"></img>
+                        <img src="img/download/qr-download.png" className="img-fluid align-self-center col-lg-6 col-md-5 col-sm-6"></img>
                         <div className="card-body">
                             <a className="btn-gogame col-lg-6 col-md-5 col-sm-6">
                                 <i className="fa fa-android" aria-hidden="true"></i> DOWNLOAD ANDROID
@@ -44,19 +43,19 @@ function download() {
                             <div className="collapse mt-4" id="collapseExample1">
                                 <div className="item active">
                                     <p className="mb-0">ขั้นตอนที่ 1</p>
-                                    <img className="img-fluid mb-4" src="img/download/android1.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/1.jpg"></img>
                                     <p className="mb-0">ขั้นตอนที่ 2</p>
-                                    <img className="img-fluid mb-4" src="img/download/android2.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/2.jpg"></img>
                                     <p className="mb-0">ขั้นตอนที่ 3</p>
-                                    <img className="img-fluid mb-4" src="img/download/android3.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/3.jpg"></img>
                                     <p className="mb-0">ขั้นตอนที่ 4</p>
-                                    <img className="img-fluid mb-4" src="img/download/android4.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/4.jpg"></img>
                                     <p className="mb-0">ขั้นตอนที่ 5</p>
-                                    <img className="img-fluid mb-4" src="img/download/android5.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/5.jpg"></img>
                                     <p className="mb-0">ขั้นตอนที่ 6</p>
-                                    <img className="img-fluid mb-4" src="img/download/android6.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/6.jpg"></img>
                                     <p className="mb-0">ขั้นตอนที่ 7</p>
-                                    <img className="img-fluid mb-4" src="img/download/android7.jpg"></img>
+                                    <img className="img-fluid mb-4" src="img/download/7.jpg"></img>
                                 </div>
                             </div>
 
@@ -65,23 +64,22 @@ function download() {
                 </div>
                 <div className="col-sm-auto col-lg-6 mt-4">
                     <div className="card bg-dark p-1 pt-3">
-                        <img src="img/download/qr_ios.jpg" className="img-fluid align-self-center col-lg-6 col-md-5 col-sm-6"></img>
+                        <img src="img/download/qr-download.png" className="img-fluid align-self-center col-lg-6 col-md-5 col-sm-6"></img>
                         <div className="card-body">
                             <a className="btn-gogame col-lg-6 col-md-5 col-sm-6">
-                                <i className="fa fa-apple" aria-hidden="true"></i> DOWNLOAD IOS
+                                <i className="fa fa-apple" aria-hidden="true"></i> IOS เล่นผ่านเว็บไซต์
                             </a>
                             <p className="card-text  m-3">
-                                ระบบเกมส์ถูกพัฒนาโดยทีมงานชาวต่างประเทศที่มีความน่าเชื่อถือและมีความเชี่ยวชาญ
-                                ในระบบของแอนดรอยด์โดยเฉพาะ ท่านจึงมั่นใจได้ในเรื่องของความปลอดภัยของระบบ
+                            เล่นได้ไม่ต้องโหลดเราได้ออกแบบเว็บไซต์ที่มีความเป็นมาตรฐาน ปลอดภัยต่อการเข้าใช้งาน ใช้งานง่ายผ่านเว็บไซต์
                             </p>
                             <a
                                 className="btn btn-bg1"
-                                data-toggle="collapse"
-                                href="#collapseExample2"
+                                //data-toggle="collapse"
+                                href="https://watafak88.com/#/playgame"
                                 role="button"
-                                aria-expanded="false"
-                                aria-controls="collapseExample2"
-                            >วิธีติดตั้ง ระบบ Android</a>
+                                //aria-expanded="false"
+                                //aria-controls="collapseExample2"
+                            >เข้าเล่นผ่านเว็บไซต์</a>
 
                             <div className="collapse mt-4" id="collapseExample2">
                                 <div className="item active">
@@ -113,21 +111,6 @@ function download() {
                 </div>
             </div>
 
-            
-            {/* <div className="border-danger p-3">
-                <ul className="text-left">
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  สมัครง่ายๆ แค่คลิก ระบบเราทำงานอัติโนมัติภายใน 1 นาทีเท่านั้น</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  ฝาก-ถอน ระบบอัติโนมัติ AUTO 1 นาที ด้วยตัวคุณเอง</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  รองรับเมนูภาษาไทย เล่นพนันผ่านมือถือได้</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  สำนักงานที่เป็นรูปธรรมจริงๆ มีช่องทาง การติดต่อมากมาย </li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  ฝาก-ถอนผ่านหน้าเว็บ อัตโนมัติ 1 นาทีเท่านั้น</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  Call Center ตลอด 24 ชั่วโมง รองรับการสอบถาม ปรึกษาและสมัครได้ตลอดเวลา</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  ซื่อสัตย์ เชื่อถือได้ การันตี การเงินมั่นคง 100%</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  มี เกมส์มากมาย และอื่นๆ แบบสดๆ ให้เล่นได้ในไอดีเดียวกัน</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  การเงินมั่นคง จ่ายเร็ว จ่ายไว จ่ายไม่อั้น</li>
-                    <li><i className="fa fa-check-circle-o" aria-hidden="true"></i>  เล่นเกมส์ SLOT พร้อมโปรโมชั่นดีอีกมากมาย</li>
-                </ul>
-            </div> */}
         </div>
     )
 }

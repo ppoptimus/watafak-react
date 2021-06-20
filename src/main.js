@@ -22,18 +22,30 @@ function Main() {
   return (
     <div className="mb-5">
       {/* Announcement*/}
-      <div id="announcement" className="container mt-4">
+      <div id="announcement" className="container">
         <h6>
           <marquee className="marquee1">
             <i className="fa fa-trophy"></i>
-            เปิดให้บริการเต็มรูปแบบเร็วๆ นี้
+            เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            ระบบฝากถอน อัตโนมัติดีที่สุดในประเทศไทย&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>
+            โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
           </marquee>
         </h6>
       </div>
 
       <Carrousel_main />
 
-      {/* <Jackpot /> */}
+      <Jackpot />
 
       <div className="view_port">
         <div className="cylon_eye" />
@@ -345,12 +357,10 @@ function Main() {
           <div className="row">
             <div className="col-lg-6">
               <h4 className="text-white text-left">
-                คาสิโนออนไลน์ (Casino online) สล็อต (Slot) เกมส์ยิงปลา
-                WATAFAK888 จากหลากหลายค่ายเกมส์ดัง <br />
+                PGSLOT คาสิโนออนไลน์ (Casino online) สล็อต (Slot) เกมส์ยิงปลา
+                จาก WATAFAK88 <br />
               </h4>
-              <h5 className="text-white-50">
-                SlotXo / PG / Joker / Live22 / Epic Win
-              </h5>
+              
               <p
                 className="text-white-50 text-left"
                 style={{ fontSize: 'large' }}
@@ -362,9 +372,8 @@ function Main() {
                 แจกฟรีเครดิต
               </p>
               <p>
-                #WATAFAK888 | #slotxo | #pgslot | #amb | poker | #jili |
-                #superslot | #joker123 | #spadegaming | #AskMeBet | #pragmatic |
-                #play | #เกมยิงปลา #ambbo | #slot | #slotonline | #casino |
+                #WATAFAK88 | #pgslot | #amb | poker |#joker123 | #AskMeBet |
+                #เกมยิงปลา #ambbo | #slot | #slotonline | #casino |
                 <span onClick={onLogin}> #admin</span>
               </p>
             </div>
@@ -372,7 +381,7 @@ function Main() {
               <p className=" text-center">
                 <a href="#" target="_blank">
                   <img
-                    src="https://qr-official.line.me/sid/M/486fpcll.png"
+                    src="img/qrline.png"
                     alt="line"
                     className="img-fluid"
                     style={{ width: '50%' }}
@@ -382,7 +391,7 @@ function Main() {
               <p className="row float-right"></p>
               <div className="sign text-center">
                 <h4>
-                  <a href="https://lin.ee/Cg7O5nx" target="_blank">
+                  <a href="https://lin.ee/bDb5ic7" target="_blank">
                     <img src="img/lineicon_s.png" alt="line watafak"></img>
                   </a>
                   ให้บริการตลอด<span className="fast-flicker"> 24 </span>
@@ -437,15 +446,15 @@ function Main() {
 
       {/* Snow Flakes */}
       <div className="snowflakes" aria-hidden="true">
-        <div className="snowflake">COMING SOON</div>
+        <div className="snowflake">❅</div>
         <div className="snowflake">❅</div>
         <div className="snowflake">❆</div>
-        <div className="snowflake">COMING SOON</div>
         <div className="snowflake">❅</div>
-        <div className="snowflake">COMING SOON</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❄</div>
         <div className="snowflake">❄</div>
         <div className="snowflake">❅</div>
-        <div className="snowflake">COMING SOON</div>
+        <div className="snowflake">❄</div>
         <div className="snowflake">❄</div>
       </div>
     </div>

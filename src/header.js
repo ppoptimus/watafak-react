@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './header.css'
 
 export default function Header() {
     return (
@@ -12,7 +13,7 @@ export default function Header() {
             <div className="col-lg-auto text-center d-md-block d-sm-block mr-4">
               <a
                 style={{ color: '#fff' }}
-                href="https://lin.ee/Cg7O5nx"
+                href="https://lin.ee/bDb5ic7"
                 target="_blank"
               >
                 <strong>@LINE | ให้บริการตลอด 24 ชั่วโมง</strong>
@@ -20,18 +21,23 @@ export default function Header() {
             </div>
           </div>
 
-          <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-5 bg-header border-primary1 justify-content-center">
+          <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-3 bg-header border-primary1 justify-content-center">
             <div className="container m-0">
               {/*nav mobile*/}
-              <Link className="navbar-brand" to="/">
+              {/* <Link className="navbar-brand" to="/">
                 <img
                   className="d-block d-sm-block d-md-block d-lg-none d-xl-none"
-                  src="img/menu/logo-nav1.png"
+                  src="img/menu/logomini.png"
                   alt=""
                   width={50}
                   height="auto;"
                 />
-              </Link>
+              </Link> */}
+              <Link className='navbar-brand d-block d-sm-block d-md-block d-lg-none d-xl-none' to='/'>
+							<img src='img/menu/logomini.png' width={50} className='d-inline-block align-center' alt='' />
+							<span className="navtext flip ml-1">Watafak88</span>
+							
+						</Link>
               <button
                 type="button"
                 className="navbar-toggler navbar-dark"
@@ -100,7 +106,7 @@ export default function Header() {
                       </Link>
                       <a
                         role="button"
-                        href="https://lin.ee/Cg7O5nx"
+                        href="https://lin.ee/bDb5ic7"
                         target="_blank"
                         className="btn-modal"
                       >
@@ -118,6 +124,15 @@ export default function Header() {
               {/*nav desktop*/}
               <div className="collapse navbar-collapse text-center">
                 <ul className="navbar-nav font-weight-bolder text-center mx-auto">
+                <li className="nav-item">
+                    <Link
+                      to="/"
+                      target="_blank"
+                      className="btn btn-bg2"
+                    >
+                      <p className="font-navmobile">หน้าหลัก</p>
+                    </Link>
+                  </li>
                   <li className="nav-item">
                     <Link to="register" className="btn btn-bg1">
                       <p className="font-navmobile">สมัครสมาชิก</p>
@@ -133,15 +148,7 @@ export default function Header() {
                       <p className="font-navmobile">เล่นเกมส์</p>
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      href="https://lin.ee/I1ww4mL"
-                      target="_blank"
-                      className="btn btn-bg2"
-                    >
-                      <p className="font-navmobile">เครดิตฟรี</p>
-                    </a>
-                  </li>
+                  
 
                   <li className="nav-item nav-logo m-3">
                     <Link
@@ -173,7 +180,7 @@ export default function Header() {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="https://lin.ee/Cg7O5nx"
+                      href="https://lin.ee/bDb5ic7"
                       target="_blank"
                       className="btn btn-bg2"
                     >

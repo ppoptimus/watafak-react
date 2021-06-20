@@ -14,8 +14,9 @@ export default function GenerateJackpot() {
   const generate = () => {
     for (let i = 0; i < count; i++) {
       //---user_id
+      let intro = ['06', '08', '09']
       let running = Math.floor(Math.random() * 29) + 1;
-      let user_id = "2021" + ("000" + running).slice(-3) + "XXX";
+      let user_id = "WAT" + ("000" + running).slice(-4) + "XXXX";
 
       //--date
       let today = new Date(); //
@@ -39,7 +40,7 @@ export default function GenerateJackpot() {
       );
 
       //--game img
-      let img = "img" + (Math.floor(Math.random() * 8) + 1);
+      let img = "logo-pg-slot";
 
       const jackpotRef = Firebase.database().ref("Jackpot");
       const list = {
