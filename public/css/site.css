@@ -961,7 +961,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: white !important;
-  padding: .875rem .85rem !important;
+  padding: .675rem .55rem !important;
   height: 50px;
 }
 
@@ -970,7 +970,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   margin: auto 4px auto 4px;
-  padding: .875rem .85rem !important;
+  padding: .675rem .55rem !important;
   height: 50px;
 }
 
