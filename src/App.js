@@ -1,4 +1,4 @@
-import { Link, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Main from "./main";
 import Promotion from "./promotion";
 import Article from "./article";
@@ -6,8 +6,8 @@ import Download from "./download";
 import AllJackpot from './jackpot-all'
 import GenerateJackpot from "./jackpot-generate";
 import Header from "./header";
-import Footer_desktop from "./footer-desktop";
-import Footer_Mobile from "./footer-mobile";
+import FooterDesktop from "./footer-desktop";
+import FooterMobile from "./footer-mobile";
 import Login from "./login";
 import PlayGame from "./playGame";
 import Register from "./register";
@@ -48,7 +48,7 @@ function App() {
         </Route>
       </Switch>
 
-      <Footer_desktop />
+      <FooterDesktop />
 
       {/* Marquee-game */}
       {/* <div className="container-marq">
@@ -104,7 +104,7 @@ function App() {
         </a>
       </div>
 
-      <Footer_Mobile />
+      <FooterMobile />
     </div>
   );
 }
