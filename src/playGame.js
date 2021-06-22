@@ -7,11 +7,12 @@ export default function PlayGame() {
       <Iframe
         url="https://pggame.autoplay.cloud/?prefix=V0FU"
         width="100%"
-        height="550"
+        height="800"
         id="myId"
         className="text-center"
-        display="initial"
         position="relative"
+        frameBorder="0"
+        display="block"
       />
     </div>
   );
