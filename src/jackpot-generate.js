@@ -1,14 +1,17 @@
-import React, { useState, lazy } from "react"
+import React, { useState } from "react"
 import ShowJackpotAll from "./jackpot-all"
 import Firebase from "./utils/firebase"
+import JackpotManualHook from "./jackpot-manual-hook"
+//import JackpotManual from "./jackpot-manual"
+
 
 export default function GenerateJackpot() {
-	const [count, setCount] = useState("")
-	
-	const handleOnChange = (e) => {
+	let [count, setCount] = useState("")
+	count = count > 100 ? 100 : count
+
+	const handleOnCountChange = (e) => {
 		setCount(e.target.value)
 	}
-	count = count > 100 ? 100 : count
 
 	const generate = () => {
 		for (let i = 0; i < count; i++) {
@@ -58,19 +61,33 @@ export default function GenerateJackpot() {
 		const jackpotList = Firebase.database().ref("Jackpot")
 		jackpotList.remove()
 	}
-	//---------------------------//
+	//----------------------------------------------------------------------------------------------------------------//
 	return (
 		<div className='container mt-5 mb-6 '>
 			<div className='row d-flex align-content-center'>
 				<div className='m-3'>
 					<div>ระบุจำนวนผู้ถอน</div>
-					<input type='number' className='form-control w-50 m-1' onChange={handleOnChange} value={count} />
+					<input type='number' className='form-control w-50 m-1' onChange={handleOnCountChange} value={count} />
 					<button type='submit' className='btn btn-success m-1' onClick={generate}>
 						เพิ่ม
 					</button>
 					<button type='delete' className='btn btn-danger m-1' onClick={deleteAll}>
 						เคลียร์ทั้งหมด
 					</button>
+
+					<button
+						className='btn btn-secondary m-1'
+						type='button'
+						data-toggle='collapse'
+						data-target='#defind'
+						aria-expanded='false'
+						aria-controls='defind'>
+						กำหนดเอง
+					</button>
+
+					<div className='collapse mt-2' id='defind'>
+						<JackpotManualHook/>
+					</div>
 				</div>
 			</div>
 

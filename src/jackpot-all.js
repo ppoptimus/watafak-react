@@ -25,7 +25,7 @@ function AllJackpot() {
             <div className="jackpot-card" key={i.id}>
               <div className="row col-12 pr-0 pl-0 middle">
                 <div className="col-5 text-center pr-0 pl-0">
-                  <p className="mb-0">{i.user_id}XXXX</p>
+                  <p className="mb-0">{i.user_id}</p>
                   <p className="mb-0 text-point">
                     {i.showdate} {i.time}
                   </p>
