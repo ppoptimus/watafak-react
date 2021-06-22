@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Firebase from "./utils/firebase";
 
 function AllJackpot() {
-  const [jackpotList, setJackpotList] = useState();
+  const [jackpotList, setJackpotList] = useState('');
 
   useEffect(() => {
     const jackpotRef = Firebase.database().ref("Jackpot");
@@ -19,7 +19,9 @@ function AllJackpot() {
   return (
     <div className="container mb-6">
       {jackpotList
-        ? jackpotList.map((i) => (
+        ? jackpotList
+		.sort((a, b) => a.time > b.time ? 1 : -1)
+		.map((i) => (
             <div className="jackpot-card" key={i.id}>
               <div className="row col-12 pr-0 pl-0 middle">
                 <div className="col-5 text-center pr-0 pl-0">

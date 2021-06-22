@@ -3,8 +3,8 @@ import ShowJackpotAll from "./jackpot-all"
 import Firebase from "./utils/firebase"
 
 export default function GenerateJackpot() {
-	var [count, setCount] = useState("")
-
+	const [count, setCount] = useState("")
+	
 	const handleOnChange = (e) => {
 		setCount(e.target.value)
 	}
@@ -12,6 +12,7 @@ export default function GenerateJackpot() {
 
 	const generate = () => {
 		for (let i = 0; i < count; i++) {
+			//#region defind data --------------------------
 			//---user_id
 			let arr = ["06", "08", "09"]
 			let random = Math.floor(Math.random() * arr.length)
@@ -38,6 +39,7 @@ export default function GenerateJackpot() {
 
 			//--game img
 			let img = "logo-pg-slot"
+			//#endregion defind data ----------------------------
 
 			const jackpotRef = Firebase.database().ref("Jackpot")
 			const list = {
