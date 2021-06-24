@@ -2,7 +2,7 @@ import React from "react";
 
 function article() {
     return (
-      <div className="mb-5">
+      <div className="container mb-5">
         <div id="roma" name="roma" className="jumbotron p-4 m-4 bg-art">
           <h1 className="">ROMA</h1>
           <img
@@ -24,7 +24,7 @@ function article() {
               aria-expanded="false"
               aria-controls="collapseExample1"
             >
-              See more
+              ดูเพิ่มเติม
             </a>
           </p>
           <div className="collapse" id="collapseExample1">
@@ -74,7 +74,7 @@ function article() {
               aria-expanded="false"
               aria-controls="collapseExample2"
             >
-              See more
+              ดูเพิ่มเติม
             </a>
           </p>
           <div className="collapse" id="collapseExample2">
@@ -143,7 +143,7 @@ function article() {
               aria-expanded="false"
               aria-controls="fish2"
             >
-              See more
+              ดูเพิ่มเติม
             </a>
           </p>
           <div className="collapse" id="fish2">
@@ -212,7 +212,7 @@ function article() {
               aria-expanded="false"
               aria-controls="collapseExample3"
             >
-              See more
+              ดูเพิ่มเติม
             </a>
           </p>
           <div className="collapse" id="collapseExample3">
@@ -280,7 +280,7 @@ function article() {
               aria-expanded="false"
               aria-controls="pg1"
             >
-              See more
+              ดูเพิ่มเติม
             </a>
           </p>
           <div className="collapse" id="pg1">
@@ -383,7 +383,7 @@ function article() {
               aria-expanded="false"
               aria-controls="bit"
             >
-              See more
+              ดูเพิ่มเติม
             </a>
           </p>
           <div className="collapse" id="bit">
