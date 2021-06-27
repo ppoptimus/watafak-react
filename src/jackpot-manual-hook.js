@@ -30,13 +30,13 @@ export default function JackpotManualHook() {
 		<div>
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<div className='form-group'>
-					<input {...register("user_id")} className='form-control' placeholder='user id' />
+					<input {...register("user_id")} className='form-control' maxlength="13" placeholder='user id' />
 				</div>
 				<div className='form-group'>
-					<input {...register("showdate")} type="text" className='form-control' placeholder='วันที่ถอน' />
+					<input {...register("showdate")} type="text" className='form-control' placeholder='วันที่ถอน ' />
 				</div>
 				<div className='form-group'>
-					<input {...register("time")} className='form-control' placeholder='เวลา' />
+					<input {...register("time")} className='form-control' placeholder='เวลา รูปแบบ hh.mm' />
 				</div>
 				<div className='form-group'>
 					<input {...register("withdraw")} className='form-control' placeholder='จำนวนเงิน' />
