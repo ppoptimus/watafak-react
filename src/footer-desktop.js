@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Footer_desktop() {
 	return (
 		<div>
-			<footer id='footerdesktop' className='dk-footer d-none d-sm-none d-md-none d-lg-block mb-6' style={{ marginTop: "5rem" }}>
+			<footer id='footerdesktop' className=' d-none d-sm-none d-md-none d-lg-block mb-6' style={{ marginTop: "5rem" }}>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12 col-lg-4'>
