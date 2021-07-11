@@ -1,7 +1,16 @@
-import React from "react";
-import Carrousel_main from "./carousel";
+import React, { lazy, Suspense } from "react";
+//import Carrousel_main from "./carousel";
 import Jackpot from './jackpot-top5';
 import { useHistory } from "react-router-dom";
+
+const Carrousel_main = lazy(() => import('./carousel'));
+const renderLoader = () => <p>Loading</p>;
+
+const DetailsComponent = () => (
+  <Suspense fallback={renderLoader()}>
+    <Carrousel_main />
+  </Suspense>
+)
 
 function Main() {
   let history = useHistory();
@@ -43,7 +52,7 @@ function Main() {
         </h6>
       </div>
 
-      <Carrousel_main />
+      <DetailsComponent />
 
       <Jackpot />
 

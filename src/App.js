@@ -50,36 +50,6 @@ function App() {
 
       <FooterDesktop />
 
-      {/* Marquee-game */}
-      {/* <div className="container-marq">
-        <div className="marquee-game">
-          <div className="img-marq">
-            <img src="img/game/game1.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game2.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game3.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game4.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game5.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game6.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game7.png" className="img-box1" />
-          </div>
-          <div className="img-marq">
-            <img src="img/game/game8.png" className="img-box1" />
-          </div>
-        </div>
-      </div> */}
-
       <div className="line-button">
         <a href="https://lin.ee/bDb5ic7" target="blank">
           <img
