@@ -6,14 +6,16 @@ const Jackpot = () => {
 	const [jackpot5, setJackpot5] = useState()
 
 	useEffect(() => {
-		const jackpotRef = Firebase.database().ref("Jackpot")
+		const jackpotRef = Firebase.database().ref("Jackpot").orderByChild("showdate").limitToLast(5)
 		var count = 0
 		jackpotRef.on("value", (snapshot) => {
 			const data = snapshot.val()
 			const jackpot5 = []
 			for (let id in data) {
 				count++
+				
 				jackpot5.push({ id, ...data[id] })
+				console.log(data[id].showdate)
 				if (count >= 5) {
 					break
 				}
