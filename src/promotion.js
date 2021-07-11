@@ -10,7 +10,7 @@ function promotion() {
 
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/1-500.jpg"
+            src="img/promotion/1-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>
@@ -25,7 +25,7 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/2-500.jpg"
+            src="img/promotion/2-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>
@@ -40,7 +40,7 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/3-500.jpg"
+            src="img/promotion/3-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>
@@ -55,7 +55,7 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/4-500.jpg"
+            src="img/promotion/4-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>
@@ -70,7 +70,7 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/5-500.jpg"
+            src="img/promotion/5-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>
@@ -85,7 +85,7 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/6-500.jpg"
+            src="img/promotion/6-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>
@@ -100,7 +100,7 @@ function promotion() {
       
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/11-500.jpg"
+            src="img/promotion/11-1080.jpg"
             className="card-img-top"
             alt="..."
           ></img>

@@ -30,9 +30,9 @@ const Carrousel_main = () => {
                 src="img/promotion/1-500.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
-                imagesizes="50vw"
-                width="500px"
-                height="500px"
+                // imagesizes="50vw"
+                // width="500px"
+                // height="500px"
               ></img>
             </div>
             <div className="carousel-item">
@@ -43,9 +43,9 @@ const Carrousel_main = () => {
                 src="img/promotion/5-500.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
-                imagesizes="50vw"
-                width="500px"
-                height="500px"
+                // imagesizes="50vw"
+                // width="500px"
+                // height="500px"
               ></img>
             </div>
             <div className="carousel-item">
@@ -56,9 +56,9 @@ const Carrousel_main = () => {
                 src="img/promotion/3-500.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
-                imagesizes="50vw"
-                width="500px"
-                height="500px"
+                // simagesizes="50vw"
+                // width="500px"
+                // height="500px"
               ></img>
             </div>
           </div>
