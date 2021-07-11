@@ -3,7 +3,7 @@ import React, { useState } from "react"
 export default function JackpotManual() {
 	let [userId, setUserId] = useState("")
 	let [date, setDate] = useState("")
-	let [time, setTime] = useState("")
+	//let [time, setTime] = useState("")
 	let [withdraw, setWithdraw] = useState("")
 
 	
@@ -13,9 +13,9 @@ export default function JackpotManual() {
 	const setdate = (e) => {
 		setDate(e.target.value)
 	}
-	const settime = (e) => {
-		setTime(e.target.value)
-	}
+	// const settime = (e) => {
+	// 	setTime(e.target.value)
+	// }
 	const setwithdraw = (e) => {
 		setWithdraw(e.target.value)
 	}
@@ -29,9 +29,9 @@ export default function JackpotManual() {
 				<div className='form-group'>
 					<input type='text' className='form-control' placeholder='วันที่ถอน' onChange={setdate} value={date} />
 				</div>
-				<div className='form-group'>
+				{/* <div className='form-group'>
 					<input type='text' className='form-control' placeholder='เวลา' onChange={settime} value={time} />
-				</div>
+				</div> */}
 				<div className='form-group'>
 					<input type='text' className='form-control' placeholder='จำนวนเงิน' onChange={setwithdraw} value={withdraw} />
 				</div>

@@ -13,6 +13,13 @@ export default function GenerateJackpot() {
 		setCount(e.target.value)
 	}
 
+	const test = () => {
+		function getRandomBetween(min, max) {
+			return Math.floor(Math.random() * (max - min) + min) * 10;
+		  }
+		  console.log(getRandomBetween(10,1700));
+	}
+
 	const generate = () => {
 		for (let i = 0; i < count; i++) {
 			//#region defind data --------------------------
@@ -22,9 +29,9 @@ export default function GenerateJackpot() {
 			let user_id = "WAT" + arr[random] + Math.floor(1000 + Math.random() * 9000) + "XXXX"
 
 			//--date
-			let today = new Date() //
-			let lastday = today.setDate(today.getDate() - 1)
-			let showdate = new Intl.DateTimeFormat("en-GB").format(lastday)
+			let showdate = new Date().toISOString().slice(0, 10);
+			//let lastday = today.setDate(today.getDate() - 1)
+			//let showdate = new Intl.DateTimeFormat("en-GB").format(today)
 
 			//--time
 			let hh = Math.floor(Math.random() * 24)
@@ -38,7 +45,7 @@ export default function GenerateJackpot() {
 				style: "currency",
 				currency: "THB",
 			})
-			let withdraw = formatter.format((Math.floor(Math.random() * 2100) + 1) * 10)
+			let withdraw = formatter.format((Math.floor(Math.random() * 1700) + 1) * 10)
 
 			//--game img
 			let img = "logo-pg-slot"
@@ -49,7 +56,6 @@ export default function GenerateJackpot() {
 				i,
 				user_id,
 				showdate,
-				time,
 				withdraw,
 				img,
 			}

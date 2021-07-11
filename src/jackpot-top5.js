@@ -28,14 +28,14 @@ const Jackpot = () => {
 
 			{jackpot5 ? (
 				jackpot5
-					.sort((a, b) => (a.time > b.time ? 1 : -1))
+					.sort((a, b) => (a.showdate < b.showdate ? 1 : -1))
 					.map((i) => (
 						<div className='jackpot-card' key={i.id}>
 							<div className='row col-12 pr-0 pl-0 middle'>
 								<div className='col-5 text-center pr-0 pl-0'>
 									<p className='mb-0'>{i.user_id}</p>
 									<p className='mb-0 text-point'>
-										{i.showdate} {i.time}
+										{i.showdate} 
 									</p>
 								</div>
 								<div className='col-4'>

@@ -5,7 +5,7 @@ import Firebase from "./utils/firebase"
 export default function JackpotManualHook() {
 	const { register, handleSubmit } = useForm()
 	const onSubmit = (data) => {
-		if (data.user_id === "" || data.time === "" || data.showdate === "" || data.withdraw === "") {
+		if (data.user_id === "" || data.showdate === "" || data.withdraw === "") {
 			alert('ใส่ข้อมูลให้ครบ')
 		} else {
             let formatter = new Intl.NumberFormat("th-TH", {
@@ -17,7 +17,6 @@ export default function JackpotManualHook() {
 			const list = {
 				user_id: data.user_id,
 				showdate: data.showdate,
-				time: data.time,
 				withdraw: formatter.format(data.withdraw),
 				img: "logo-pg-slot",
 			}
@@ -30,14 +29,14 @@ export default function JackpotManualHook() {
 		<div>
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<div className='form-group'>
-					<input {...register("user_id")} className='form-control' maxlength="13" placeholder='user id' />
+					<input {...register("user_id")} className='form-control' maxLength='13' placeholder='user id' />
 				</div>
 				<div className='form-group'>
-					<input {...register("showdate")} type="text" className='form-control' placeholder='วันที่ถอน ' />
+					<input {...register("showdate")} type="text" className='form-control' placeholder='วันที่ถอน รูปแบบ YYYY-MM-DD' />
 				</div>
-				<div className='form-group'>
+				{/* <div className='form-group'>
 					<input {...register("time")} className='form-control' placeholder='เวลา รูปแบบ hh.mm' />
-				</div>
+				</div> */}
 				<div className='form-group'>
 					<input {...register("withdraw")} className='form-control' placeholder='จำนวนเงิน' />
 				</div>

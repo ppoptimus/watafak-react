@@ -27,12 +27,12 @@ const Carrousel_main = () => {
                 onClick={allPromotion}
                 rel="preload"
                 as="image"
-                src="img/promotion/1-500.jpg"
+                src="img/promotion/1-1080.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
-                // imagesizes="50vw"
-                // width="500px"
-                // height="500px"
+                //imagesizes="50vw"
+                width="500px"
+                height="500px"
               ></img>
             </div>
             <div className="carousel-item">
@@ -40,12 +40,12 @@ const Carrousel_main = () => {
                 onClick={allPromotion}
                 rel="preload"
                 as="image"
-                src="img/promotion/5-500.jpg"
+                src="img/promotion/5-1080.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
-                // imagesizes="50vw"
-                // width="500px"
-                // height="500px"
+                //imagesizes="50vw"
+                width="500px"
+                height="500px"
               ></img>
             </div>
             <div className="carousel-item">
@@ -53,12 +53,12 @@ const Carrousel_main = () => {
                 onClick={allPromotion}
                 rel="preload"
                 as="image"
-                src="img/promotion/3-500.jpg"
+                src="img/promotion/3-1080.jpg"
                 className="img-fluid rounded"
                 alt="ว๊อดเดอะฟัค โปรโมชั่น"
-                // simagesizes="50vw"
-                // width="500px"
-                // height="500px"
+                //imagesizes="50vw"
+                width="500px"
+                height="500px"
               ></img>
             </div>
           </div>

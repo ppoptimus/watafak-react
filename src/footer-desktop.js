@@ -8,7 +8,7 @@ export default function Footer_desktop() {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12 col-lg-4'>
-							<div className='dk-footer-box-info'>
+							<div className='dk-footer-box-info mt-5'>
 								<a href='index.html' className='footer-logo'>
 									<img src='img/footer1.png' alt='footer_logo' className='img-fluid' />
 								</a>
