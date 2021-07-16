@@ -11,6 +11,12 @@ import FooterMobile from "./footer-mobile";
 import Login from "./login";
 import PlayGame from "./playGame";
 import Register from "./register";
+import Pro_1 from "./promotions/pro-1";
+import Pro_2 from "./promotions/pro-2";
+import Pro_3 from "./promotions/pro-3";
+import Pro_4 from "./promotions/pro-4";
+import Pro_5 from "./promotions/pro-5";
+import Pro_6 from "./promotions/pro-6";
 
 function App() {
   return (
@@ -45,6 +51,25 @@ function App() {
         </Route>
         <Route exact path="/register">
           <Register />
+        </Route>
+
+        <Route exact path="/pro1">
+          <Pro_1 />
+        </Route>
+        <Route exact path="/pro2">
+          <Pro_2 />
+        </Route>
+        <Route exact path="/pro3">
+          <Pro_3 />
+        </Route>
+        <Route exact path="/pro4">
+          <Pro_4 />
+        </Route>
+        <Route exact path="/pro5">
+          <Pro_5 />
+        </Route>
+        <Route exact path="/pro6">
+          <Pro_6 />
         </Route>
       </Switch>
 

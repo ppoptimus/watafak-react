@@ -1,5 +1,6 @@
 import React from 'react';
 import './promotion.css';
+import { Link } from "react-router-dom";
 
 function promotion() {
     
@@ -15,11 +16,11 @@ function promotion() {
             alt="..."
           ></img>
           <div className="card-body">
-            <h5 className="card-title">ไม่รับโบนัส ไม่ต้องทำยอด</h5>
+            <h5 className="card-title">โปรน้องใหม่ Watafak88 รับโบนัสสูงสุด 50%</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <Link to="/pro1" className="btn btn-bg1">
               รายละเอียด
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -30,11 +31,11 @@ function promotion() {
             alt="..."
           ></img>
           <div className="card-body">
-            <h5 className="card-title">ไม่รับโบนัส ได้เครดิตคืน</h5>
+            <h5 className="card-title">สมัครสมาชิก รับโบนัสสูงสุด 50%</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <Link to="/pro2" className="btn btn-bg1">
               รายละเอียด
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -45,11 +46,11 @@ function promotion() {
             alt="..."
           ></img>
           <div className="card-body">
-            <h5 className="card-title">เด็กใหม่รับโบนัสเพิ่ม</h5>
+            <h5 className="card-title">CASH BACK คืนยอดเสีย 10%</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <Link to="/pro3" className="btn btn-bg1">
               รายละเอียด
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -60,11 +61,11 @@ function promotion() {
             alt="..."
           ></img>
           <div className="card-body">
-            <h5 className="card-title">ชวนเพื่อนได้โบนัสเพิ่มอีก</h5>
+            <h5 className="card-title">ฝากทั้งวัน รับโบนัสทั้งวัน</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <Link to="/pro4" className="btn btn-bg1">
               รายละเอียด
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -75,11 +76,11 @@ function promotion() {
             alt="..."
           ></img>
           <div className="card-body">
-            <h5 className="card-title">ฝากทั้งวัน รับโบนัสไม่อั้น</h5>
+            <h5 className="card-title">ชวนเพื่อนรับโบนัส 100</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <Link to="/pro5" className="btn btn-bg1">
               รายละเอียด
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -90,11 +91,11 @@ function promotion() {
             alt="..."
           ></img>
           <div className="card-body">
-            <h5 className="card-title">สมาชิกใหม่ รับโบนัสเพิ่ม</h5>
+            <h5 className="card-title">ฝากขั้นต่ำ 1 บาท</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <Link to="/pro6" className="btn btn-bg1">
               รายละเอียด
-            </a>
+            </Link>
           </div>
         </div>
       
