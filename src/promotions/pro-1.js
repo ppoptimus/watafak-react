@@ -2,26 +2,26 @@ import React from "react";
 
 export default function Pro_1() {
   return (
-    <div className="container text-center mb-6">
+    <div className="container text-center mb-6 col-12">
       <div className="row justify-content-around">
         <img 
           src="img/promotion/1-1080.jpg"
           className="card-img-top"
           alt="..."
-          style={{width: '-webkit-fill-available'}}
         />
       </div>
-      <div className="row  justify-content-around">
-        <div className="card bg-dark">
+      <div className="row justify-content-around mt-3">
+        <div className="card bg-primary text-left text-white" style={{width:'-webkit-fill-available'}}>
           <div className="card-header">
-            <h2>โปรน้องใหม่ Watafak88 รับโบนัสสูงสุด 50%</h2>
+            <h5>โปรน้องใหม่ Watafak88 รับโบนัสสูงสุด 50%</h5>
           </div>
           <div className="card-body">
-            <h5 className="card-title">
+            <h6 className="card-title">
               <strong>
-                สมาชิกใหม่รับโบนัส 50% โปรสมัครสมาชิกใหม่รับ 50% เงื่อนไข :
+                โปรสมัครสมาชิกใหม่รับ 50% เงื่อนไข :
               </strong>
-            </h5>
+              
+            </h6>
             <div className="card-text">
               <p>
                 1. ผู้ที่สมัครสมาชิกใหม่จะต้องกรอกข้อมูลชื่อ-นามสกุล
@@ -35,6 +35,7 @@ export default function Pro_1() {
               </p>
             </div>
           </div>
+        
         </div>
       </div>
     </div>

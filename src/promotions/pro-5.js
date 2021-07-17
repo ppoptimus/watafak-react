@@ -2,28 +2,27 @@ import React from "react";
 
 export default function Pro_5() {
   return (
-    <div className="container text-center mb-6">
+    <div className="container text-center mb-6 col-12">
       <div className="row card1 justify-content-around">
         <img
           src="img/promotion/5-1080.jpg"
           className="card-img-top"
           alt="..."
-          //   style={{ width: "-webkit-fill-available" }}
         />
       </div>
-      <div className="row  justify-content-around">
-        <div className="card bg-dark">
+      <div className="row justify-content-around mt-3">
+        <div className="card bg-info text-left text-white" style={{width:'-webkit-fill-available'}}>
           <div className="card-header">
-            <h2>ชวนเพื่อนรับโบนัส 100</h2>
+            <h5>ชวนเพื่อนรับโบนัส 100</h5>
           </div>
           <div className="card-body">
-            <h5 className="card-title">
+            <h6 className="card-title">
               <strong>
                 ชวนเพื่อนสมัคร รับฟรี 100 เครดิต ชวนเพื่อนสมัคร รับฟรี 100
                 เครดิต ต่อเพื่อน 1 คน ทำยอด 300 ถอนได้ทันที (สูงสุด 10 เท่า)
-                เงื่อนไข :
+                <p>เงื่อนไข :</p>
               </strong>
-            </h5>
+            </h6>
             <div className="card-text">
               <p>1. เข้าล็อคอินหน้าเว็บ เลือกหัวข้อ (แชร์ลิงก์รับพอยต์)</p>
               <p>
