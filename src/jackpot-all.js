@@ -47,7 +47,7 @@ function AllJackpot() {
 								</div>
 							</div>
 						))
-				: "No data"}
+				: "Loading.."}
 		</div>
 	)
 }

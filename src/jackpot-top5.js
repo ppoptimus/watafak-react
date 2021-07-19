@@ -55,7 +55,7 @@ const Jackpot = () => {
 						</div>
 					))
 			) : (
-				<p>"No data"</p>
+				<p>"Loading.."</p>
 			)}
 
 			<Link to='/alljackpot'>
