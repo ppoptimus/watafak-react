@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import Firebase from "./utils/firebase"
-var randomDate = require('random-datetime');
 
 function AllJackpot() {
 	const [jackpotList, setJackpotList] = useState("")
