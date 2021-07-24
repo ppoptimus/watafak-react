@@ -409,7 +409,7 @@ function Main() {
               </div>
               <p />
               <p className="row float-right"></p>
-              <ul className="list-inline bg-primary2 text-center">
+              {/* <ul className="list-inline bg-primary2 text-center">
                 <li className="list-inline-item">
                   <img
                     src="https://superslot1234.com/asset/web/img/TrueMoney.png"
@@ -446,7 +446,7 @@ function Main() {
                     alt=""
                   />
                 </li>
-              </ul>
+              </ul> */}
               <p />
             </div>
           </div>
