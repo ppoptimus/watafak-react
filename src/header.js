@@ -24,16 +24,6 @@ export default function Header() {
 
           <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-3 bg-header border-primary1 justify-content-center">
             <div className="container m-0">
-              {/*nav mobile*/}
-              {/* <Link className="navbar-brand" to="/">
-                <img
-                  className="d-block d-sm-block d-md-block d-lg-none d-xl-none"
-                  src="img/menu/logomini.png"
-                  alt=""
-                  width={50}
-                  height="auto;"
-                />
-              </Link> */}
               <Link className='navbar-brand d-block d-sm-block d-md-block d-lg-none d-xl-none' to='/'>
 							<img src='img/menu/logomini.png' width={50} className='d-inline-block align-center' alt='' />
 							<span className="navtext flip ml-1">Watafak88</span>
@@ -128,7 +118,6 @@ export default function Header() {
                 <li className="nav-item">
                     <Link
                       to="/"
-                      target="_blank"
                       className="btn btn-bg2"
                     >
                       <p className="font-navmobile">หน้าหลัก</p>

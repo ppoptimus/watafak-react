@@ -15,7 +15,6 @@ const Jackpot = () => {
 				count++
 				
 				jackpot5.push({ id, ...data[id] })
-				console.log(data[id].showdate)
 				if (count >= 5) {
 					break
 				}

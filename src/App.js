@@ -23,7 +23,6 @@ function App() {
     <div>
       <Header />
 
-      {/* Router */}
       <Switch>
         <Route exact path="/">
           <Main />
