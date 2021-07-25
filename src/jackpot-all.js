@@ -64,7 +64,7 @@ function AllJackpot() {
             ))
         : "Loading.."}
 
-      <div className="container mt-4 text-center">
+      <div className="container mt-4 text-center" style={{fontSize:'large'}}>
       <Pagination
         current={currentPage}
         total={totalPages - 1}
