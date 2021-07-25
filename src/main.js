@@ -35,9 +35,9 @@ function Main() {
         <h6>
           <marquee className="marquee1">
             <i className="fa fa-trophy"></i>
-            เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+            <b> PG SLOT</b> <b>watafak88</b>เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
-            มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย&nbsp; &nbsp;
+            มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
             สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
@@ -65,14 +65,14 @@ function Main() {
         <div className=" text-center  justify-content-center">
           <div className="container">
             <h3>
-              <strong style={{ color: 'blueviolet' }}>สล็อตออนไลน์</strong>
+              <strong style={{ color: 'blueviolet' }}>สล็อตออนไลน์ PG SLOT</strong>
             </h3>
             <h3>
               <strong style={{ color: 'blueviolet' }}>ทดลองเล่นสล็อตฟรี</strong>
             </h3>
             <p>
               สล็อตออนไลน์ ทดลองเล่นสล็อตฟรี สล็อตออนไลน์ ทดลองเล่นสล็อตฟรี
-              ที่เว็ป Watafak88 ที่ทำเงินสูงสุดในปัจจุบัน slotxo
+              ที่เว็ป <strong>Watafak88</strong> ที่ทำเงินสูงสุดในปัจจุบัน pgslot
               มีเกมสนุกๆให้เลือกเล่นมากมาย มีเกมส์ใหม่อัพเดตอยู่เสมอ
               แถมเกมที่เล่นยังสามารถทำเงินได้อีกด้วย
               ซึ่งเงินที่ได้จากการเล่นเกมสล็อตเป็นเงินจริง
@@ -248,7 +248,7 @@ function Main() {
             data-ride="carousel"
             style={{ width: '100%' }}
           >
-            <h1 className="float-left">บทความ</h1>
+            <h1 className="float-left">บทความ Watafak88</h1>
             <div className="carousel-inner d-block">
               <div className="carousel-item active">
                 <div className="row col-12">
