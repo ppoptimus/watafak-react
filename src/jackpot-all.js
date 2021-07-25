@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Firebase from "./utils/firebase";
-import ReactPaginate from "react-paginate";
+import Pagination from "react-responsive-pagination";
 
 function AllJackpot() {
   const [jackpotList, setJackpotList] = useState("");
 
+  //#region ----------------- set jackpot into Array ----------------//
   useEffect(() => {
     const jackpotRef = Firebase.database().ref("Jackpot");
 
@@ -19,21 +20,17 @@ function AllJackpot() {
       setJackpotList(jackpotList);
     });
   }, []);
+  //#endregion --------------------------------------------------------
 
-  const [pageNumber, setPageNumber] = useState(0);
-  const usersPerPage = 20;
-  const pagesVisited = pageNumber * usersPerPage;
-
-  const pageCount = Math.ceil(jackpotList.length / usersPerPage);
-  const changePage = ({ selected }) => {
-    setPageNumber(selected);
-  };
+  const usersPerPage = 10;
+  const totalPages = Math.ceil(jackpotList.length / usersPerPage);
+  const [currentPage, setCurrentPage] = useState(0);
 
   return (
     <div className="container mb-6 mt-5">
       {jackpotList
         ? jackpotList
-            .slice(pagesVisited, pagesVisited + usersPerPage)
+            .slice(currentPage * usersPerPage, (currentPage * usersPerPage) + usersPerPage)
             .map((i) => (
               <div className="jackpot-card" key={i.id}>
                 <div className="row col-12 pr-0 pl-0 middle">
@@ -67,19 +64,12 @@ function AllJackpot() {
             ))
         : "Loading.."}
 
-      <div className="container mt-4" style={{ textAlign: '-webkit-center' }}>
-        <ReactPaginate
-		style={{alignItems: 'center'}}
-          previousLabel={"Previous"}
-          nextLabel={"Next"}
-          pageCount={pageCount}
-          onPageChange={changePage}
-          containerClassName={"paginationBttns"}
-          previousLinkClassName={"btn-nav"}
-          nextLinkClassName={"btn-nav"}
-        //   disabledClassName={"paginationDisabled"}
-          activeClassName={"paginationActive"}
-        />
+      <div className="container mt-4 text-center">
+      <Pagination
+        current={currentPage}
+        total={totalPages - 1}
+        onPageChange={setCurrentPage}
+      />
       </div>
     </div>
   );
