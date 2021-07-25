@@ -7,7 +7,7 @@ function AllJackpot() {
 
   //#region ----------------- set jackpot into Array ----------------//
   useEffect(() => {
-    const jackpotRef = Firebase.database().ref("Jackpot");
+    const jackpotRef = Firebase.database().ref("Jackpot").limitToLast(300);
 
     jackpotRef.on("value", (snapshot) => {
       const data = snapshot.val();
@@ -66,6 +66,7 @@ function AllJackpot() {
 
       <div className="container mt-4 text-center" style={{fontSize:'large'}}>
       <Pagination
+      style={{color:'red'}}
         current={currentPage}
         total={totalPages - 1}
         onPageChange={setCurrentPage}
