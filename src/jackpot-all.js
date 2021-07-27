@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Firebase from "./utils/firebase";
 import Pagination from "react-responsive-pagination";
 
@@ -6,8 +6,8 @@ function AllJackpot() {
   const [jackpotList, setJackpotList] = useState("");
 
   //#region ----------------- set jackpot into Array ----------------//
+  const jackpotRef = Firebase.ref("Jackpot").limitToLast(300);
   useEffect(() => {
-    const jackpotRef = Firebase.ref("Jackpot").limitToLast(300);
 
     jackpotRef.on("value", (snapshot) => {
       const data = snapshot.val();

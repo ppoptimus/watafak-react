@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import Firebase from "./utils/firebase"
 
 const Jackpot = () => {
 	const [jackpot5, setJackpot5] = useState()
 
+	const jackpotRef = Firebase.ref("Jackpot").orderByChild("showdate").limitToLast(5)
 	useEffect(() => {
-		const jackpotRef = Firebase.ref("Jackpot").orderByChild("showdate").limitToLast(5)
-
 		jackpotRef.on("value", (snapshot) => {
 			const data = snapshot.val()
 			const jackpot5 = []
