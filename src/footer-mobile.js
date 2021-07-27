@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Footer_Mobile() {
 	return (
 		<div>
-			<div className='container d-sm-block d-md-block d-lg-none d-xl-none' style = {{ marginBottom: "5rem"}} >
+			<div className='container d-sm-block d-md-block d-lg-none d-xl-none' style={{ marginBottom: "5rem" }}>
 				<div className='row'>
 					<div className='col-md-12 col-lg-4'>
 						<a href='index.html' className='footer-logo'>
@@ -18,24 +18,26 @@ export default function Footer_Mobile() {
 					</div>
 				</div>
 				<div className='row'>
-					<h6>
-						<marquee className='marquee1'>
-							<i className='fa fa-trophy'></i>
-							เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
-							<i className='fa fa-trophy'></i>
-							มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย&nbsp; &nbsp;
-							<i className='fa fa-trophy'></i>
-							สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
-							<i className='fa fa-trophy'></i>
-							พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
-							<i className='fa fa-trophy'></i>
-							ระบบฝากถอน อัตโนมัติดีที่สุดในประเทศไทย&nbsp; &nbsp;
-							<i className='fa fa-trophy'></i>
-							สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
-							<i className='fa fa-trophy'></i>
-							โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
-						</marquee>
-					</h6>
+					<div id='announcement' className='container'>
+						<b>
+							<marquee className='marquee1'>
+								<i className='fa fa-trophy'></i>
+								<b> PG SLOT</b> <b>watafak88</b>เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+								<i className='fa fa-trophy'></i>
+								มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
+								<i className='fa fa-trophy'></i>
+								สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+								<i className='fa fa-trophy'></i>
+								พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
+								<i className='fa fa-trophy'></i>
+								ระบบฝากถอน อัตโนมัติดีที่สุดในประเทศไทย&nbsp; &nbsp;
+								<i className='fa fa-trophy'></i>
+								สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+								<i className='fa fa-trophy'></i>
+								โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
+							</marquee>
+						</b>
+					</div>
 				</div>
 			</div>
 			<div className='d-block d-sm-block d-md-block d-lg-none d-xl-none menu-mobile fixed-bottom'>
@@ -65,7 +67,7 @@ export default function Footer_Mobile() {
 						</Link>
 					</li>
 					<li>
-						<a href='https://lin.ee/bDb5ic7' target='blank' rel="noopener">
+						<a href='https://lin.ee/bDb5ic7' target='blank' rel='noopener'>
 							<i className='fa fa-address-card fa-navmobile' />
 							<p className='font-navmobile'>ติดต่อเรา</p>
 						</a>

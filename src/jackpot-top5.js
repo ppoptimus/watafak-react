@@ -7,12 +7,11 @@ const Jackpot = () => {
 
 	useEffect(() => {
 		const jackpotRef = Firebase.database().ref("Jackpot").orderByChild("showdate").limitToLast(5)
-		
+
 		jackpotRef.on("value", (snapshot) => {
 			const data = snapshot.val()
 			const jackpot5 = []
 			for (let id in data) {
-				
 				jackpot5.push({ id, ...data[id] })
 			}
 			setJackpot5(jackpot5)
@@ -31,15 +30,14 @@ const Jackpot = () => {
 							<div className='row col-12 pr-0 pl-0 middle'>
 								<div className='col-5 text-center pr-0 pl-0'>
 									<p className='mb-0'>{i.user_id}</p>
-									<p className='mb-0 text-point'>
-										{i.showdate} 
-									</p>
+									<p className='mb-0 text-point'>{i.showdate}</p>
 								</div>
 								<div className='col-4'>
 									<p className='mb-0'>แจ้งถอน</p>
 									<p className='mb-0 text-point'>
-										{i.withdraw} <img src='img/coin.png' className='img-fluid' alt='watafak88 coin' width="24px"
-                        height="24px" />
+										{i.withdraw}
+										{/* <img src='img/coin.png' className='img-fluid' alt='watafak88 coin' width='24px' height='24px' /> */}
+										&nbsp;<b><i className="fa fa-money" aria-hidden="true" style={{color: '#eacb37'}} /></b>
 									</p>
 								</div>
 								<div className='col-3 pr-1 pl-0'>

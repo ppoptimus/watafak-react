@@ -12,7 +12,7 @@ export default function Header() {
             </div>
             <div className="col-lg-auto text-center d-md-block d-sm-block mr-4">
               <a
-                style={{ color: '#fff' }}
+                style={{ color: '#001327' }}
                 href="https://lin.ee/bDb5ic7"
                 target="_blank"
                 rel="noopener"

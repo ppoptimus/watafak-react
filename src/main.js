@@ -32,7 +32,7 @@ function Main() {
     <div className="mb-5">
       {/* Announcement*/}
       <div id="announcement" className="container">
-        <h6>
+        <b>
           <marquee className="marquee1">
             <i className="fa fa-trophy"></i>
             <b> PG SLOT</b> <b>watafak88</b>เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
@@ -49,7 +49,7 @@ function Main() {
             <i className="fa fa-trophy"></i>
             โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
           </marquee>
-        </h6>
+        </b>
       </div>
 
       <DetailsComponent />
@@ -365,12 +365,12 @@ function Main() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h4 className="text-white text-left">
+              <h1 className="text-white text-left">
                 PGSLOT คาสิโนออนไลน์ (Casino online) สล็อต (Slot) เกมส์ยิงปลา
                 จาก WATAFAK88 <br />
-              </h4>
+              </h1>
               
-              <p
+              <h2
                 className="text-white-50 text-left"
                 style={{ fontSize: 'large' }}
               >
@@ -379,12 +379,12 @@ function Main() {
                 รวมเกมส์สล็อตเอาไว้ที่นี้ที่เดียว เกมส์สล็อต ยิงปลา
                 และอีกมากมายจากหลายค่ายเกมส์ดัง ยืนยันเบอร์โทร รับเครดิตฟรี
                 แจกฟรีเครดิต
-              </p>
-              <p>
-                #WATAFAK88 | #pgslot | #amb | poker |#joker123 | #AskMeBet |
-                #เกมยิงปลา #ambbo | #slot | #slotonline | #casino |
+              </h2>
+              <h3>
+                #WATAFAK88 | #pgslot | #amb | #AskMeBet |
+                #เกมยิงปลา | #ambbo | #slot | #slotonline | #casino |
                 <span onClick={onLogin}> #admin</span>
-              </p>
+              </h3>
             </div>
             <div className="col-lg-6 text-lg-right">
               <p className=" text-center">
@@ -409,44 +409,7 @@ function Main() {
               </div>
               <p />
               <p className="row float-right"></p>
-              {/* <ul className="list-inline bg-primary2 text-center">
-                <li className="list-inline-item">
-                  <img
-                    src="https://superslot1234.com/asset/web/img/TrueMoney.png"
-                    alt=""
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="https://superslot1234.com/asset/web/img/BBL.png"
-                    alt=""
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="https://superslot1234.com/asset/web/img/KBank.png"
-                    alt=""
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="https://superslot1234.com/asset/web/img/SCB.png"
-                    alt=""
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="https://superslot1234.com/asset/web/img/TMB.png"
-                    alt=""
-                  />
-                </li>
-                <li className="list-inline-item">
-                  <img
-                    src="https://superslot1234.com/asset/web/img/BAY.png"
-                    alt=""
-                  />
-                </li>
-              </ul> */}
+             
               <p />
             </div>
           </div>
