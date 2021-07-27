@@ -7,7 +7,7 @@ function AllJackpot() {
 
   //#region ----------------- set jackpot into Array ----------------//
   useEffect(() => {
-    const jackpotRef = Firebase.database().ref("Jackpot").limitToLast(300);
+    const jackpotRef = Firebase.ref("Jackpot").limitToLast(300);
 
     jackpotRef.on("value", (snapshot) => {
       const data = snapshot.val();

@@ -63,7 +63,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   color: #dc5709 !important;
-  font-family: 'Mitr', sans-serif, 'Inconsolata', monospace !important;
+  font-family: 'Mitr', sans-serif, monospace !important;
   font-display: optional;
 }
 .footer {
@@ -133,7 +133,8 @@ header .navbar .nav-logo .nav-link {
 }
 
 p {
-  font-family: 'Mitr', sans-serif, 'Inconsolata', monospace;
+  font-family: 'Mitr', sans-serif, monospace;
+  font-display: optional;
   font-size: inherit;
   color: white;
   line-height: 28px;
@@ -874,7 +875,8 @@ body {
   font-size: xx-large !important;
 }
 .p-modal {
-  font-family: 'Mitr', sans-serif, 'Inconsolata', monospace;
+  font-family: 'Mitr', sans-serif, monospace;
+  font-display: optional;
   margin-bottom: 0px;
   font-size: small;
 }
@@ -1293,7 +1295,8 @@ hb span1:nth-child(14) {
 
 .font-navmobile {
   font-size: inherit;
-  font-family: 'Mitr', sans-serif, 'Inconsolata', monospace !important;
+  font-family: 'Mitr', sans-serif, monospace !important;
+  font-display: optional;
   color: #fff;
   margin-bottom: 0rem;
 }
@@ -1410,7 +1413,8 @@ header .header-top {
   color: #fff;
   opacity: 0.6;
   font-size: 1em;
-  font-family: 'Mitr', sans-serif, 'Inconsolata', monospace !important;
+  /* font-family: 'Mitr', sans-serif, 'Inconsolata', monospace !important;
+  font-display: optional; */
   text-shadow: 0 0 1px #000;
 }
 

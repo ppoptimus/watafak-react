@@ -6,7 +6,7 @@ const Jackpot = () => {
 	const [jackpot5, setJackpot5] = useState()
 
 	useEffect(() => {
-		const jackpotRef = Firebase.database().ref("Jackpot").orderByChild("showdate").limitToLast(5)
+		const jackpotRef = Firebase.ref("Jackpot").orderByChild("showdate").limitToLast(5)
 
 		jackpotRef.on("value", (snapshot) => {
 			const data = snapshot.val()

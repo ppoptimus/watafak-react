@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import ShowJackpotAll from "./jackpot-all"
 import Firebase from "./utils/firebase"
 import JackpotManualHook from "./jackpot-manual-hook"
-//import JackpotManual from "./jackpot-manual"
 
 
 export default function GenerateJackpot() {
@@ -51,7 +50,7 @@ export default function GenerateJackpot() {
 			let img = "logo-pg-slot"
 			//#endregion defind data ----------------------------
 
-			const jackpotRef = Firebase.database().ref("Jackpot")
+			const jackpotRef = Firebase.ref("Jackpot")
 			const list = {
 				i,
 				user_id,
@@ -64,7 +63,7 @@ export default function GenerateJackpot() {
 	}
 
 	const deleteAll = () => {
-		const jackpotList = Firebase.database().ref("Jackpot")
+		const jackpotList = Firebase.ref("Jackpot")
 		jackpotList.remove()
 	}
 	//----------------------------------------------------------------------------------------------------------------//

@@ -13,7 +13,7 @@ export default function JackpotManualHook() {
 				currency: "THB",
 			})
 
-            const jackpotRef = Firebase.database().ref("Jackpot")
+            const jackpotRef = Firebase.ref("Jackpot")
 			const list = {
 				user_id: data.user_id,
 				showdate: data.showdate,
