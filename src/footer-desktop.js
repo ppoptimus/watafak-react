@@ -72,7 +72,7 @@ export default function Footer_desktop() {
                         <Link to="/promotion">โปรโมชั่น</Link>
                       </li>
                       <li>
-                        <a href="https://lin.ee/bDb5ic7" target="blank">
+                        <a href="https://lin.ee/bDb5ic7" target="blank" rel="noopener">
                           ติดต่อเรา
                         </a>
                       </li>

@@ -46,6 +46,8 @@ function AllJackpot() {
                         src="img/coin.png"
                         className="img-fluid"
                         alt="watafak88 coin"
+                        width="24px"
+                        height="24px"
                       />
                     </p>
                   </div>

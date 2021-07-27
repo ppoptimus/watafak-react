@@ -466,6 +466,33 @@ function Main() {
         <div className="snowflake">❄</div>
         <div className="snowflake">❄</div>
       </div>
+    
+      <div className="line-button">
+        <a href="https://lin.ee/bDb5ic7" target="blank" rel="noopener">
+          <img
+            rel="preload"
+            as="image"
+            imagesizes="50vw"
+            src="img/line_icon.svg"
+            className="img-fluid"
+            alt="@watafak88"
+          ></img>
+        </a>
+      </div>
+
+      <div className="facebook-button">
+        <a href="https://www.facebook.com/Watafak88/" target="blank" rel="noopener">
+          <img
+            rel="preload"
+            as="image"
+            imagesizes="50vw"
+            src="img/facebook_icon.svg"
+            className="img-fluid"
+            alt="watafak88 fanpage"
+          ></img>
+        </a>
+      </div>
+
     </div>
   );
 }

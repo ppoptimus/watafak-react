@@ -99,6 +99,7 @@ export default function Header() {
                         role="button"
                         href="https://lin.ee/bDb5ic7"
                         target="_blank"
+                        rel="noopener"
                         className="btn-modal"
                       >
                         <i
@@ -149,6 +150,7 @@ export default function Header() {
                         src="img/menu/logo-nav.png"
                         alt="WATAFAK"
                         width="150px"
+                        height="150px"
                       />
                     </Link>
                   </li>
@@ -172,6 +174,7 @@ export default function Header() {
                     <a
                       href="https://lin.ee/bDb5ic7"
                       target="_blank"
+                      rel="noopener"
                       className="btn btn-bg2"
                     >
                       <p className="font-navmobile">ติดต่อเรา</p>

@@ -65,7 +65,7 @@ export default function Footer_Mobile() {
 						</Link>
 					</li>
 					<li>
-						<a href='https://lin.ee/bDb5ic7' target='blank'>
+						<a href='https://lin.ee/bDb5ic7' target='blank' rel="noopener">
 							<i className='fa fa-address-card fa-navmobile' />
 							<p className='font-navmobile'>ติดต่อเรา</p>
 						</a>

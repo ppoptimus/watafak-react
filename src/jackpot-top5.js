@@ -38,7 +38,8 @@ const Jackpot = () => {
 								<div className='col-4'>
 									<p className='mb-0'>แจ้งถอน</p>
 									<p className='mb-0 text-point'>
-										{i.withdraw} <img src='img/coin.png' className='img-fluid' alt='watafak88 coin' />
+										{i.withdraw} <img src='img/coin.png' className='img-fluid' alt='watafak88 coin' width="24px"
+                        height="24px" />
 									</p>
 								</div>
 								<div className='col-3 pr-1 pl-0'>

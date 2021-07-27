@@ -64,6 +64,7 @@ body {
   margin-bottom: 60px;
   color: #dc5709 !important;
   font-family: 'Mitr', sans-serif, 'Inconsolata', monospace !important;
+  font-display: optional;
 }
 .footer {
   position: absolute;
