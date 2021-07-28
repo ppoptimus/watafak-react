@@ -6,7 +6,7 @@ export default function Header() {
     return (
       <div>
         <header>
-          <div className="header-top row medium bg-top">
+          {/* <div className="header-top row medium bg-top">
             <div className="col-lg d-none d-lg-block ml-4">
               <strong>WATAFAK88 คาสิโน สล็อตออนไลน์ เกมส์ยิงปลา</strong>
             </div>
@@ -20,7 +20,7 @@ export default function Header() {
                 <strong>@LINE | ให้บริการตลอด 24 ชั่วโมง</strong>
               </a>
             </div>
-          </div>
+          </div> */}
 
           <nav className="navbar navbar-expand-lg navbar-toggleable-sm p-1 mb-3 bg-header border-primary1 justify-content-center">
             <div className="container m-0">
