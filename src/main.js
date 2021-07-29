@@ -1,5 +1,4 @@
-import React, { lazy, Suspense } from "react";
-//import Carrousel_main from "./carousel";
+import { lazy, Suspense } from "react";
 import Jackpot from './jackpot-top5';
 import { useHistory } from "react-router-dom";
 
@@ -9,6 +8,7 @@ const renderLoader = () => <p>Loading</p>;
 const DetailsComponent = () => (
   <Suspense fallback={renderLoader()}>
     <Carrousel_main />
+    <Jackpot />
   </Suspense>
 )
 
@@ -54,7 +54,7 @@ function Main() {
 
       <DetailsComponent />
 
-      <Jackpot />
+      
 
       <div className="view_port">
         <div className="cylon_eye" />

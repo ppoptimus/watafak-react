@@ -1,5 +1,3 @@
-import React from "react";
-
 function article() {
     return (
       <div className="container mb-5">

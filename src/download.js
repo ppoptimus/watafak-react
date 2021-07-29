@@ -1,6 +1,4 @@
 
-import React from 'react'
-
 function download() {
     return (
         <div className="container text-center mb-6">

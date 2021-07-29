@@ -1,10 +1,8 @@
-import React, { Suspense, lazy } from 'react';
+import { Suspense, lazy } from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import ReactDOM from 'react-dom';
-// import reportWebVitals from './reportWebVitals';
-// import { HashRouter } from 'react-router-dom'
+import {render} from 'react-dom';
 // import { BrowserRouter } from 'react-router-dom'
-// import App from './App';
+
 
 const main = lazy(() => import("./main"));
 const promotion = lazy(() => import("./promotion"));
@@ -25,7 +23,7 @@ const pro4 = lazy(() => import("./promotions/pro-4"));
 const pro5 = lazy(() => import("./promotions/pro-5"));
 const pro6 = lazy(() => import("./promotions/pro-6"));
 
-ReactDOM.render(
+render(
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
     <Header />

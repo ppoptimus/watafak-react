@@ -1,4 +1,4 @@
-import React from "react";
+import {useMemo} from "react";
 import { useHistory } from "react-router-dom";
 
 import Carouseldemo from "./carouseldemo1";
@@ -11,7 +11,7 @@ const Carrousel_main = () => {
     history.push("/promotion");
   };
 
-  const img0 = React.useMemo(() => {
+  const img0 = useMemo(() => {
     return (
       <div className="img-fluid rounded">
         <Carouseldemo/>
@@ -19,7 +19,7 @@ const Carrousel_main = () => {
     );
   });
 
-  const img1 = React.useMemo(() => {
+  const img1 = useMemo(() => {
     return (
       <img
         onClick={allPromotion}
@@ -35,7 +35,7 @@ const Carrousel_main = () => {
     );
   });
 
-  const img2 = React.useMemo(() => {
+  const img2 = useMemo(() => {
     return (
       <img
         onClick={allPromotion}
@@ -51,7 +51,7 @@ const Carrousel_main = () => {
     );
   });
 
-  const img3 = React.useMemo(() => {
+  const img3 = useMemo(() => {
     return (
       <img
         onClick={allPromotion}

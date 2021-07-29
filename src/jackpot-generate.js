@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import ShowJackpotAll from "./jackpot-all"
 import Firebase from "./utils/firebase"
 import JackpotManualHook from "./jackpot-manual-hook"

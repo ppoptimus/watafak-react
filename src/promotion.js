@@ -1,4 +1,3 @@
-import React from 'react';
 import './promotion.css';
 import { Link } from "react-router-dom";
 
