@@ -1,5 +1,11 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  color: #dc5709 !important;
+  font-family: 'Mitr', sans-serif, monospace !important;
+  font-display: optional;
+}
 
 a.navbar-brand {
   white-space: normal;
@@ -59,13 +65,7 @@ html {
   min-height: 100%;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  color: #dc5709 !important;
-  font-family: 'Mitr', sans-serif, monospace !important;
-  font-display: optional;
-}
+
 .footer {
   position: absolute;
   bottom: 0;
