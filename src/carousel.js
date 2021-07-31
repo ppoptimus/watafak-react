@@ -25,12 +25,13 @@ const Carrousel_main = () => {
         onClick={allPromotion}
         // rel='preload'
         as="image"
-        src="img/promotion/1-500.jpg"
+        src="img/promotion/pgslot_1-500.jpg"
         className="img-fluid rounded"
-        alt="ว๊อดเดอะฟัค โปรโมชั่น"
+        alt="pgslot"
         imagesizes="50vw"
         width="500px"
         height="500px"
+        title="promotion pg slot"
       ></img>
     );
   });
@@ -41,12 +42,13 @@ const Carrousel_main = () => {
         onClick={allPromotion}
         rel="preload"
         as="image"
-        src="img/promotion/5-500.jpg"
+        src="img/promotion/pgslot_5-500.jpg"
         className="img-fluid rounded"
-        alt="ว๊อดเดอะฟัค โปรโมชั่น"
+        alt="pgslot"
         imagesizes="50vw"
         width="500px"
         height="500px"
+        title="promotion pg slot"
       ></img>
     );
   });
@@ -57,12 +59,13 @@ const Carrousel_main = () => {
         onClick={allPromotion}
         rel="preload"
         as="image"
-        src="img/promotion/3-500.jpg"
+        src="img/promotion/pgslot_3-500.jpg"
         className="img-fluid rounded"
-        alt="ว๊อดเดอะฟัค โปรโมชั่น"
+        alt="pgslot"
         imagesizes="50vw"
         width="500px"
         height="500px"
+        title="promotion pg slot"
       ></img>
     );
   });

@@ -10,9 +10,10 @@ function promotion() {
 
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/1-1080.jpg"
+            src="img/promotion/pgslot_1-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">โปรน้องใหม่ <strong>watafak88</strong> รับโบนัสสูงสุด 50%</h5>
@@ -25,9 +26,10 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/2-1080.jpg"
+            src="img/promotion/pgslot_2-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">สมัครสมาชิก watafak88 รับโบนัสสูงสุด 50%</h5>
@@ -40,9 +42,10 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/3-1080.jpg"
+            src="img/promotion/pgslot_3-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">CASH BACK watafak88 คืนยอดเสียให้ 10%</h5>
@@ -55,9 +58,10 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/4-1080.jpg"
+            src="img/promotion/pgslot_4-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">ฝากทั้งวัน รับโบนัสทั้งวัน watafak88 จัดให้</h5>
@@ -70,9 +74,10 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/5-1080.jpg"
+            src="img/promotion/pgslot_5-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">ชวนเพื่อนมาปั่น SLOT รับโบนัส 100</h5>
@@ -85,9 +90,10 @@ function promotion() {
         
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/6-1080.jpg"
+            src="img/promotion/pgslot_6-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">ฝากขั้นต่ำ 1 บาท</h5>
@@ -100,9 +106,10 @@ function promotion() {
       
         <div className="card1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
           <img
-            src="img/promotion/11-1080.jpg"
+            src="img/promotion/pgslot_11-1080.jpg"
             className="card-img-top"
-            alt="..."
+            alt="pg slot"
+            title="โปรโมชั่น pgslot"
           ></img>
           <div className="card-body">
             <h5 className="card-title">watafak88 แจกเครดิตฟรี PG SLOT</h5>
@@ -116,10 +123,10 @@ function promotion() {
       </div>
 
       <div>
-        <div className="stars-01"></div>
-        <div className="stars-02"></div>
-        <div className="stars-03"></div>
-        <div className="stars-04"></div>
+        <div className="pgslot-01"></div>
+        <div className="pgslot-02"></div>
+        <div className="pgslot-03"></div>
+        <div className="pgslot-04"></div>
       </div>
     </div>
   );

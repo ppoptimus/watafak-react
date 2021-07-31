@@ -1,4 +1,4 @@
-.stars-01{
+.pgslot-01{
   content: "";
   border-radius: 10px;
   
@@ -33,7 +33,7 @@
   animation: starsUp 10s linear infinite;
 }
 
-.stars-02{
+.pgslot-02{
   content: "watafak";
   border-radius: 10px;
   
@@ -68,7 +68,7 @@
   animation: starsUp 30s linear infinite;
 }
 
-.stars-03{
+.pgslot-03{
   content: "";
   border-radius: 10px;
   
@@ -103,7 +103,7 @@
   animation: starsUp 50s linear infinite;
 }
 
-.stars-04{
+.pgslot-04{
   content: "";
   border-radius: 10px;
   
