@@ -6,8 +6,15 @@ export default function Footer_Mobile() {
 			<div className='container d-sm-block d-md-block d-lg-none d-xl-none' style={{ marginBottom: "5rem" }}>
 				<div className='row'>
 					<div className='col-md-12 col-lg-4'>
-						<a href='index.html' className='footer-logo'>
-							<img src='img/footer2.png' alt='footer_logo' className='img-fluid' />
+						<a href='/' className='footer-logo'>
+							<img 
+							src='img/footer2.png'
+							alt='pg slot' 
+							className='img-fluid'
+							imagesizes="50vw"
+							width="75%"
+							rel="preload"
+							></img>
 						</a>
 						<p className='footer-info-text'>
 							เว็บสล็อตออนไลน์ (Slot online) คาสิโนออนไลน์ (casino online) เกมส์ยิงปลา ที่ดีที่สุด ฟรีเครดิต เครดิตฟรี
