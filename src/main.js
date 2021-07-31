@@ -54,8 +54,6 @@ function Main() {
 
       <DetailsComponent />
 
-      
-
       <div className="view_port">
         <div className="cylon_eye" />
       </div>
@@ -88,7 +86,7 @@ function Main() {
               <li className="bg-gamelabel popup">
                 <a-nav href="#">
                   <img
-                    className="img-box1"
+                    className="img-box1 rounded-circle"
                     src="img/gametest/OngBak.png"
                     onMouseOver={show1}
                     onClick={show1}
@@ -99,8 +97,8 @@ function Main() {
               <li className="bg-gamelabel popup">
                 <a-nav href="#">
                   <img
-                    className="img-box1"
-                    src="img/gametest/2.png"
+                    className="img-box1 rounded-circle"
+                    src="img/gametest/2.jpg"
                     onMouseOver={show2}
                     onClick={show2}
                     alt="WATAFAK888"
@@ -110,8 +108,8 @@ function Main() {
               <li className="bg-gamelabel popup">
                 <a-nav href="#">
                   <img
-                    className="img-box1"
-                    src="img/gametest/3.png"
+                    className="img-box1 rounded-circle"
+                    src="img/gametest/3.jpg"
                     onMouseOver={show3}
                     onClick={show3}
                     alt="WATAFAK888"
@@ -121,8 +119,8 @@ function Main() {
               <li className="bg-gamelabel popup">
                 <a-nav href="#">
                   <img
-                    className="img-box1"
-                    src="img/gametest/4.png"
+                    className="img-box1 rounded-circle"
+                    src="img/gametest/4.jpg"
                     onMouseOver={show4}
                     onClick={show4}
                     alt="WATAFAK888"
@@ -132,8 +130,8 @@ function Main() {
               <li className="bg-gamelabel popup">
                 <a-nav href="#">
                   <img
-                    className="img-box1"
-                    src="img/gametest/5.png"
+                    className="img-box1 rounded-circle"
+                    src="img/gametest/5.jpg"
                     onMouseOver={show5}
                     onClick={show5}
                     alt="WATAFAK888"
@@ -148,7 +146,7 @@ function Main() {
                     <div className="container">
                       <img
                         src="img/gametest/OngBak.png"
-                        className="rounded-lg blockgame"
+                        className="rounded-circle blockgame"
                         alt="watafak game test"
                       />
                     </div>
@@ -164,8 +162,8 @@ function Main() {
                   <div id="game2" className="hide">
                     <div className="container">
                       <img
-                        src="img/gametest/2.png"
-                        className="rounded-bottom blockgame"
+                        src="img/gametest/2.jpg"
+                        className="rounded-circle blockgame"
                         alt="watafak game test"
                       />
                     </div>
@@ -181,7 +179,7 @@ function Main() {
                   <div id="game3" className="hide">
                     <div className="container">
                       <img
-                        src="img/gametest/3.png"
+                        src="img/gametest/3.jpg"
                         className="rounded-circle blockgame"
                         alt="watafak game test"
                       />
@@ -198,7 +196,7 @@ function Main() {
                   <div id="game4" className="hide">
                     <div className="container">
                       <img
-                        src="img/gametest/4.png"
+                        src="img/gametest/4.jpg"
                         className="rounded-circle blockgame"
                         alt="watafak game test"
                       />
@@ -215,7 +213,7 @@ function Main() {
                   <div id="game5" className="hide">
                     <div className="container">
                       <img
-                        src="img/gametest/5.png"
+                        src="img/gametest/5.jpg"
                         className="rounded-circle blockgame"
                         alt="watafak game test"
                       />
@@ -251,7 +249,7 @@ function Main() {
             <h1 className="float-left">บทความ Watafak88</h1>
             <div className="carousel-inner d-block">
               <div className="carousel-item active">
-                <div className="row col-12">
+                <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
                     <img
                       src="img/article/roma_art.jpg"
@@ -310,7 +308,7 @@ function Main() {
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
                     <img
-                      src="img/article/ongbak-article1.png"
+                      src="img/article/pg.png"
                       className="d-block"
                       alt="..."
                       style={{ width: '100%' }}
