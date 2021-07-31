@@ -1,7 +1,7 @@
 function article() {
   return (
     <div className="container mb-5">
-      <div id="roma" name="roma" className="jumbotron p-4 m-4 bg-art">
+      <div name="apollo slot" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">แนะนำเกมใหม่ Rise of Apollo</h1>
         <img src="img/article/Apollo.jpg" className="img-fluid" width="250px" alt="new pg slot"></img>
         <p className="font-navmobile">
@@ -10,11 +10,11 @@ function article() {
         </p>
 
         <p>
-          <a className="btn btn-bg2" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+          <a className="btn btn-bg2" data-toggle="collapse" href="#apollo" role="button" aria-expanded="false" aria-controls="apollo">
             ดูเพิ่มเติม
           </a>
         </p>
-        <div className="collapse" id="collapseExample1">
+        <div className="collapse" id="apollo">
           <div className="card card-body">
             <strong>Rise of Apollo เกมใหม่จาก <b>PGSLOT</b> (ต่อ)</strong>
             ดนตรีของเขาสามารถทำให้ผู้คนมีความสุข และมีสุขภาพดีตลอดจนทำให้โลกเจริญรุ่งเรืองและมั่งคั่ง อพอลโลยังได้รับการยกย่อง และ เป็นที่รักของผู้คนในฐานะเทพแห่งดวงอาทิตย์ "ฟีบัส" ซึ่งแปลว่า "แสง"
@@ -29,11 +29,11 @@ function article() {
       </div>
       <br />
       {/* ------------------------------- */}
-      <div id="roma" name="roma" className="jumbotron p-4 m-4 bg-art">
+      <div name="roma" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">ROMA</h1>
-        <img src="img/article/roma-article1.png" className="img-fluid" alt="watafak บทความ"></img>
+        <img src="img/article/roma_slot_1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">
-          roma นับเป็นหนึ่งในเกมที่ผู้เล่น PGSLOT ชื่นชอบเป็นอย่างมากเนื่องจากการปั่นที่ไม่ยุ่งยากซับซ้อนแถมยังมีโอกาสได้รางวัลใหญ่แบบไม่อยากกันอีกด้วย ส่วนในเว็บ watafak88 เราที่มีนั้นคือ ROMA PLUS
+          roma plus นับเป็นหนึ่งในเกมที่ผู้เล่น <strong>PGSLOT</strong> ชื่นชอบเป็นอย่างมากเนื่องจากการปั่นที่ไม่ยุ่งยากซับซ้อนแถมยังมีโอกาสได้รางวัลใหญ่แบบไม่อยากกันอีกด้วย ส่วนในเว็บ watafak88 เราที่มีนั้นคือ ROMA PLUS
         </p>
 
         <p>
@@ -55,9 +55,9 @@ function article() {
       </div>
       <br />
       {/* ------------------------------- */}
-      <div id="fish" name="fish" className="jumbotron p-4 m-4 bg-art">
+      <div name="fish" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">เกมยิงปลาน่าเล่นสุดๆ</h1>
-        <img src="img/article/fish-article1.png" className="img-fluid" alt="watafak บทความ"></img>
+        <img src="img/article/fish-article1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">
           หนึ่งในเกมยอดฮิตของ pgslot หรือ pg slot คงจะไม่พ้นเกมยิงปลาเพราะว่าเป็นเกมที่ทำเงินได้มหาศาลให้แก่นักเดิมพัน สำหรับมือใหม่ที่ยังไม่รู้ว่าเกมยิงปลาทำเงินให้เราได้แบบไหน
           และเล่นอย่างไรให้ได้เงินวันนี้จะมาอธิบายให้คุณได้เข้าใจในคราวเดียวเลยค่ะ
@@ -92,9 +92,9 @@ function article() {
       </div>
       <br />
       {/* ------------------------------- */}
-      <div id="fish" name="fish" className="jumbotron p-4 m-4 bg-art">
+      <div name="fish" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">PGSLOT เกมยิงปลา เกมออนไลน์สุดฮิต</h1>
-        <img src="img/article/fish2.jpeg" className="img-fluid" alt="watafak บทความ" height="225px;"></img>
+        <img src="img/article/fish2.jpeg" className="img-fluid" alt="PG SLOT บทความ" height="225px;"></img>
         <p className="font-navmobile">
           เกมยิงปลาของ PGSLOT นั้นกำลังมาแรงอย่างมากในเวลานี้โดยเฉพาะเว็บที่แจกเครดิตฟรี ก็จะมีนักเดิมพันเข้ามาร่วมเล่น
           เป็นจำนวนมากเมื่อให้พูดถึงการเดิมพันเกมออนไลน์ในปัจจุบันนี้ต้องบอกเลยว่ามีให้ผู้เล่นนั้นได้เลือกเยอะมาก ชนิดที่ว่าเลือกเล่นตามความถนัดของตนเองเลยก็ว่าได้ อีกทั้งเกมสล็อตออนไลน์ของ PGSLOT
@@ -137,9 +137,9 @@ function article() {
       </div>
       <br />
       {/* ------------------------------- */}
-      <div id="ongbak" name="ongbak" className="jumbotron p-4 m-4 bg-art">
+      <div name="ongbak" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">Ong Bak</h1>
-        <img src="img/article/ongbak-article1.png" className="img-fluid" alt="watafak บทความ"></img>
+        <img src="img/article/ongbak-article1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">Review Ong Bak เกมของ pgslot ที่นำมาให้บริการ เกมใหม่ มาในธีมแม่ไม้มวยไทยจากหนังเรื่ององค์บาก เล่นบนตารางขนาด 5×3 และ มี 30 Lines</p>
 
         <p>
@@ -180,9 +180,9 @@ function article() {
       </div>
       <br />
       {/* ------------------------------- */}
-      <div id="ongbak" name="ongbak" className="jumbotron p-4 m-4 bg-art">
+      <div name="pg" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">หาเงินจาก SLOT ไม่ใช่เรื่องยาก</h1>
-        <img src="img/article/pg.png" className="img-fluid" alt="watafak บทความ"></img>
+        <img src="img/article/pg.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">
           การหาเงินหรือสร้างกำไรจากการเล่นเกม ไม่ว่าจะในรูปแบบออนไลน์ หรือแบบธรรมดา บอกเลยว่าไม่ใช่เรื่องยากในปัจจุบัน เพราะเดี๋ยวนี้โลกของเราพัฒนาอย่างก้าวกระโดด
           ไม่ว่าใครก็สามารถเข้ามาเดิมพันเกมสล็อตออนไลน์ได้ แถมยังมีสูตรเอาชนะรูปแบบต่าง ๆ ที่ทำให้การ หาเงินจาก SLOT ไม่ใช่เรื่องยาก อีกด้วย วันนี้ <strong>watafak88</strong> ก็มีสูตรเอาชนะเกมสล็อต
@@ -230,7 +230,7 @@ function article() {
       </div>
       <br />
       {/* ------------------------------- */}
-      <div id="ongbak" name="ongbak" className="jumbotron p-4 m-4 bg-art">
+      <div name="bitcoin" className="jumbotron p-4 m-4 bg-art">
         <h1 className="">รีวิวเกมใหม่ PG</h1>
         <img src="img/article/bitcoin.jpg" className="img-fluid" alt="watafak บทความ"></img>
         <p className="font-navmobile">
