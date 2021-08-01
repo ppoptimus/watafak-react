@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy } from "react";
 import Jackpot from "./jackpot-top5";
 import { useHistory } from "react-router-dom";
 
@@ -30,11 +30,11 @@ function Main() {
   return (
     <div className="mb-5">
       {/* Announcement*/}
-      <div id="announcement" className="container">
+      <div className="container">
         <b>
           <marquee className="marquee1">
-            <i className="fa fa-trophy"></i>
-            <b> PG SLOT</b> <b>watafak88</b>เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+            <i className="fa fa-trophy"></i>&nbsp;
+            <b>PG SLOT</b> <b>watafak88</b>&nbsp;เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
             มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
@@ -52,7 +52,10 @@ function Main() {
       </div>
 
       <Carrousel_main />
-      {/* <h1 className="text-center">PG SLOT ยินดีต้อนรับ</h1> */}
+      <div className="text-center mt-3">
+
+      <span className=" h1">PG SLOT ยินดีต้อนรับ</span>
+      </div>
       <Jackpot />
       <div className="cylon_eye" />
 
@@ -108,7 +111,7 @@ function Main() {
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/ongbak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
-                      เข้าทดลองเล่นเลย
+                      ลองเล่นฟรีเลย
                     </a>
                   </div>
                 </div>
@@ -163,7 +166,7 @@ function Main() {
       <div className="container mt-3">
         <div className="row">
           <div id="articleslide" className="carousel slide" data-ride="carousel" style={{ width: "100%" }}>
-            <h1 className="float-left">บทความ PGSLOT</h1>
+            <h1 className="float-left h1">บทความ PGSLOT</h1>
             <div className="carousel-inner d-block">
               <div className="carousel-item active">
                 <div className="row col-12 pl-2 pr-2">
@@ -226,11 +229,11 @@ function Main() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h1 className="text-white text-left">
-                PGSLOT สล็อตออนไลน์ (Slot online) เกมส์ยิงปลา จาก WATAFAK88 <br />
+              <h1 className="text-white text-left h1">
+                PGSLOT สล็อตออนไลน์ (Slot online) เกมส์ยิงปลา<br />
               </h1>
 
-              <h2 className="text-white-50 text-left" style={{ fontSize: "large" }}>
+              <h2 className="text-white-50 text-left">
                 สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ WATAFAK88 รวมเกมส์สล็อตเอาไว้ที่นี้ที่เดียว เกมส์สล็อต ยิงปลา และอีกมากมายจากหลายค่ายเกมส์ดัง
                 ยืนยันเบอร์โทร รับเครดิตฟรี
               </h2>
