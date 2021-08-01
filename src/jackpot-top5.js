@@ -41,7 +41,7 @@ const Jackpot = () => {
 								</div>
 								<div className='col-3 pr-1 pl-0'>
 									<div className='full-page-loader'>
-										<img className='w-50 img-fluid' src={"img/download/" + i.img + ".png"} alt='watafak88 game jackpot' imagesizes='50vw'></img>
+										<img className='img-fluid' src={"img/download/" + i.img + ".png"} alt='pgslot game jackpot' imagesizes='50vw' width="150" height="80"></img>
 									</div>
 								</div>
 							</div>

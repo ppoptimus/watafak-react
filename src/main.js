@@ -3,14 +3,14 @@ import Jackpot from "./jackpot-top5";
 import { useHistory } from "react-router-dom";
 
 const Carrousel_main = lazy(() => import("./carousel"));
-const renderLoader = () => <p>Loading</p>;
+// const renderLoader = () => <p>Loading</p>;
 
-const DetailsComponent = () => (
-  <Suspense fallback={renderLoader()}>
-    <Carrousel_main />
-    <Jackpot />
-  </Suspense>
-);
+// const DetailsComponent = () => (
+//   <Suspense fallback={renderLoader()}>
+//     <Carrousel_main />
+//     <Jackpot />
+//   </Suspense>
+// );
 
 function Main() {
   let history = useHistory();
@@ -51,8 +51,9 @@ function Main() {
         </b>
       </div>
 
-      <DetailsComponent />
-
+      <Carrousel_main />
+      {/* <h1 className="text-center">PG SLOT ยินดีต้อนรับ</h1> */}
+      <Jackpot />
       <div className="cylon_eye" />
 
       {/* About game*/}
@@ -156,7 +157,7 @@ function Main() {
           </div>
         </div>
       </div>
-          <div className="cylon_eye" />
+      <div className="cylon_eye" />
 
       {/* Articleslide */}
       <div className="container mt-3">
@@ -253,7 +254,6 @@ function Main() {
                   ชั่วโมง
                 </h4>
               </div>
-              
             </div>
           </div>
         </div>
