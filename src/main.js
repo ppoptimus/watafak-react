@@ -253,8 +253,7 @@ function Main() {
                   <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener">
                     <img src="img/lineicon_s.png" alt="pgslot @watafak88"></img>
                   </a>
-                  ให้บริการตลอด<span className="fast-flicker"> 24 </span>
-                  ชั่วโมง
+                  ให้บริการตลอด<span className="fast-flicker"> 24 </span> ชั่วโมง
                 </h4>
               </div>
             </div>
