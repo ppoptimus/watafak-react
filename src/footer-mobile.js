@@ -12,14 +12,14 @@ export default function Footer_Mobile() {
 							alt='pg slot' 
 							className='img-fluid'
 							imagesizes="50vw"
-							width="75%"
+							width="225" height="238"
 							rel="preload"
 							></img>
 						</a>
 						<p className='footer-info-text'>
-							เว็บสล็อตออนไลน์ (Slot online) คาสิโนออนไลน์ (casino online) เกมส์ยิงปลา ที่ดีที่สุด ฟรีเครดิต เครดิตฟรี
+							เว็บสล็อตออนไลน์ (Slot online) เล่นสล็อตออนไลน์ฟรี (Slot online) เกมส์ยิงปลา ที่ดีที่สุด ฟรีเครดิต เครดิตฟรี
 							มีเกมส์ให้เลือกเล่นมากมายหลายเกมส์ มีพนักงานคอยดูแลลูกค้าตลอด 24 ชั่วโมง มีระบบฝาก-ถอนออโต้ที่ดีที่สุดในประเทศไทย สะดวก รวดเร็ว
-							สมัครเล่นได้แล้ววันนี้ที่เว็บ WATAFAK888 บริการดี โปรโมชั่นจัดเต็ม ต้องมาที่ WATAFAK888
+							สมัครเล่นได้แล้ววันนี้ที่เว็บ WATAFAK88 บริการดี โปรโมชั่นจัดเต็ม ต้องมาที่ WATAFAK88
 						</p>
 					</div>
 				</div>
@@ -27,12 +27,12 @@ export default function Footer_Mobile() {
 					<div id='announcement' className='container'>
 						<b>
 							<marquee className='marquee1'>
+								<i className='fa fa-trophy'></i>&nbsp;
+								<b>PG SLOT</b> <b>watafak88</b>&nbsp;เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
 								<i className='fa fa-trophy'></i>
-								<b> PG SLOT</b> <b>watafak88</b>เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+								<b>PG SLOT</b>&nbsp;มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
 								<i className='fa fa-trophy'></i>
-								มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
-								<i className='fa fa-trophy'></i>
-								สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+								สมาชิกใหม่&nbsp;<b>PG SLOT</b>&nbsp;รับโบนัสสูงสุด 50%&nbsp; &nbsp;
 								<i className='fa fa-trophy'></i>
 								พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
 								<i className='fa fa-trophy'></i>
