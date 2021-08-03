@@ -194,7 +194,7 @@ function article() {
       {/* ------------------------------- */}
       <div name="ongbak" className="jumbotron p-4 m-4 bg-art">
         <h1 className="h1">Ong Bak</h1>
-        <img src="img/article/ongbak-article1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
+        <img src="img/article/pgslot1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">Review Ong Bak เกมของ pgslot ที่นำมาให้บริการ เกมใหม่ มาในธีมแม่ไม้มวยไทยจากหนังเรื่ององค์บาก เล่นบนตารางขนาด 5×3 และ มี 30 Lines</p>
 
         <p>

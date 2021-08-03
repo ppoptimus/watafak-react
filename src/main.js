@@ -53,8 +53,7 @@ function Main() {
 
       <Carrousel_main />
       <div className="text-center mt-3">
-
-      <span className=" h1">PG SLOT ยินดีต้อนรับ</span>
+        <span className=" h1">PG SLOT ยินดีต้อนรับ</span>
       </div>
       <Jackpot />
       <div className="cylon_eye" />
@@ -78,7 +77,7 @@ function Main() {
           <ul className="navbar-nav font-weight-bolder list-group list-group-horizontal text-center">
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.png" onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.jpg" onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
             <li className="bg-gamelabel popup">
@@ -107,7 +106,7 @@ function Main() {
               <div className="col-12 col-md-4 p-0 text-center">
                 <div id="game1">
                   <div className="container">
-                    <img src="img/gametest/pgslot1.png" className="rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+                    <img src="img/gametest/pgslot1.jpg" className="rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/ongbak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
@@ -165,13 +164,26 @@ function Main() {
       {/* Articleslide */}
       <div className="container mt-3">
         <div className="row">
-          <div id="articleslide" className="carousel slide" data-ride="carousel" style={{ width: "100%" }}>
+          <div id="articleslide" className="carousel slide" data-ride="carousel" style={{ width: "100%", maxHeight:400 }}>
             <h1 className="float-left h1">บทความ PGSLOT</h1>
             <div className="carousel-inner d-block">
               <div className="carousel-item active">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/roma_art.jpg" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
+                    <img src="img/article/pg.png" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+                  </div>
+                  <div className="col-6">
+                    <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
+                    <p onClick={article} id="ongbak" name="ongbak" className="text-white-50 text-left">
+                      อ่านต่อ &gt;&gt;
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row col-12 pl-2 pr-2">
+                  <div className="col-6">
+                    <img src="img/article/waysCover.jpg" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
@@ -185,25 +197,11 @@ function Main() {
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/fish_art.jpg" className="d-block" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+                    <img src="img/article/เกมยิงปลา.jpg" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
                     <p onClick={article} id="fish" name="fish" className="text-white-50 text-left">
-                      อ่านต่อ &gt;&gt;
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-item">
-                <div className="row col-12 pl-2 pr-2">
-                  <div className="col-6">
-                    <img src="img/article/pg.png" className="d-block" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
-                  </div>
-                  <div className="col-6">
-                    <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
-                    <p onClick={article} id="ongbak" name="ongbak" className="text-white-50 text-left">
                       อ่านต่อ &gt;&gt;
                     </p>
                   </div>
@@ -230,7 +228,8 @@ function Main() {
           <div className="row">
             <div className="col-lg-6">
               <h1 className="text-white text-left h1">
-                PGSLOT สล็อตออนไลน์ (Slot online) เกมส์ยิงปลา<br />
+                PGSLOT สล็อตออนไลน์ (Slot online) เกมส์ยิงปลา
+                <br />
               </h1>
 
               <h2 className="text-white-50 text-left">
