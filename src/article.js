@@ -2,7 +2,60 @@ function article() {
   return (
     <div className="container mb-5">
       <div name="apollo slot" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">แนะนำเกมใหม่ Rise of Apollo</h1>
+        <h1 className="h1">รีวิวเกม Ways of the Qilin</h1>
+        <img src="img/article/ways0.webp" className="img-fluid" width="250px" alt="new pg slot" title="สล็อตออนไลน์"></img>
+        <p className="font-navmobile">
+          Ways of the Qilin หรือ เกมสล็อตวิถีแห่งกิเลน เป็นเกมใหม่ล่าสุดจากค่าย <strong>PGSLOT</strong> ที่ได้นำสัตว์ในตำนานอย่าง “กิเลน” มาดัดแปลงให้เป็นเกมสล็อตเล่นง่ายทำเงินไว “กิเลน”
+          เป็นสัตว์ที่มีอายุยืนถึงพันปีและถือว่าเป็นยอดแห่งสัตว์ เป็นสัญลักษณ์แห่งคุณงามความดี หากปรากฏให้เห็นเมื่อใดจะเกิดผู้มีบุญมาปกครองบ้านเมืองให้อยู่เย็นเป็นสุข
+        </p>
+
+        <p>
+          <a className="btn btn-bg2" data-toggle="collapse" href="#apollo" role="button" aria-expanded="false" aria-controls="apollo">
+            ดูเพิ่มเติม
+          </a>
+        </p>
+        <div className="collapse" id="apollo">
+          <div className="card card-body">
+            <strong>
+              Ways of the Qilin จาก <b>PGSLOT</b> (ต่อ)
+            </strong>
+            แต่ถ้าใน <strong>เกมสล็อต</strong> Ways of the Qilin กิเลนจะมอบเงินรางวัลกับคุณ X80000 เท่า มาพร้อม Wilds-on-the-Way และฟรีสปินพร้อมตัวคูณที่เพิ่มขึ้นเมื่อสัญลักษณ์กระจาย 4 ตัวขึ้นไป
+            จะเรียกใช้คุณสมบัติฟรีสปิน
+            <strong>Ways of the Qilin SLOT เกมใหม่จากค่าย PG SLOT</strong>
+            สล็อต Ways of the Qilin Slot วิถีแห่งกิเลน เป็นเกมใหม่ที่เปิดตัวได้ไม่นานแต่กลับได้รับความนิยมจากพนันภายในเวลาอันรวดเร็ว เพราะรูปแบบเกมที่ทันสมัยมี 6 รีล 6 แถว ทุกๆ
+            การหมุนวงล้อผู้เล่นจะได้รับการหมุนฟรีหรือตัวคูณการชนะ เพิ่มโอกาสในการสะสมเงินรางวัลมากขึ้น นอกจากนี้สล็อต Ways of the Qilin เกมสล็อตวิถีแห่งกิเลน ยังแจกเงินรางวัลสูงสุด X80000 เท่า อีกด้วย
+            ภายในเกมประกอบไปด้วยสัญลักษณ์ที่ซ่อนเงินรางวัลมากมาย อาทิ
+            <br />- สัญลักษณ์คางคกทอง
+            <br />- สัญลักษณ์เรือสำเภาสีทอง
+            <br />- สัญลักษณ์กระโถนจีนโบราณ
+            <br />- สัญลักษณ์ผักกาด
+            <br />- สัญลักษณ์ถุงเงิน
+            <br />- สัญลักษณ์เหรียญโบราณ
+            <img src="img/article/ways1.webp" className="img-fluid" width="250px" alt="pg slot" title="สล็อตออนไลน์"></img>
+            <img src="img/article/ways2.webp" className="img-fluid" width="250px" alt="pg slot" title="สล็อตออนไลน์"></img>
+            <strong>Ways of the Qilin PG SLOT สัญลักษณ์ที่ควรรู้</strong>
+            สัญลักษณ์คางคกทอง เป็นสัญลักษณ์ ที่จ่ายอัตราเงินเดิมพันสูงที่สุดในสล็อตวิถีแห่งกิเลนโดยจะมีทั้งหมด 11 สัญลักษณ์ ไม่รวม Scatter และ Wild อัตราการจ่ายตั้งแต่ 30 – 80 เท่า
+            สัญลักษณ์พิเศษเรือสำเภาสีทอง เป็นสัญลักษณ์ที่ให้อัตราการเดิมพันสูงเป็นอันดับสองอัตราการจ่ายตั้งแต่ 20 – 50 เท่า สัญลักษณ์กระโถนจีนโบราณ เป็นสัญลักษณ์ที่ให้อัตราการเดิมพันสูงเป็นอันดับสาม
+            อัตราการจ่ายตั้งแต่ 10 – 40 เท่า สัญลักษณ์ผักกาด เป็นสัญลักษณ์ที่ให้อัตราการเดิมพันสูงเป็นอันดับสี่ จ่ายตั้งแต่ 8 – 30 เท่า สัญลักษณ์ถุงเงิน เป็นสัญลักษณ์จ่ายเงินรางวัลสูงอันดับห้า
+            จ่ายตั้งแต่ 6 – 15 เท่า สัญลักษณ์เหรียญโบราณ เป็นสัญลักษณ์จ่ายเงินรางวัลสูงอันดับหก จ่ายตั้งแต่ 6 – 15 เท่า สัญลักษณ์โป๊กเกอร์ A K Q เป็นสัญลักษณ์จ่ายเงินลำดับสุดท้ายลดหลั่นตามลำดับ 2 – 10
+            เท่า ลองเล่นได้เลยที่ <strong>watafak88</strong> อันดับหนึ่งจาก <strong>PG Slot</strong>
+            <img src="img/article/ways3.webp" className="img-fluid" width="250px" alt="pg slot" title="สล็อตออนไลน์"></img>
+            <strong>Ways of the Qilin</strong> <strong>PG Slot</strong> 
+            ในสล็อตวิถีแห่งกิเลน จะพาผู้เล่นไปสัมผัสกับความยิ่งใหญ่ของสัตว์ในตำนานอย่าง “กิเลน”
+            ซึ่งเชื่อว่าหากเมื่อใดที่มันปรากฏตัวให้มนุษย์เห็นจะนำความโชคดีและความสุขมาให้ ด้วยเหตุนี้ทำให้ค่าย <b>PG SLOT</b> ได้นำตำนานความยิ่งใหญ่ของกิเลนมาไว้ในเกมใหม่ล่าสุด Ways of the Qilin
+            โดยมีฟีเจอร์สำคัญๆ ดังนี้ Wild ใช้แทนได้ทุกสัญลักษณ์ ( สัญลักษณ์ Scatter ) สัญลักษณ์ Wild และกรอบทองจะปรากฏบนรีล 2, 3 ,4 ,5 และ 6 เท่านั้น
+            ในทุกรอบใหม่หลังจากสัญลักษณ์ใหม่ได้ลดลงทุกสัญลักษณ์ที่มีกรอบเงินที่ที่เกี่ยวข้องกับการชนะในรอบก่อนหน้านี้จะกลายเป็น เปลี่ยนเป็นสัญลักษณ์ที่เลือกโดยสุ่ม (อีกตัวหนึ่ง)มากกว่าสัญลักษณ์ Wild
+            และสัญลักษณ์ Scatter ด้วยทองรอบๆ ตัวมันเอง
+            ในทุกรอบใหม่หลังจากสัญลักษณ์ใหม่ได้ลดลงทุกสัญลักษณ์ที่มีกรอบทองที่ที่เกี่ยวข้องกับการชนะในรอบก่อนหน้านี้จะกลายเป็นเปลี่ยนเป็นสัญลักษณ์ของสัตว์ป่า 2-4 ตัว
+            ขึ้นอยู่กับจำนวนของพื้นที่สัญลักษณ์ที่ยึดครองโดยทองคำนั้นสัญลักษณ์ที่ถูกกรอบไว้ มีความพิเศษอยู่ตรงที่ Scatter และ Wild ซึ่งสัญลักษณ์นี้ให้อัตราเดิมพันเพิ่มตัวคูณการชนะแต่ละครั้งสูงมาก
+            <img src="img/article/ways4.webp" className="img-fluid" width="250px" alt="pg slot" title="สล็อตออนไลน์"></img>
+          </div>
+        </div>
+      </div>
+      <br />
+      {/* ------------------------------- */}
+      <div name="apollo slot" className="jumbotron p-4 m-4 bg-art">
+        <h1 className="h1">แนะนำเกมใหม่ Rise of Apollo</h1>
         <img src="img/article/Apollo.jpg" className="img-fluid" width="250px" alt="new pg slot"></img>
         <p className="font-navmobile">
           Rise of Apollo เป็นเกมใหม่จาก <strong>PGSLOT</strong> เรื่องราวมีดังนี้ อพอลโลเป็นบุตรของซุส ผู้นำของเหล่าทวยเทพ เขาเป็นเทพเจ้าที่หล่อเหลา และอเนกประสงค์ที่ดูแลดนตรี กวีนิพนธ์ การยิงธนู
@@ -16,24 +69,26 @@ function article() {
         </p>
         <div className="collapse" id="apollo">
           <div className="card card-body">
-            <strong>Rise of Apollo เกมใหม่จาก <b>PGSLOT</b> (ต่อ)</strong>
+            <strong>
+              Rise of Apollo เกมใหม่จาก <b>PGSLOT</b> (ต่อ)
+            </strong>
             ดนตรีของเขาสามารถทำให้ผู้คนมีความสุข และมีสุขภาพดีตลอดจนทำให้โลกเจริญรุ่งเรืองและมั่งคั่ง อพอลโลยังได้รับการยกย่อง และ เป็นที่รักของผู้คนในฐานะเทพแห่งดวงอาทิตย์ "ฟีบัส" ซึ่งแปลว่า "แสง"
             ตำนานเล่าว่าถ้าคุณเรียกชื่อเขาในใจอย่างจริงใจ ในขณะที่พระอาทิตย์ขึ้นในตอนเริ่มต้นของวัน เขาอาจมาหาคุณเหมือนแสงแห่งแสง และอวยพรคุณด้วยโอกาสและโชคดี
             <strong>Rise of Apollo</strong>
             เป็นสล็อตวิดีโอ 6 รีล 6 แถวที่มี Wilds-on-the-Way และชนะตัวคูณสูงถึง x15 ระหว่างการหมุนใดๆ การชนะทั้งหมดจะเพิ่มตัวคูณการชนะ นอกจากนี้ สัญลักษณ์ Scatter 4
             ตัวที่ปรากฏขึ้นที่ใดก็ได้จะทำให้ฟีเจอร์ Free Spins ทำงานด้วย 12 ฟรีสปิน โดยแต่ละสัญลักษณ์ Scatter เพิ่มเติมจะกระตุ้นการหมุนฟรีอีก 2 ครั้ง ระหว่างคุณสมบัติฟรีสปิน
             ตัวคูณการชนะทั้งหมดจะเพิ่มขึ้นสามเท่า ชัยชนะไม่เคยง่ายขนาดนี้มาก่อน อยากสนุกแถมแตกง่ายดาย ลองเล่นได้เลยที่ <b>watafak88</b> อันดับหนึ่งจาก <b>PG slot</b>
-
           </div>
         </div>
       </div>
       <br />
       {/* ------------------------------- */}
       <div name="roma" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">ROMA</h1>
+        <h1 className="h1">ROMA</h1>
         <img src="img/article/roma_slot_1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">
-          roma plus นับเป็นหนึ่งในเกมที่ผู้เล่น <strong>PGSLOT</strong> ชื่นชอบเป็นอย่างมากเนื่องจากการปั่นที่ไม่ยุ่งยากซับซ้อนแถมยังมีโอกาสได้รางวัลใหญ่แบบไม่อยากกันอีกด้วย ส่วนในเว็บ watafak88 เราที่มีนั้นคือ ROMA PLUS
+          roma plus นับเป็นหนึ่งในเกมที่ผู้เล่น <strong>PGSLOT</strong> ชื่นชอบเป็นอย่างมากเนื่องจากการปั่นที่ไม่ยุ่งยากซับซ้อนแถมยังมีโอกาสได้รางวัลใหญ่แบบไม่อยากกันอีกด้วย ส่วนในเว็บ watafak88
+          เราที่มีนั้นคือ ROMA PLUS
         </p>
 
         <p>
@@ -56,7 +111,7 @@ function article() {
       <br />
       {/* ------------------------------- */}
       <div name="fish" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">เกมยิงปลาน่าเล่นสุดๆ</h1>
+        <h1 className="h1">เกมยิงปลาน่าเล่นสุดๆ</h1>
         <img src="img/article/fish-article1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">
           หนึ่งในเกมยอดฮิตของ pgslot หรือ pg slot คงจะไม่พ้นเกมยิงปลาเพราะว่าเป็นเกมที่ทำเงินได้มหาศาลให้แก่นักเดิมพัน สำหรับมือใหม่ที่ยังไม่รู้ว่าเกมยิงปลาทำเงินให้เราได้แบบไหน
@@ -93,7 +148,7 @@ function article() {
       <br />
       {/* ------------------------------- */}
       <div name="fish" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">PGSLOT เกมยิงปลา เกมออนไลน์สุดฮิต</h1>
+        <h1 className="h1">PGSLOT เกมยิงปลา เกมออนไลน์สุดฮิต</h1>
         <img src="img/article/fish2.jpeg" className="img-fluid" alt="PG SLOT บทความ" height="225px;"></img>
         <p className="font-navmobile">
           เกมยิงปลาของ PGSLOT นั้นกำลังมาแรงอย่างมากในเวลานี้โดยเฉพาะเว็บที่แจกเครดิตฟรี ก็จะมีนักเดิมพันเข้ามาร่วมเล่น
@@ -138,7 +193,7 @@ function article() {
       <br />
       {/* ------------------------------- */}
       <div name="ongbak" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">Ong Bak</h1>
+        <h1 className="h1">Ong Bak</h1>
         <img src="img/article/ongbak-article1.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">Review Ong Bak เกมของ pgslot ที่นำมาให้บริการ เกมใหม่ มาในธีมแม่ไม้มวยไทยจากหนังเรื่ององค์บาก เล่นบนตารางขนาด 5×3 และ มี 30 Lines</p>
 
@@ -181,7 +236,7 @@ function article() {
       <br />
       {/* ------------------------------- */}
       <div name="pg" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">หาเงินจาก SLOT ไม่ใช่เรื่องยาก</h1>
+        <h1 className="h1">หาเงินจาก SLOT ไม่ใช่เรื่องยาก</h1>
         <img src="img/article/pg.png" className="img-fluid" alt="PG SLOT บทความ"></img>
         <p className="font-navmobile">
           การหาเงินหรือสร้างกำไรจากการเล่นเกม ไม่ว่าจะในรูปแบบออนไลน์ หรือแบบธรรมดา บอกเลยว่าไม่ใช่เรื่องยากในปัจจุบัน เพราะเดี๋ยวนี้โลกของเราพัฒนาอย่างก้าวกระโดด
@@ -231,7 +286,7 @@ function article() {
       <br />
       {/* ------------------------------- */}
       <div name="bitcoin" className="jumbotron p-4 m-4 bg-art">
-        <h1 className="">รีวิวเกมใหม่ PG</h1>
+        <h1 className="h1">รีวิวเกมใหม่ PG</h1>
         <img src="img/article/bitcoin.jpg" className="img-fluid" alt="watafak บทความ"></img>
         <p className="font-navmobile">
           Crypto Gold จอห์นเป็นนักลงทุน Bitcoin เขามีความรู้สึกที่ดีสำหรับทั้งการลงทุน และเวลาในการเข้าร่วม Bitcoin ทั้งหมดที่เขาลงทุนเพิ่มขึ้นทุกวัน ภายในหนึ่งปี Bitcoin
