@@ -1,13 +1,13 @@
-import { lazy } from "react";
 import Jackpot from "./jackpot-top5";
 import { useHistory } from "react-router-dom";
 
-const Carrousel_main = lazy(() => import("./carousel"));
+
+// const CarrouselMain = lazy(() => import("./carousel"));
 // const renderLoader = () => <p>Loading</p>;
 
 // const DetailsComponent = () => (
 //   <Suspense fallback={renderLoader()}>
-//     <Carrousel_main />
+//     <CarrouselMain />
 //     <Jackpot />
 //   </Suspense>
 // );
@@ -30,9 +30,9 @@ function Main() {
   return (
     <div className="mb-5">
       {/* Announcement*/}
-      <div className="container">
-        <b>
-          <marquee className="marquee1">
+      {/* <div className="container">
+        <Marquee>
+          <div className="marquee1">
             <i className="fa fa-trophy"></i>&nbsp;
             <b>PG SLOT</b> <b>watafak88</b>&nbsp;เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
@@ -47,11 +47,11 @@ function Main() {
             สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
             <i className="fa fa-trophy"></i>
             โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
-          </marquee>
-        </b>
-      </div>
+          </div>
+        </Marquee>
+      </div> */}
 
-      <Carrousel_main />
+      {/* <CarrouselMain /> */}
       <div className="text-center mt-3">
         <span className=" h1">PG SLOT ยินดีต้อนรับ</span>
       </div>
@@ -164,7 +164,7 @@ function Main() {
       {/* Articleslide */}
       <div className="container mt-3">
         <div className="row">
-          <div id="articleslide" className="carousel slide" data-ride="carousel" style={{ width: "100%", maxHeight:400 }}>
+          <div id="articleslide" className="carousel slide" data-ride="carousel" style={{ width: "100%", maxHeight: 400 }}>
             <h1 className="float-left h1">บทความ PGSLOT</h1>
             <div className="carousel-inner d-block">
               <div className="carousel-item active">
@@ -249,7 +249,7 @@ function Main() {
               <p className="row float-right"></p>
               <div className="sign text-center">
                 <h4>
-                  <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener">
+                  <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noreferrer noopener">
                     <img src="img/lineicon_s.png" alt="pgslot @watafak88"></img>
                   </a>
                   ให้บริการตลอด<span className="fast-flicker"> 24 </span> ชั่วโมง

@@ -45,7 +45,7 @@ export default function Header() {
                       <i style={{ fontSize: "x-large" }} className="fa fa-gift" />
                       <p className="p-modal">โปรโมชั่น</p>
                     </Link>
-                    <a role="button" href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener" className="btn-modal">
+                    <a role="button" href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener noreferrer" className="btn-modal">
                       <i style={{ fontSize: "x-large" }} className="fa fa-comments" />
                       <p className="p-modal">ติดต่อเรา</p>
                     </a>
@@ -100,7 +100,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener" className="btn btn-bg2">
+                  <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener noreferrer" className="btn btn-bg2">
                     <p className="font-navmobile">ติดต่อเรา</p>
                   </a>
                 </li>
@@ -109,6 +109,25 @@ export default function Header() {
           </div>
         </nav>
       </header>
+
+      {/* <div className="row" style={{ width: "inherit" }}>
+        <div className="marquee1">
+          <i className="fa fa-trophy"></i>&nbsp;
+          <b>PG SLOT</b> <b>watafak88</b>&nbsp;เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
+          <i className="fa fa-trophy"></i>
+          มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
+          <i className="fa fa-trophy"></i>
+          สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+          <i className="fa fa-trophy"></i>
+          พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
+          <i className="fa fa-trophy"></i>
+          ระบบฝากถอน อัตโนมัติดีที่สุดในประเทศไทย&nbsp; &nbsp;
+          <i className="fa fa-trophy"></i>
+          สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
+          <i className="fa fa-trophy"></i>
+          โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
+        </div>
+      </div> */}
     </div>
   );
 }

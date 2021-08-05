@@ -114,7 +114,7 @@ function promotion() {
           <div className="card-body">
             <h5 className="card-title">watafak88 แจกเครดิตฟรี PG SLOT</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-bg1">
+            <a href="/" className="btn btn-bg1">
               Coming soon
             </a>
           </div>

@@ -1,11 +1,9 @@
-import React from "react";
-
 export default function Pro_1() {
   return (
     <div className="container text-center mb-6 col-12">
       <div className="row justify-content-around">
         <img 
-          src="img/promotion/1-1080.jpg"
+          src="img/promotion/pgslot_1-1080.jpg"
           className="card-img-top"
           alt="..."
         />

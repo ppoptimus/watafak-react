@@ -1,15 +1,15 @@
 import {useMemo} from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 import Carouseldemo from "./carouseldemo1";
 
 
 const Carrousel_main = () => {
-  let history = useHistory();
+  // let history = useHistory();
 
-  const allPromotion = () => {
-    history.push("/promotion");
-  };
+  // const allPromotion = () => {
+  //   history.push("/promotion");
+  // };
 
   const img0 = useMemo(() => {
     return (
@@ -17,12 +17,12 @@ const Carrousel_main = () => {
         <Carouseldemo/>
       </div>
     );
-  });
+  },[]);
 
   const img1 = useMemo(() => {
     return (
       <img
-        onClick={allPromotion}
+        // onClick={allPromotion}
         // rel='preload'
         as="image"
         src="img/promotion/pgslot_1-500.jpg"
@@ -34,13 +34,13 @@ const Carrousel_main = () => {
         title="promotion pg slot"
       ></img>
     );
-  });
+  },[]);
 
   const img2 = useMemo(() => {
     return (
       <img
-        onClick={allPromotion}
-        rel="preload"
+        // onClick={allPromotion}
+        // rel="preload"
         as="image"
         src="img/promotion/pgslot_5-500.jpg"
         className="img-fluid rounded"
@@ -51,13 +51,13 @@ const Carrousel_main = () => {
         title="promotion pg slot"
       ></img>
     );
-  });
+  },[]);
 
   const img3 = useMemo(() => {
     return (
       <img
-        onClick={allPromotion}
-        rel="preload"
+        // onClick={allPromotion}
+        // rel="preload"
         as="image"
         src="img/promotion/pgslot_3-500.jpg"
         className="img-fluid rounded"
@@ -68,11 +68,11 @@ const Carrousel_main = () => {
         title="promotion pg slot"
       ></img>
     );
-  });
+  },[]);
 
   return (
     <div className="container justify-content-center" style={{minHeight:"500px"}}>
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2000">
         {/* <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
           <li data-target="#carouselExampleIndicators" data-slide-to={1} />

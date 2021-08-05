@@ -12,12 +12,12 @@ export default function GenerateJackpot() {
 		setCount(e.target.value)
 	}
 
-	const test = () => {
-		function getRandomBetween(min, max) {
-			return Math.floor(Math.random() * (max - min) + min) * 10;
-		  }
-		  console.log(getRandomBetween(10,1700));
-	}
+	// const test = () => {
+	// 	function getRandomBetween(min, max) {
+	// 		return Math.floor(Math.random() * (max - min) + min) * 10;
+	// 	  }
+	// 	  console.log(getRandomBetween(10,1700));
+	// }
 
 	const generate = () => {
 		for (let i = 0; i < count; i++) {
@@ -37,7 +37,7 @@ export default function GenerateJackpot() {
 			let mm = Math.floor(Math.random() * 60)
 			hh = ("0" + hh).slice(-2)
 			mm = ("0" + mm).slice(-2)
-			let time = hh + "." + mm
+			// let time = hh + "." + mm
 
 			//--withdraw
 			let formatter = new Intl.NumberFormat("th-TH", {

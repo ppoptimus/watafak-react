@@ -8,7 +8,7 @@ export default function Login() {
     e.preventDefault();
     const { username, password } = e.target.elements;
 
-    if (username.value == "system" && password.value == "XXXX") {
+    if (username.value === "system" && password.value === "XXXX") {
       console.log(username.value);
       history.push("/generate");
     }

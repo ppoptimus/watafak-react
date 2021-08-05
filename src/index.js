@@ -4,13 +4,14 @@ import {render} from 'react-dom';
 // import { BrowserRouter } from 'react-router-dom'
 
 
+const Header = lazy(() => import("./header"));
+const CarrouselMain = lazy(() => import("./carousel"));
 const main = lazy(() => import("./main"));
 const promotion = lazy(() => import("./promotion"));
 const article = lazy(() => import("./article"));
 const download = lazy(() => import("./download"));
 const alljackpot = lazy(() => import('./jackpot-all'));
 const generate = lazy(() => import("./jackpot-generate"));
-const Header = lazy(() => import("./header"));
 const FooterDesktop = lazy(() => import("./footer-desktop"));
 const FooterMobile = lazy(() => import("./footer-mobile"));
 const login = lazy(() => import("./login"));
@@ -27,6 +28,7 @@ render(
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
     <Header />
+    <CarrouselMain />
       <Switch>
         <Route exact path="/" component={main}/>
         <Route path="/promotion" component={promotion}/>

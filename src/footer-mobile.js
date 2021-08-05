@@ -25,7 +25,7 @@ export default function Footer_Mobile() {
 				</div>
 				<div className='row'>
 					<div id='announcement' className='container'>
-						<b>
+						{/* <b>
 							<marquee className='marquee1'>
 								<i className='fa fa-trophy'></i>&nbsp;
 								<b>PG SLOT</b> <b>watafak88</b>&nbsp;เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
@@ -42,7 +42,7 @@ export default function Footer_Mobile() {
 								<i className='fa fa-trophy'></i>
 								โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
 							</marquee>
-						</b>
+						</b> */}
 					</div>
 				</div>
 			</div>

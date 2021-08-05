@@ -35,7 +35,7 @@ export default function Footer_desktop() {
 								</div>
 
 								<div className='col-md-6'>
-									<img src='img/download/logo-pg-slot.png' className='img-fluid m-3 w-75'></img>
+									<img src='img/download/logo-pg-slot.png' alt="pgslot" className='img-fluid m-3 w-75'></img>
 								</div>
 							</div>
 
@@ -83,7 +83,7 @@ export default function Footer_desktop() {
 					<div className='container'>
 						<div className='row'>
 							<div id='announcement' className='container-fiuld'>
-								<b>
+								{/* <b>
 									<marquee className='marquee1'>
 										<i className='fa fa-trophy'></i>
 										<b> PG SLOT</b> <b>watafak88</b>เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
@@ -100,7 +100,7 @@ export default function Footer_desktop() {
 										<i className='fa fa-trophy'></i>
 										โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
 									</marquee>
-								</b>
+								</b> */}
 							</div>
 						</div>
 					</div>
