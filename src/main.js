@@ -1,8 +1,9 @@
+import {lazy} from "react"
 import Jackpot from "./jackpot-top5";
 import { useHistory } from "react-router-dom";
 
 
-// const CarrouselMain = lazy(() => import("./carousel"));
+const CarrouselMain = lazy(() => import("./carousel"));
 // const renderLoader = () => <p>Loading</p>;
 
 // const DetailsComponent = () => (
@@ -51,7 +52,7 @@ function Main() {
         </Marquee>
       </div> */}
 
-      {/* <CarrouselMain /> */}
+      <CarrouselMain />
       <div className="text-center mt-3">
         <span className=" h1">PG SLOT ยินดีต้อนรับ</span>
       </div>

@@ -5,7 +5,6 @@ import {render} from 'react-dom';
 
 
 const Header = lazy(() => import("./header"));
-const CarrouselMain = lazy(() => import("./carousel"));
 const main = lazy(() => import("./main"));
 const promotion = lazy(() => import("./promotion"));
 const article = lazy(() => import("./article"));
@@ -28,7 +27,6 @@ render(
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
     <Header />
-    <CarrouselMain />
       <Switch>
         <Route exact path="/" component={main}/>
         <Route path="/promotion" component={promotion}/>
