@@ -59,27 +59,27 @@ function Main() {
           <ul className="navbar-nav font-weight-bolder list-group list-group-horizontal text-center">
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.jpg" onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.jpg" width="50" height="50"  onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot2.jpg" onMouseOver={show2} onClick={show2} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot2.jpg" width="50" height="50" onMouseOver={show2} onClick={show2} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot3.jpg" onMouseOver={show3} onClick={show3} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot3.jpg" width="50" height="50" onMouseOver={show3} onClick={show3} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot4.jpg" onMouseOver={show4} onClick={show4} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot4.jpg" width="50" height="50" onMouseOver={show4} onClick={show4} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot5.jpg" onMouseOver={show5} onClick={show5} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot5.jpg" width="50" height="50" onMouseOver={show5} onClick={show5} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
           </ul>
@@ -88,7 +88,7 @@ function Main() {
               <div className="col-12 col-md-4 p-0 text-center">
                 <div id="game1">
                   <div className="container">
-                    <img src="img/gametest/pgslot1.jpg" className="rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+                    <img src="img/gametest/pgslot1.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/ongbak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
@@ -98,7 +98,7 @@ function Main() {
                 </div>
                 <div id="game2" className="hide">
                   <div className="container">
-                    <img src="img/gametest/pgslot2.jpg" className="rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+                    <img src="img/gametest/pgslot2.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/joker-madness.html" className="btn btn-bg1">
@@ -108,7 +108,7 @@ function Main() {
                 </div>
                 <div id="game3" className="hide">
                   <div className="container">
-                    <img src="img/gametest/pgslot3.jpg" className="rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+                    <img src="img/gametest/pgslot3.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/wild-giant-panda.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
@@ -118,7 +118,7 @@ function Main() {
                 </div>
                 <div id="game4" className="hide">
                   <div className="container">
-                    <img src="img/gametest/pgslot4.jpg" className="rounded-circle blockgame" alt="pgslot" title="สล็อตออนไลน์ฟรี" />
+                    <img src="img/gametest/pgslot4.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="pgslot" title="สล็อตออนไลน์ฟรี" />
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/fish-hunter-haiba.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
@@ -128,7 +128,7 @@ function Main() {
                 </div>
                 <div id="game5" className="hide">
                   <div className="container">
-                    <img src="img/gametest/pgslot5.jpg" className="rounded-circle blockgame" alt="pgslot" title="สล็อตออนไลน์ฟรี" />
+                    <img src="img/gametest/pgslot5.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="pgslot" title="สล็อตออนไลน์ฟรี" />
                   </div>
                   <div className="container m-2">
                     <a href="https://www.eagaming.com/en/games/lucky-streak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
@@ -152,7 +152,7 @@ function Main() {
               <div className="carousel-item active">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/pg.png" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+                    <img src="img/article/pg.png" width="400" height="255" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
@@ -165,7 +165,7 @@ function Main() {
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/waysCover.jpg" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
+                    <img src="img/article/waysCover.jpg" width="400" height="255" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
@@ -225,14 +225,14 @@ function Main() {
             <div className="col-lg-6 text-lg-right">
               <p className=" text-center">
                 <a href="https://lin.ee/bDb5ic7">
-                  <img src="img/qrline.png" alt="pgslot @watafak88" className="img-fluid" style={{ width: "50%" }} />
+                  <img src="img/qrline.png" width="250" height="250" alt="pgslot official" className="img-fluid" />
                 </a>
               </p>
               <p className="row float-right"></p>
               <div className="sign text-center">
                 <h4>
                   <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noreferrer noopener">
-                    <img src="img/lineicon_s.png" alt="pgslot @watafak88"></img>
+                    <img src="img/lineicon_s.png" width="32" height="32" alt="pgslot official"></img>
                   </a>
                   ให้บริการตลอด<span className="fast-flicker"> 24 </span> ชั่วโมง
                 </h4>
@@ -258,13 +258,13 @@ function Main() {
 
       <div className="line-button">
         <a href="https://lin.ee/bDb5ic7" target="blank" rel="noopener">
-          <img rel="preload" as="image" imagesizes="50vw" src="img/line_icon.svg" className="img-fluid" alt="@watafak88"></img>
+          <img rel="preload" as="image" imagesizes="50vw" src="img/line_icon.svg" width="50" height="50" className="img-fluid" alt="@watafak88"></img>
         </a>
       </div>
 
       <div className="facebook-button">
         <a href="https://www.facebook.com/Watafak88/" target="blank" rel="noopener">
-          <img rel="preload" as="image" imagesizes="50vw" src="img/facebook_icon.svg" className="img-fluid" alt="watafak88 fanpage"></img>
+          <img rel="preload" as="image" imagesizes="50vw" src="img/facebook_icon.svg" width="50" height="50" className="img-fluid" alt="watafak88 fanpage"></img>
         </a>
       </div>
     </div>
