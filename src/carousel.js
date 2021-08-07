@@ -1,7 +1,7 @@
 import {useMemo} from "react";
 // import { useHistory } from "react-router-dom";
 
-import Carouseldemo from "./carouseldemo1";
+// import Carouseldemo from "./carouseldemo1";
 
 
 const Carrousel_main = () => {
@@ -11,13 +11,13 @@ const Carrousel_main = () => {
   //   history.push("/promotion");
   // };
 
-  const img0 = useMemo(() => {
-    return (
-      <div className="img-fluid rounded">
-        <Carouseldemo/>
-      </div>
-    );
-  },[]);
+  // const img0 = useMemo(() => {
+  //   return (
+  //     <div className="img-fluid rounded">
+  //       <Carouseldemo/>
+  //     </div>
+  //   );
+  // },[]);
 
   const img1 = useMemo(() => {
     return (
@@ -25,7 +25,7 @@ const Carrousel_main = () => {
         // onClick={allPromotion}
         // rel='preload'
         as="image"
-        src="img/promotion/pgslot_1-500.jpg"
+        src="https://watafak88.com/img/promotion/pgslot_1-500.jpg"
         className="img-fluid rounded"
         alt="pgslot"
         imagesizes="50vw"
@@ -71,7 +71,7 @@ const Carrousel_main = () => {
   },[]);
 
   return (
-    <div className="container justify-content-center" style={{minHeight:"500px"}}>
+    <div className="container justify-content-center">
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2000">
         {/* <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
@@ -80,8 +80,8 @@ const Carrousel_main = () => {
           <li data-target="#carouselExampleIndicators" data-slide-to={3} />
         </ol> */}
         <div className="carousel-inner text-center">
-          <div className="carousel-item active">{img0}</div>
-          <div className="carousel-item">{img1}</div>
+          {/* <div className="carousel-item active">{img0}</div> */}
+          <div className="carousel-item active">{img1}</div>
           <div className="carousel-item">{img2}</div>
           <div className="carousel-item">{img3}</div>
         </div>

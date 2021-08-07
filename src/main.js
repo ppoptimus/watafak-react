@@ -1,7 +1,6 @@
-import {lazy} from "react"
+import { Suspense, lazy } from "react";
 import Jackpot from "./jackpot-top5";
 import { useHistory } from "react-router-dom";
-
 
 const CarrouselMain = lazy(() => import("./carousel"));
 // const renderLoader = () => <p>Loading</p>;
@@ -30,31 +29,13 @@ function Main() {
 
   return (
     <div className="mb-5">
-      {/* Announcement*/}
-      {/* <div className="container">
-        <Marquee>
-          <div className="marquee1">
-            <i className="fa fa-trophy"></i>&nbsp;
-            <b>PG SLOT</b> <b>watafak88</b>&nbsp;เปิดให้บริการแล้ววันนี้ สมาชิกใหม่รับโบนัสสูงสุด 50% โปรเยอะทุกวัน ทุกช่วงเวลา&nbsp; &nbsp;
-            <i className="fa fa-trophy"></i>
-            มีเกมคาสิโน สล็อต ยิงปลา หลากหลายค่าย PG&nbsp; &nbsp;
-            <i className="fa fa-trophy"></i>
-            สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
-            <i className="fa fa-trophy"></i>
-            พนักงานคอยบริการลูกค้าตลอด 24 ชั่วโมง&nbsp; &nbsp;
-            <i className="fa fa-trophy"></i>
-            ระบบฝากถอน อัตโนมัติดีที่สุดในประเทศไทย&nbsp; &nbsp;
-            <i className="fa fa-trophy"></i>
-            สมาชิกใหม่รับโบนัสสูงสุด 50%&nbsp; &nbsp;
-            <i className="fa fa-trophy"></i>
-            โปรโมชั่นมากมาย และมีแจกเครดิตฟรี
-          </div>
-        </Marquee>
-      </div> */}
-
-      <CarrouselMain />
-      <div className="text-center mt-3">
-        <span className=" h1">PG SLOT ยินดีต้อนรับ</span>
+      <Suspense fallback={<div>Loading...</div>}>
+        <CarrouselMain />
+      </Suspense>
+      <div className="text-center mt-3 mb-5">
+        <span className="h1">PG SLOT ยินดีต้อนรับ</span>
+        <h3 className="marquee1">สล็อต PG แตกง่าย ล่าสุด 2021</h3>
+        <h4 className="marquee1"> พร้อมสูตรทำเงินมหาศาล</h4>
       </div>
       <Jackpot />
       <div className="cylon_eye" />
