@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./header.css";
+import { faHome, faCloudDownloadAlt, faGamepad, faBook, faGifts, faCommentAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
   return (
@@ -26,27 +28,33 @@ export default function Header() {
                   </div>
                   <div className="modal-body text-center">
                     <Link to="/" role="button" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-home" />
+                    <FontAwesomeIcon icon={faHome} className="fa-navmobile" />
+                      {/* <i style={{ fontSize: "x-large" }} className="fa fa-home" /> */}
                       <p className="p-modal">หน้าหลัก</p>
                     </Link>
                     <Link role="button" to="/playgame" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-cloud-download" />
+                    <FontAwesomeIcon icon={faCloudDownloadAlt} className="fa-navmobile" />
+                      {/* <i style={{ fontSize: "x-large" }} className="fa fa-cloud-download" /> */}
                       <p className="p-modal">ฝาก-ถอน</p>
                     </Link>
                     <Link role="button" to="/playgame" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-gamepad" />
+                    <FontAwesomeIcon icon={faGamepad} className="fa-navmobile" />
+                      {/* <i style={{ fontSize: "x-large" }} className="fa fa-gamepad" /> */}
                       <p className="p-modal">เล่นเกมส์</p>
                     </Link>
                     <Link role="button" to="article" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-book" />
+                    <FontAwesomeIcon icon={faBook} className="fa-navmobile" />
+                      {/* <i style={{ fontSize: "x-large" }} className="fa fa-book" /> */}
                       <p className="p-modal">บทความ</p>
                     </Link>
                     <Link role="button" to="/promotion" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-gift" />
+                    <FontAwesomeIcon icon={faGifts} className="fa-navmobile" />
+                      {/* <i style={{ fontSize: "x-large" }} className="fa fa-gift" /> */}
                       <p className="p-modal">โปรโมชั่น</p>
                     </Link>
                     <a role="button" href="https://lin.ee/bDb5ic7" target="_blank" rel="noopener noreferrer" className="btn-modal">
-                      <i style={{ fontSize: "x-large" }} className="fa fa-comments" />
+                    <FontAwesomeIcon icon={faCommentAlt} className="fa-navmobile" />
+                      {/* <i style={{ fontSize: "x-large" }} className="fa fa-comments" /> */}
                       <p className="p-modal">ติดต่อเรา</p>
                     </a>
                   </div>

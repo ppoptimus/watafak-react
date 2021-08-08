@@ -31,13 +31,13 @@ function Main() {
     <div className="mb-5">
       <Suspense fallback={<div>Loading...</div>}>
         <CarrouselMain />
+        <div className="text-center mt-3 mb-5">
+          <span className="h1">PG SLOT ยินดีต้อนรับ</span>
+          <h3 className="marquee1">สล็อต PG แตกง่าย ล่าสุด 2021</h3>
+          <h4 className="marquee1"> พร้อมสูตรทำเงินมหาศาล</h4>
+        </div>
+        <Jackpot />
       </Suspense>
-      <div className="text-center mt-3 mb-5">
-        <span className="h1">PG SLOT ยินดีต้อนรับ</span>
-        <h3 className="marquee1">สล็อต PG แตกง่าย ล่าสุด 2021</h3>
-        <h4 className="marquee1"> พร้อมสูตรทำเงินมหาศาล</h4>
-      </div>
-      <Jackpot />
       <div className="cylon_eye" />
 
       {/* About game*/}
@@ -59,7 +59,7 @@ function Main() {
           <ul className="navbar-nav font-weight-bolder list-group list-group-horizontal text-center">
             <li className="bg-gamelabel popup">
               <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.jpg" width="50" height="50"  onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
+                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.jpg" width="50" height="50" onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
               </a-nav>
             </li>
             <li className="bg-gamelabel popup">
@@ -152,7 +152,7 @@ function Main() {
               <div className="carousel-item active">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/pg.png" width="400" height="255" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+                    <img src="img/article/pg.png" width="400" height="225" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
@@ -165,7 +165,7 @@ function Main() {
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/waysCover.jpg" width="400" height="255" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
+                    <img src="img/article/waysCover.jpg" width="400" height="225" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
@@ -179,7 +179,7 @@ function Main() {
               <div className="carousel-item">
                 <div className="row col-12 pl-2 pr-2">
                   <div className="col-6">
-                    <img src="img/article/เกมยิงปลา.jpg" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+                    <img src="img/article/เกมยิงปลา.jpg" width="400" height="225" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
                   </div>
                   <div className="col-6">
                     <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>

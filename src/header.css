@@ -17,9 +17,9 @@
 
 .flip {
     animation-name: flip;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: linear;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
@@ -45,16 +45,3 @@
       text-shadow: 1px 1px #ffffff;
     }
   }
-
-  .marquee {
-    flex: 0 0 auto;
-    min-width: 100%;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
-    animation-play-state: var(--play);
-    animation-delay: var(--delay);
-    animation-direction: var(--direction);
-}
