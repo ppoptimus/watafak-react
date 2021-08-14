@@ -22,6 +22,7 @@ const pro3 = lazy(() => import("./promotions/pro-3"));
 const pro4 = lazy(() => import("./promotions/pro-4"));
 const pro5 = lazy(() => import("./promotions/pro-5"));
 const pro6 = lazy(() => import("./promotions/pro-6"));
+const credit = lazy(() => import("./credit"));
 
 render(
   <Router>
@@ -43,7 +44,7 @@ render(
         <Route path="/pro4" component={pro4}/>
         <Route path="/pro5" component={pro5}/>
         <Route path="/pro6" component={pro6}/>
-        
+        <Route path="/credit" component={credit}/>
       </Switch>
       <FooterDesktop />
       <FooterMobile />
