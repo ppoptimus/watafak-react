@@ -26,6 +26,7 @@ const Carrousel_main = () => {
         // rel='preload'
         as="image"
         src="https://watafak88.com/img/promotion/pgslot_1-500.jpg"
+        data-src="img/promotion/pgslot_1-500.jpg" className="lazyload"
         className="img-fluid rounded"
         alt="pgslot"
         imagesizes="50vw"
@@ -72,7 +73,7 @@ const Carrousel_main = () => {
 
   return (
     <div className="container justify-content-center">
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2000">
+      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="3000">
         {/* <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
           <li data-target="#carouselExampleIndicators" data-slide-to={1} />

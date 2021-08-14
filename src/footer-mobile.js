@@ -9,7 +9,7 @@ export default function Footer_Mobile() {
         <div className="row">
           <div className="col-md-12 col-lg-4">
             <a href="/" className="footer-logo">
-              <img src="img/footer2.png" alt="pg slot" className="img-fluid" imagesizes="50vw" width="225" height="238" rel="preload"></img>
+              <img src="img/footer2.png" alt="pg slot" className="img-fluid" imagesizes="50vw" width="225" height="238"></img>
             </a>
             <p className="footer-info-text">
               เว็บสล็อตออนไลน์ (Slot online) เล่นสล็อตออนไลน์ฟรี (Slot online) เกมส์ยิงปลา ที่ดีที่สุด ฟรีเครดิต เครดิตฟรี มีเกมส์ให้เลือกเล่นมากมายหลายเกมส์ มีพนักงานคอยดูแลลูกค้าตลอด 24 ชั่วโมง
