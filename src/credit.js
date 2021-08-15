@@ -7,14 +7,14 @@ export default function Credit() {
       <p className="text-break">
         <span style={{ color: "#ff0000" }}>*</span>กติกากิจกรรม&nbsp;
         <span style={{ color: "#ff0000" }}>
-          <strong>แจกเครดิตฟรี50</strong>
+          <strong>แจกเครดิตฟรี 30 บาท</strong>
         </span>
         &nbsp;ทำตามขั้นตอนง่ายๆ เพียงแค่&nbsp;
         <strong>
           <span style={{ color: "#ff0000" }}>3 ขั้นตอน</span>
 
         </strong>
-        <span style={{ color: "#ff0000" }}>**</span>รับเครดิตฟรี50บาท
+        <span style={{ color: "#ff0000" }}>**</span>รับเครดิตฟรี 30 บาท
       </p>
       <p className="text-break">
         <span style={{ color: "#ff0000" }}>
@@ -32,18 +32,18 @@ export default function Credit() {
           <strong>ขั้นตอนที่ 2:</strong>
         </span>
         &nbsp; ลูกค้ากดถูกใจเพจ watafak88 และแชร์โพสนี้{" "}
-        <a href="https://bit.ly/3CNEWVa" target="_blank" rel="noopener noreferrer">
+        <a href="https://bit.ly/3AKiZo1" target="_blank" rel="noopener noreferrer">
           Fanpage
         </a>
-        &nbsp;ลงในกลุ่ม FACEBOOK หรือ กลุ่ม LINE ให้ครบ 10 แชร์ และในกลุ่มต้องมีสมาชิกไม่ต่ำกว่า 500 คน
+        &nbsp;ลงในกลุ่ม FACEBOOK หรือ กลุ่ม LINE ให้ครบ 5 แชร์ และในกลุ่มต้องมีสมาชิกไม่ต่ำกว่า 500 คน
       </p>
       <p className="text-break">
         <span style={{ color: "#ff0000" }}>
           <strong>ขั้นตอนที่ 3:</strong>
         </span>
-        &nbsp; แคปหน้าจอส่งหลักฐานมาแจ้งแอดมินเพื่อรับเครดิตฟรีได้เลย
+        &nbsp; แคปหน้าจอส่งหลักฐานมาแจ้งที่ <a href="https://bit.ly/37F7z8r" target="_blank" rel="noopener noreferrer">แอดมินไลน์เครดิตฟรี</a>  เพื่อรับเครดิตฟรีได้เลย
         <ul>
-          <li>-แคปหลักฐานการแชร์ 10 กลุ่ม</li>
+          <li>-แคปหลักฐานการแชร์ 5 กลุ่ม</li>
           <li>-แจ้งยูสเซอร์ให้แอดมิน</li>
           <li>-ยูสขึ้นต้นด้วย wat ตามด้วยเบอร์โทร</li>
         </ul>
@@ -53,8 +53,9 @@ export default function Credit() {
           <strong>หมายเหตุ</strong>
         </span>
         <ul>
-          <li>-โปรเครดิตฟรี 50 จำกัด 1 คน ต่อ 1 สิทธิ์</li>
+          <li>-โปรเครดิตฟรี 30 จำกัด 1 คน ต่อ 1 สิทธิ์</li>
           <li>-โปรเครดิตฟรีต่อวัน มีจำนวนจำกัด!!</li>
+          <li>-ตั้งแต่เที่ยงวันถึงเที่ยงคืน!! แชร์ก่อนมีสิทธิ์ก่อน</li>
         </ul>
       </p>
     </div>

@@ -25,8 +25,8 @@ const Carrousel_main = () => {
         // onClick={allPromotion}
         // rel='preload'
         as="image"
-        src="https://watafak88.com/img/promotion/pgslot_1-500.jpg"
-        data-src="img/promotion/pgslot_1-500.jpg" className="lazyload"
+        src="img/promotion/pgslot_11-500.jpg"
+        data-src="img/promotion/pgslot_11-500.jpg"
         className="img-fluid rounded"
         alt="pgslot"
         imagesizes="50vw"
@@ -60,7 +60,7 @@ const Carrousel_main = () => {
         // onClick={allPromotion}
         // rel="preload"
         as="image"
-        src="img/promotion/pgslot_3-500.jpg"
+        src="img/promotion/pgslot_1-500.jpg"
         className="img-fluid rounded"
         alt="pgslot"
         imagesizes="50vw"
