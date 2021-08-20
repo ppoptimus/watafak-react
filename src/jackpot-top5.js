@@ -18,7 +18,7 @@ const Jackpot = () => {
 	}, [])
 
 	return (
-		<div className='container mt-2 text-center'>
+		<div className='container mt-2 text-center' style={{height:'35rem'}}>
 			<h5 className='text-white'>ขอแสดงความยินดีกับลูกค้า Watafak88</h5>
 
 			{jackpot5 ? (
