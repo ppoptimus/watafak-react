@@ -31,11 +31,11 @@ export default function Credit() {
         <span style={{ color: "#ff0000" }}>
           <strong>ขั้นตอนที่ 2:</strong>
         </span>
-        &nbsp; ลูกค้ากดถูกใจเพจ watafak88 และแชร์โพสนี้{" "}
-        <a href="https://bit.ly/3AKiZo1" target="_blank" rel="noopener noreferrer">
+        &nbsp; ลูกค้ากดถูกใจเพจ watafak88 คอมเม้นท์ใต้โพสงามๆและแชร์โพสนี้{" "}
+        <a href="https://bit.ly/3AMADHD" target="_blank" rel="noopener noreferrer">
           Fanpage
         </a>
-        &nbsp;ลงในกลุ่ม FACEBOOK หรือ กลุ่ม LINE ให้ครบ 5 แชร์ และในกลุ่มต้องมีสมาชิกไม่ต่ำกว่า 500 คน
+        &nbsp; ลงในกลุ่ม FACEBOOK หรือ กลุ่ม LINE ให้ครบ 5 แชร์ และในกลุ่มต้องมีสมาชิกไม่ต่ำกว่า 200 คน
       </p>
       <p className="text-break">
         <span style={{ color: "#ff0000" }}>
