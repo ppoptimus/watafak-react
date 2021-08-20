@@ -42,17 +42,18 @@ function Main() {
 
       {/* About game*/}
       <div className="container-fluid mt-5 text-center  justify-content-center">
-        <div className="container">
+        {/* <div className="container">
           <h3>
             <strong style={{ color: "blueviolet" }}>สล็อตออนไลน์ PG SLOT</strong>
-          {" "}
+          </h3>
+          <h3>
             <strong style={{ color: "blueviolet" }}>ทดลองเล่นสล็อตฟรี</strong>
           </h3>
-          {/* <p>
+          <p>
             สล็อตออนไลน์ ทดลองเล่นสล็อตฟรี ที่เว็ป <strong>Watafak88</strong> ที่ทำเงินสูงสุด pgslot มีเกมสนุกๆให้เลือกเล่นมากมาย มีเกมส์ใหม่อัพเดตอยู่เสมอ ซึ่งเงินที่ได้จากการเล่นเกมสล็อตเป็นเงินจริง
             เป็นการหาเงินจากการเล่นเกมที่ง่ายแสนง่าย ถ้าไม่มั่นใจสามารถเข้าไปทดลองเล่นฟรีก่อนได้เลย
-          </p> */}
-        </div>
+          </p>
+        </div> */}
         {/*ค่ายเกม*/}
         <div className="row justify-content-center">
           <ul className="navbar-nav font-weight-bolder list-group list-group-horizontal text-center">
