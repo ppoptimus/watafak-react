@@ -1,5 +1,5 @@
 import { Suspense, lazy } from "react";
-import Jackpot from "./jackpot-top5";
+// import Jackpot from "./jackpot-top5";
 import { useHistory } from "react-router-dom";
 
 const CarrouselMain = lazy(() => import("./carousel"));
@@ -28,25 +28,49 @@ function Main() {
   };
 
   return (
-    <div className="mb-5">
+    <div className='mb-5'>
       <Suspense fallback={<div>Loading...</div>}>
         <CarrouselMain />
-        <div className="text-center mt-3 mb-5">
-          <span className="h1">PG SLOT ยินดีต้อนรับ</span>
-          <h3 className="marquee1">สล็อต PG แตกง่าย ล่าสุด 2021</h3>
-          <h4 className="marquee1"> พร้อมสูตรทำเงินมหาศาล</h4>
+        <div className='text-center mt-4'>
+          <span className='h1'>PG SLOT สล็อตออนไลน์ ฝาก ถอน อัตโนมัติ ตลอด 24 ชั่วโมง</span>
+          <p className='marquee1 h2'>สล็อต PG แตกง่าย ล่าสุด 2021</p>
+          <p className='marquee1 h3'> พร้อมสูตรทำเงินมหาศาล</p>
         </div>
-        <Jackpot />
+        <div className='text-center mt-1 p-5'>
+          <p>
+            <strong>PG SLOT </strong>สล็อตออนไลน์ เปิดให้บริการ สมัคร ฝาก ถอน เครดิต ด้วยระบบอัตโนมัติ พบกับประสบการณ์ใหม่ ไม่ต้องทำรายการผ่านพนักงาน ทำรายการ ด้วยตนเอง ตลอด 24 ชั่วโมง รวดเร็ว ปลอดภัย
+            100% ด้วยระบบออโต้ ที่ดีที่สุด สมัครสมาชิกวันนี้รับโบนัสทันที 50%
+          </p>
+        </div>
+        <div className='text-center p-5'>
+          <p className='h3'>PG SLOT AUTO อัตโนมัติ ที่ดีที่สุด</p>
+          <p>
+            บริการฝาก ถอน เครดิตเล่นสล็อต ด้วยระบบ AUTO ที่ดีที่สุด เสถียรที่สุดในตอนนี้ บริการที่เราคัดสรร และพัฒนาเพื่อสมาชิกคนพิเศษของเรา อำนวยความสะดวกสบาย รวดเร็ว ในการฝาก ถอน หรือ เติมเครดิต
+            สำหรับ<a href='http://localhost:3000/#/playgame'>เข้าเล่นสล็อตออนไลน์</a>กับเรา ได้ตลอดเวลา ไม่มีวันหยุด
+          </p>
+          <button className='btn btn-bg1 rounded-pill p-3'>สมัครสมาชิกรับโบนัส 50%</button>
+        </div>
+        <div className='text-center p-5'>
+          <p className='h3'>PGSLOT เกมสล็อตออนไลน์ มาแรง อันดับ 1</p>
+          <p>
+            <span style={{ textDecoration: 'underline' }}>
+              <strong>PGSLOT</strong>
+            </span>{' '}
+            เกมสล็อตออนไลน์ รูปแบบใหม่ ที่กำลังเป็นที่นิยม และมาแรง อันดับ 1 ในขณะนี้ ด้วยการเล่นเกมสล็อตออนไลน์ ที่เล่นง่าย มีเกมสล็อตให้เล่นอย่างหลากหลาย และมีการอัพเดตเกมใหม่ๆ อย่างต่อเนื่อง
+            เพื่อตอบสนองความต้องการของผู้เล่นได้มากที่สุด โดดเด่นในเรื่องของเกมที่มีเนื้อเรื่องยอดเยี่ยม เอฟเฟกต์เสียงที่น่าตื่นเต้น
+            และแอนิเมชั่นอันงดงามที่สร้างความประทับใจให้กับผู้เล่นได้อย่างไม่สิ้นสุด ทั้งหมดนี้คือความพิเศษที่ทำให้ PGSLOT ได้รับความนิยมอย่างต่อเนื่อง ไม่เพียงเท่านั้น PGSLOT ยังเป็นเกมสล็อตออนไลน์
+            ที่สร้างรายได้ให้กับผู้เล่นอย่างดีอีกด้วย
+          </p>
+        </div>
+        {/* <Jackpot /> */}
       </Suspense>
-      <div className="cylon_eye" />
+      <div className='cylon_eye' />
 
       {/* About game*/}
-      <div className="container-fluid mt-5 text-center  justify-content-center">
-        <div className="container">
+      <div className='container-fluid mt-5 text-center  justify-content-center'>
+        <div className='container'>
           <h4>
-            <strong style={{ color: "blueviolet" }}>สล็อตออนไลน์ PG SLOT</strong>
-          {" "}
-            <strong style={{ color: "blueviolet" }}>ทดลองเล่นสล็อตฟรี</strong>
+            <strong style={{ color: 'blueviolet' }}>สล็อตออนไลน์ PG SLOT</strong> <strong style={{ color: 'blueviolet' }}>ทดลองเล่นสล็อตฟรี</strong>
           </h4>
           {/* <p>
             สล็อตออนไลน์ ทดลองเล่นสล็อตฟรี ที่เว็ป <strong>Watafak88</strong> ที่ทำเงินสูงสุด pgslot มีเกมสนุกๆให้เลือกเล่นมากมาย มีเกมส์ใหม่อัพเดตอยู่เสมอ ซึ่งเงินที่ได้จากการเล่นเกมสล็อตเป็นเงินจริง
@@ -54,83 +78,83 @@ function Main() {
           </p> */}
         </div>
         {/*ค่ายเกม*/}
-        <div className="row justify-content-center">
-          <ul className="navbar-nav font-weight-bolder list-group list-group-horizontal text-center">
-            <li className="bg-gamelabel popup">
-              <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot1.jpg" width="50" height="50" onMouseOver={show1} onClick={show1} alt="PGSLOT" title="pg slot" />
+        <div className='row justify-content-center'>
+          <ul className='navbar-nav font-weight-bolder list-group list-group-horizontal text-center'>
+            <li className='bg-gamelabel popup'>
+              <a-nav href='#'>
+                <img className='img-box1 rounded-circle' src='img/gametest/pgslot1.jpg' width='50' height='50' onMouseOver={show1} onClick={show1} alt='PGSLOT' title='pg slot' />
               </a-nav>
             </li>
-            <li className="bg-gamelabel popup">
-              <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot2.jpg" width="50" height="50" onMouseOver={show2} onClick={show2} alt="PGSLOT" title="pg slot" />
+            <li className='bg-gamelabel popup'>
+              <a-nav href='#'>
+                <img className='img-box1 rounded-circle' src='img/gametest/pgslot2.jpg' width='50' height='50' onMouseOver={show2} onClick={show2} alt='PGSLOT' title='pg slot' />
               </a-nav>
             </li>
-            <li className="bg-gamelabel popup">
-              <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot3.jpg" width="50" height="50" onMouseOver={show3} onClick={show3} alt="PGSLOT" title="pg slot" />
+            <li className='bg-gamelabel popup'>
+              <a-nav href='#'>
+                <img className='img-box1 rounded-circle' src='img/gametest/pgslot3.jpg' width='50' height='50' onMouseOver={show3} onClick={show3} alt='PGSLOT' title='pg slot' />
               </a-nav>
             </li>
-            <li className="bg-gamelabel popup">
-              <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot4.jpg" width="50" height="50" onMouseOver={show4} onClick={show4} alt="PGSLOT" title="pg slot" />
+            <li className='bg-gamelabel popup'>
+              <a-nav href='#'>
+                <img className='img-box1 rounded-circle' src='img/gametest/pgslot4.jpg' width='50' height='50' onMouseOver={show4} onClick={show4} alt='PGSLOT' title='pg slot' />
               </a-nav>
             </li>
-            <li className="bg-gamelabel popup">
-              <a-nav href="#">
-                <img className="img-box1 rounded-circle" src="img/gametest/pgslot5.jpg" width="50" height="50" onMouseOver={show5} onClick={show5} alt="PGSLOT" title="pg slot" />
+            <li className='bg-gamelabel popup'>
+              <a-nav href='#'>
+                <img className='img-box1 rounded-circle' src='img/gametest/pgslot5.jpg' width='50' height='50' onMouseOver={show5} onClick={show5} alt='PGSLOT' title='pg slot' />
               </a-nav>
             </li>
           </ul>
-          <div className="container-fluid mt-2">
-            <div className="row  justify-content-center">
-              <div className="col-12 col-md-4 p-0 text-center">
-                <div id="game1">
-                  <div className="container">
-                    <img src="img/gametest/pgslot1.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+          <div className='container-fluid mt-2'>
+            <div className='row  justify-content-center'>
+              <div className='col-12 col-md-4 p-0 text-center'>
+                <div id='game1'>
+                  <div className='container'>
+                    <img src='img/gametest/pgslot1.jpg' width='290' height='290' className='img-fluid rounded-circle blockgame' alt='watafak pgslot' title='สล็อตออนไลน์ฟรี' />
                   </div>
-                  <div className="container m-2">
-                    <a href="https://www.eagaming.com/en/games/ongbak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
+                  <div className='container m-2'>
+                    <a href='https://www.eagaming.com/en/games/ongbak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html' className='btn btn-bg1'>
                       ลองเล่นฟรีเลย
                     </a>
                   </div>
                 </div>
-                <div id="game2" className="hide">
-                  <div className="container">
-                    <img src="img/gametest/pgslot2.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+                <div id='game2' className='hide'>
+                  <div className='container'>
+                    <img src='img/gametest/pgslot2.jpg' width='290' height='290' className='img-fluid rounded-circle blockgame' alt='watafak pgslot' title='สล็อตออนไลน์ฟรี' />
                   </div>
-                  <div className="container m-2">
-                    <a href="https://www.eagaming.com/en/games/joker-madness.html" className="btn btn-bg1">
+                  <div className='container m-2'>
+                    <a href='https://www.eagaming.com/en/games/joker-madness.html' className='btn btn-bg1'>
                       เข้าทดลองเล่นเลย
                     </a>
                   </div>
                 </div>
-                <div id="game3" className="hide">
-                  <div className="container">
-                    <img src="img/gametest/pgslot3.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="watafak pgslot" title="สล็อตออนไลน์ฟรี" />
+                <div id='game3' className='hide'>
+                  <div className='container'>
+                    <img src='img/gametest/pgslot3.jpg' width='290' height='290' className='img-fluid rounded-circle blockgame' alt='watafak pgslot' title='สล็อตออนไลน์ฟรี' />
                   </div>
-                  <div className="container m-2">
-                    <a href="https://www.eagaming.com/en/games/wild-giant-panda.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
+                  <div className='container m-2'>
+                    <a href='https://www.eagaming.com/en/games/wild-giant-panda.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html' className='btn btn-bg1'>
                       เข้าทดลองเล่นเลย
                     </a>
                   </div>
                 </div>
-                <div id="game4" className="hide">
-                  <div className="container">
-                    <img src="img/gametest/pgslot4.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="pgslot" title="สล็อตออนไลน์ฟรี" />
+                <div id='game4' className='hide'>
+                  <div className='container'>
+                    <img src='img/gametest/pgslot4.jpg' width='290' height='290' className='img-fluid rounded-circle blockgame' alt='pgslot' title='สล็อตออนไลน์ฟรี' />
                   </div>
-                  <div className="container m-2">
-                    <a href="https://www.eagaming.com/en/games/fish-hunter-haiba.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
+                  <div className='container m-2'>
+                    <a href='https://www.eagaming.com/en/games/fish-hunter-haiba.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html' className='btn btn-bg1'>
                       เข้าทดลองเล่นเลย
                     </a>
                   </div>
                 </div>
-                <div id="game5" className="hide">
-                  <div className="container">
-                    <img src="img/gametest/pgslot5.jpg" width="290" height="290" className="img-fluid rounded-circle blockgame" alt="pgslot" title="สล็อตออนไลน์ฟรี" />
+                <div id='game5' className='hide'>
+                  <div className='container'>
+                    <img src='img/gametest/pgslot5.jpg' width='290' height='290' className='img-fluid rounded-circle blockgame' alt='pgslot' title='สล็อตออนไลน์ฟรี' />
                   </div>
-                  <div className="container m-2">
-                    <a href="https://www.eagaming.com/en/games/lucky-streak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html" className="btn btn-bg1">
+                  <div className='container m-2'>
+                    <a href='https://www.eagaming.com/en/games/lucky-streak.html?locale=en&redirectUrl=http%3A//www.eagaming.com/en/games.html' className='btn btn-bg1'>
                       เข้าทดลองเล่นเลย
                     </a>
                   </div>
@@ -140,80 +164,80 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="cylon_eye" />
+      <div className='cylon_eye' />
 
       {/* Articleslide */}
-      <div className="container mt-3">
-        <div className="row">
-          <div id="articleslide" className="carousel slide" data-ride="carousel" style={{ width: "100%", maxHeight: 400 }}>
-            <h1 className="float-left h1">บทความ PGSLOT</h1>
-            <div className="carousel-inner d-block">
-              <div className="carousel-item active">
-                <div className="row col-12 pl-2 pr-2">
-                  <div className="col-6">
-                    <img src="img/article/pg.png" width="400" height="225" className="img-fluid" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+      <div className='container mt-3'>
+        <div className='row'>
+          <div id='articleslide' className='carousel slide' data-ride='carousel' style={{ width: '100%', maxHeight: 400 }}>
+            <h1 className='float-left h1'>บทความ PGSLOT</h1>
+            <div className='carousel-inner d-block'>
+              <div className='carousel-item active'>
+                <div className='row col-12 pl-2 pr-2'>
+                  <div className='col-6'>
+                    <img src='img/article/pg.png' width='400' height='225' className='img-fluid' alt='pgslot' title='pgslot บทความ' style={{ width: '100%' }} />
                   </div>
-                  <div className="col-6">
-                    <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
-                    <p onClick={article} id="ongbak" name="ongbak" className="text-white-50 text-left">
+                  <div className='col-6'>
+                    <p className='text-white-50 text-left'>สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
+                    <p onClick={article} id='ongbak' name='ongbak' className='text-white-50 text-left'>
                       อ่านต่อ &gt;&gt;
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="carousel-item">
-                <div className="row col-12 pl-2 pr-2">
-                  <div className="col-6">
-                    <img src="img/article/waysCover.jpg" width="400" height="225" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }}></img>
+              <div className='carousel-item'>
+                <div className='row col-12 pl-2 pr-2'>
+                  <div className='col-6'>
+                    <img src='img/article/waysCover.jpg' width='400' height='225' className='img-fluid rounded-pill' alt='pgslot' title='pgslot บทความ' style={{ width: '100%' }}></img>
                   </div>
-                  <div className="col-6">
-                    <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
-                    <p onClick={article} id="roma" name="roma" className="text-white-50 text-left">
+                  <div className='col-6'>
+                    <p className='text-white-50 text-left'>สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
+                    <p onClick={article} id='roma' name='roma' className='text-white-50 text-left'>
                       อ่านต่อ &gt;&gt;
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="carousel-item">
-                <div className="row col-12 pl-2 pr-2">
-                  <div className="col-6">
-                    <img src="img/article/เกมยิงปลา.jpg" width="400" height="225" className="img-fluid rounded-pill" alt="pgslot" title="pgslot บทความ" style={{ width: "100%" }} />
+              <div className='carousel-item'>
+                <div className='row col-12 pl-2 pr-2'>
+                  <div className='col-6'>
+                    <img src='img/article/เกมยิงปลา.jpg' width='400' height='225' className='img-fluid rounded-pill' alt='pgslot' title='pgslot บทความ' style={{ width: '100%' }} />
                   </div>
-                  <div className="col-6">
-                    <p className="text-white-50 text-left">สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
-                    <p onClick={article} id="fish" name="fish" className="text-white-50 text-left">
+                  <div className='col-6'>
+                    <p className='text-white-50 text-left'>สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวันกับ WATAFAK88</p>
+                    <p onClick={article} id='fish' name='fish' className='text-white-50 text-left'>
                       อ่านต่อ &gt;&gt;
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <a className="carousel-control-prev" href="#articleslide" role="button" data-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true" />
-              <span className="sr-only">Previous</span>
+            <a className='carousel-control-prev' href='#articleslide' role='button' data-slide='prev'>
+              <span className='carousel-control-prev-icon' aria-hidden='true' />
+              <span className='sr-only'>Previous</span>
             </a>
-            <a className="carousel-control-next" href="#articleslide" role="button" data-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true" />
-              <span className="sr-only">Next</span>
+            <a className='carousel-control-next' href='#articleslide' role='button' data-slide='next'>
+              <span className='carousel-control-next-icon' aria-hidden='true' />
+              <span className='sr-only'>Next</span>
             </a>
           </div>
         </div>
       </div>
 
-      <div className="cylon_eye" />
+      <div className='cylon_eye' />
 
       {/* Footer in main*/}
-      <footer id="footmain">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <h1 className="text-white text-left h1">
+      <footer id='footmain'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-6'>
+              <h1 className='text-white text-left h1'>
                 PGSLOT สล็อตออนไลน์ (Slot online) เกมส์ยิงปลา
                 <br />
               </h1>
 
-              <h2 className="text-white-50 text-left">
+              <h2 className='text-white-50 text-left'>
                 สล็อตออนไลน์ (Slot online) เกมส์ยิงปลาได้เงินจริง ลุ้นแจ็คพ๊อตทุกวัน กับเว็บ WATAFAK88 รวมเกมส์สล็อตเอาไว้ที่นี้ที่เดียว เกมส์สล็อต ยิงปลา และอีกมากมายจากหลายค่ายเกมส์ดัง
                 ยืนยันเบอร์โทร รับเครดิตฟรี
               </h2>
@@ -221,19 +245,19 @@ function Main() {
                 #WATAFAK88 | #pgslot | #amb | #AskMeBet | #เกมยิงปลา | #ambbo | #slot | #slotonline | #casino |<span onClick={onLogin}> #admin</span>
               </h3>
             </div>
-            <div className="col-lg-6 text-lg-right">
-              <p className=" text-center">
-                <a href="https://lin.ee/bDb5ic7">
-                  <img src="img/qrline.png" width="250" height="250" alt="pgslot official" className="img-fluid" />
+            <div className='col-lg-6 text-lg-right'>
+              <p className=' text-center'>
+                <a href='https://lin.ee/bDb5ic7'>
+                  <img src='img/qrline.png' width='250' height='250' alt='pgslot official' className='img-fluid' />
                 </a>
               </p>
-              <p className="row float-right"></p>
-              <div className="sign text-center">
+              <p className='row float-right'></p>
+              <div className='sign text-center'>
                 <h4>
-                  <a href="https://lin.ee/bDb5ic7" target="_blank" rel="noreferrer noopener">
-                    <img src="img/lineicon_s.png" width="32" height="32" alt="pgslot official"></img>
+                  <a href='https://lin.ee/bDb5ic7' target='_blank' rel='noreferrer noopener'>
+                    <img src='img/lineicon_s.png' width='32' height='32' alt='pgslot official'></img>
                   </a>
-                  ให้บริการตลอด<span className="fast-flicker"> 24 </span> ชั่วโมง
+                  ให้บริการตลอด<span className='fast-flicker'> 24 </span> ชั่วโมง
                 </h4>
               </div>
             </div>
@@ -242,28 +266,28 @@ function Main() {
       </footer>
 
       {/* Snow Flakes */}
-      <div className="snowflakes" aria-hidden="true">
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❄</div>
+      <div className='snowflakes' aria-hidden='true'>
+        <div className='snowflake'>❅</div>
+        <div className='snowflake'>❅</div>
+        <div className='snowflake'>❆</div>
+        <div className='snowflake'>❅</div>
+        <div className='snowflake'>❅</div>
+        <div className='snowflake'>❄</div>
+        <div className='snowflake'>❄</div>
+        <div className='snowflake'>❅</div>
+        <div className='snowflake'>❄</div>
+        <div className='snowflake'>❄</div>
       </div>
 
-      <div className="line-button">
-        <a href="https://lin.ee/bDb5ic7" target="blank" rel="noopener">
-          <img rel="preload" as="image" imagesizes="50vw" src="img/line_icon.svg" width="50" height="50" className="img-fluid" alt="@watafak88"></img>
+      <div className='line-button'>
+        <a href='https://lin.ee/bDb5ic7' target='blank' rel='noopener'>
+          <img rel='preload' as='image' imagesizes='50vw' src='img/line_icon.svg' width='50' height='50' className='img-fluid' alt='@watafak88'></img>
         </a>
       </div>
 
-      <div className="facebook-button">
-        <a href="https://www.facebook.com/Watafak88/" target="blank" rel="noopener">
-          <img rel="preload" as="image" imagesizes="50vw" src="img/facebook_icon.svg" width="50" height="50" className="img-fluid" alt="watafak88 fanpage"></img>
+      <div className='facebook-button'>
+        <a href='https://www.facebook.com/Watafak88/' target='blank' rel='noopener'>
+          <img rel='preload' as='image' imagesizes='50vw' src='img/facebook_icon.svg' width='50' height='50' className='img-fluid' alt='watafak88 fanpage'></img>
         </a>
       </div>
     </div>

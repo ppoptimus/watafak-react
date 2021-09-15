@@ -12,7 +12,6 @@ export default function Credit() {
         &nbsp;ทำตามขั้นตอนง่ายๆ เพียงแค่&nbsp;
         <strong>
           <span style={{ color: "#ff0000" }}>3 ขั้นตอน</span>
-
         </strong>
         <span style={{ color: "#ff0000" }}>**</span>รับเครดิตฟรี 30 บาท
       </p>
@@ -21,18 +20,18 @@ export default function Credit() {
           <strong>ขั้นตอนที่ 1:</strong>
         </span>
         &nbsp; สมัครสมาชิกเพื่อรับ Username ที่นี่
-      <div style={{ textAlign: "center" }}>
-        <a href="https://watafak88.com/#/register" target="_blank" rel="noopener noreferrer" className="animated-button6">
-          <span /> <span /> <span /> <span /> สมัครpgslot
-        </a>
-      </div>
+        <div style={{ textAlign: "center" }}>
+          <a href="https://watafak88.com/#/register" target="_blank" rel="noopener noreferrer" className="animated-button6">
+            <span /> <span /> <span /> <span /> สมัครpgslot
+          </a>
+        </div>
       </p>
       <p className="text-break">
         <span style={{ color: "#ff0000" }}>
           <strong>ขั้นตอนที่ 2:</strong>
         </span>
         &nbsp; ลูกค้ากดถูกใจเพจ watafak88 คอมเม้นท์ใต้โพสงามๆและแชร์โพสนี้{" "}
-        <a href="https://bit.ly/3AMADHD" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/Watafak88/posts/2405028602975322" target="_blank" rel="noopener noreferrer">
           Fanpage
         </a>
         &nbsp; ลงในกลุ่ม FACEBOOK หรือ กลุ่ม LINE ให้ครบ 5 แชร์ และในกลุ่มต้องมีสมาชิกไม่ต่ำกว่า 200 คน
@@ -41,7 +40,11 @@ export default function Credit() {
         <span style={{ color: "#ff0000" }}>
           <strong>ขั้นตอนที่ 3:</strong>
         </span>
-        &nbsp; แคปหน้าจอส่งหลักฐานมาแจ้งที่ <a href="https://bit.ly/37F7z8r" target="_blank" rel="noopener noreferrer">แอดมินไลน์เครดิตฟรี</a>  เพื่อรับเครดิตฟรีได้เลย
+        &nbsp; แคปหน้าจอส่งหลักฐานมาแจ้งที่{" "}
+        <a href="https://bit.ly/37F7z8r" target="_blank" rel="noopener noreferrer">
+          แอดมินไลน์เครดิตฟรี
+        </a>{" "}
+        เพื่อรับเครดิตฟรีได้เลย
         <ul>
           <li>-แคปหลักฐานการแชร์ 5 กลุ่ม</li>
           <li>-แจ้งยูสเซอร์ให้แอดมิน</li>
