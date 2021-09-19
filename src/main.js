@@ -32,7 +32,7 @@ function Main() {
       <Suspense fallback={<div>Loading...</div>}>
         <CarrouselMain />
         <div className='text-center mt-4'>
-          <span className='h1'>PG SLOT สล็อตออนไลน์ ฝาก ถอน อัตโนมัติ ตลอด 24 ชั่วโมง</span>
+          <p className='h1'>PG SLOT สล็อตออนไลน์ ฝาก ถอน อัตโนมัติ ตลอด 24 ชั่วโมง</p>
           <p className='marquee1 h2'>สล็อต PG แตกง่าย ล่าสุด 2021</p>
           <p className='marquee1 h3'> พร้อมสูตรทำเงินมหาศาล</p>
         </div>
